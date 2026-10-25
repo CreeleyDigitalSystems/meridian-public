@@ -12,8 +12,8 @@
     },
     {
       "path": ".github/workflows/public-ci.yml",
-      "bytes": 1373,
-      "sha256": "f71b18b82f2af001869a3a84f4e809dd2d7014f927970c5858332dce0e2c0105",
+      "bytes": 1465,
+      "sha256": "983d8fa6886777977cb9cf01158766f6369b4cc9a3c66d57b6505b0f90ff6ebf",
       "sourceSha256": null,
       "action": "authored"
     },
