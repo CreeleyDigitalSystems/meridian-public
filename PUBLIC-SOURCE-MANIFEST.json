@@ -1,0 +1,1267 @@
+{
+  "version": 1,
+  "status": "SOURCE_SHOWCASE_APACHE_2_0",
+  "policy": "Only listed regular files; no private history or runtime inputs. Exact source checks do not grant rights or enable repository protections.",
+  "files": [
+    {
+      "path": ".github/CODEOWNERS",
+      "sourceSha256": null,
+      "action": "authored",
+      "bytes": 25,
+      "sha256": "1087edf26ef7d80b164ff5dabd9cfb1d8d60392a943b378e228d6939677539c4"
+    },
+    {
+      "path": ".github/workflows/public-ci.yml",
+      "bytes": 1373,
+      "sha256": "f71b18b82f2af001869a3a84f4e809dd2d7014f927970c5858332dce0e2c0105",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 202,
+      "sha256": "def0ac8e83c58da83572f9eab5987eecfc0286a887055e54f60f3a5fae965373",
+      "sourceSha256": "b17f6ac6e0502db322fb3a2b41f3c8da9379f057d5134bd3a38ba4c7f8cf08f0",
+      "action": "replace"
+    },
+    {
+      "path": "AI-CONTRIBUTING.md",
+      "bytes": 4209,
+      "sha256": "c63c8b4190f68c57caa94d1e1970d4f6c4fbd319c285421f7413b0c1d085adea",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "CODEOWNERS",
+      "bytes": 25,
+      "sha256": "1087edf26ef7d80b164ff5dabd9cfb1d8d60392a943b378e228d6939677539c4",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2342,
+      "sha256": "e70522151c8bcff233c78f3c71c930b875e510ccec417216840ce79bb201df00",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6831,
+      "sha256": "885302f31e7aab745e4c1aa85da5c7c371dd1585ab6d518496b4311d76f6d0b5",
+      "sourceSha256": "9f2ccf929e2cc0e69917571bb94802979b8779ebc7669c13650ff83f48769076",
+      "action": "replace"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1061,
+      "sha256": "270661af53cdc78b1fe43cb7d9891bb64a52775ba8abc180488ad2959a657258",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "bytes": 1136,
+      "sha256": "ebe224f625b9270337ba71f4675c5dbdcf2db05318252957db2c8fc3f3ce9903",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "apps/web/index.html",
+      "bytes": 282,
+      "sha256": "b5d03fd5b29a4c8835af7b480cdb5304633c1dc20feff8bf176b88514bad968b",
+      "sourceSha256": "21c7da1ba22cd1c2645e0a877da1c54a36bae60761357bca9c520eef3256bf15",
+      "action": "replace"
+    },
+    {
+      "path": "apps/web/package.json",
+      "bytes": 897,
+      "sha256": "1590133dc14cb29a1b673e4ee0243a748cf03603f3f76dbd667ef6df3d3ff611",
+      "sourceSha256": "6e1e12049ce15af2e875c70eb90a329de33067aa65ae3333e75d2cf76ae62ce7",
+      "action": "replace"
+    },
+    {
+      "path": "apps/web/public/THIRD-PARTY-NOTICES.txt",
+      "bytes": 971784,
+      "sha256": "033bf1d4ea1c7f9cd4b2a49a50cf99388ffe403ef84e04712edb9483a184d961",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "apps/web/src/app.tsx",
+      "bytes": 73,
+      "sha256": "f5a6fd5bd2b07fe9b96b1aea9f9a8b00dd26238f249f1691f507ff8f9e16f216",
+      "sourceSha256": "f37318dc7ed7ef95b82307c791ef3516e9ba7849c9847091e3587b54a0793ea3",
+      "action": "replace"
+    },
+    {
+      "path": "apps/web/src/city.css",
+      "bytes": 25641,
+      "sha256": "5e971dadf0d767e8fdfb149972b8a2c56281fe407cf3751502bfaf6c42d01643",
+      "sourceSha256": "5e971dadf0d767e8fdfb149972b8a2c56281fe407cf3751502bfaf6c42d01643",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/components/city-experience.tsx",
+      "bytes": 26671,
+      "sha256": "158a3b4f38214fff4e692d61dcb9c301656196f08e66adae37678d6f85d3243f",
+      "sourceSha256": "2bb303aaac45b5835778bd69d98874ee0cf229bd872dc511ce5b7f4a1ec520f8",
+      "action": "replace"
+    },
+    {
+      "path": "apps/web/src/components/live-activity.tsx",
+      "bytes": 3289,
+      "sha256": "c9fdfff81fdddf75aef0f76065a6a3f3566706f16bded2bdebac25501a1beeda",
+      "sourceSha256": "c9fdfff81fdddf75aef0f76065a6a3f3566706f16bded2bdebac25501a1beeda",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/components/watching-now.tsx",
+      "bytes": 2824,
+      "sha256": "c12e3904932f97e5a65dc15828ac295b16219410258f279314ee3b812062a449",
+      "sourceSha256": "c12e3904932f97e5a65dc15828ac295b16219410258f279314ee3b812062a449",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/components/world-canvas.tsx",
+      "bytes": 8264,
+      "sha256": "fb913a20f8d4d0ae061fcb73e7760cf10e3743ffbcd8279fb3b36c7d4bbeb57b",
+      "sourceSha256": "fb913a20f8d4d0ae061fcb73e7760cf10e3743ffbcd8279fb3b36c7d4bbeb57b",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/components/world-fallback.tsx",
+      "bytes": 4254,
+      "sha256": "4edee37921f261564dab7e51524051bee84ac109b82d69a314d9b2861f1f2b8f",
+      "sourceSha256": "4edee37921f261564dab7e51524051bee84ac109b82d69a314d9b2861f1f2b8f",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/components/world-status.tsx",
+      "bytes": 437,
+      "sha256": "0bbc72a91ea3ea083d29b6501b8bb99f8a7c01052ddc0c879d2f044b7f73c4e5",
+      "sourceSha256": "0bbc72a91ea3ea083d29b6501b8bb99f8a7c01052ddc0c879d2f044b7f73c4e5",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "bytes": 430,
+      "sha256": "9ed2d90cbd45cea45412c4fc10e95074e62020399dc9bd5664367e1a6ee491b2",
+      "sourceSha256": "9ed2d90cbd45cea45412c4fc10e95074e62020399dc9bd5664367e1a6ee491b2",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/register-service-worker.ts",
+      "bytes": 1401,
+      "sha256": "d95064998874b9f6898a86e91074505124ff00aec9403e6c50040ffe256eeb52",
+      "sourceSha256": "d95064998874b9f6898a86e91074505124ff00aec9403e6c50040ffe256eeb52",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/styles.css",
+      "bytes": 13961,
+      "sha256": "1a089737a904d6222c3e3897cfef3c0ad2b92b7ac7de824689025531d1a0f662",
+      "sourceSha256": "1a089737a904d6222c3e3897cfef3c0ad2b92b7ac7de824689025531d1a0f662",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/vite-env.d.ts",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "sourceSha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/world/projection-cache.ts",
+      "bytes": 5086,
+      "sha256": "9eef6371b23ad3ea84534cb7838bb76b7effe4f0f01f838cf7e937b94cb54d16",
+      "sourceSha256": "9eef6371b23ad3ea84534cb7838bb76b7effe4f0f01f838cf7e937b94cb54d16",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/world/public-history.ts",
+      "bytes": 8724,
+      "sha256": "a8aae8ab8480893e9dd5ba6481d3f5b137a1a6534b2372af51c04633d5093845",
+      "sourceSha256": "a8aae8ab8480893e9dd5ba6481d3f5b137a1a6534b2372af51c04633d5093845",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/src/world/public-world.ts",
+      "bytes": 12569,
+      "sha256": "3b511c4caf62c3ad848b813057c97cc9ee9a8d6a6f473d91b345c93934505b5d",
+      "sourceSha256": "4f4e921da368991b459095fc9f4c51f69c6282eac09256c878d5dc49d3024b55",
+      "action": "replace"
+    },
+    {
+      "path": "apps/web/src/world/use-world.ts",
+      "bytes": 6079,
+      "sha256": "c0e4dba5ef24a4c13a835f53a200f8b9b59d7aa86fb4c0f06542ebdb7d3a3ccc",
+      "sourceSha256": "b6d450b2fd3093546979ab8e035b433f6a8a981d8fb36a03f070927b330a4053",
+      "action": "replace"
+    },
+    {
+      "path": "apps/web/src/world/world-client.ts",
+      "bytes": 2039,
+      "sha256": "0b2ebcb50cb7294332d0be9b093bb7ead4ab168d78639441fb49701e189bb03b",
+      "sourceSha256": "0b2ebcb50cb7294332d0be9b093bb7ead4ab168d78639441fb49701e189bb03b",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "bytes": 260,
+      "sha256": "0a431c2b9aed98e1eff05e6ba91cbe6813ca5bda29f380905cc17571fbfbc586",
+      "sourceSha256": "0a431c2b9aed98e1eff05e6ba91cbe6813ca5bda29f380905cc17571fbfbc586",
+      "action": "copy"
+    },
+    {
+      "path": "apps/web/vite.config.ts",
+      "bytes": 2842,
+      "sha256": "cfdee7f107c4f3b35994d054c1410a5c370d2cd8c2ffb4006cb0a2fb24d17d00",
+      "sourceSha256": "ffd82911142e7db082737d8aa01bd7e29252bf9a4a35744a80c18e38fe7220de",
+      "action": "replace"
+    },
+    {
+      "path": "apps/world-service/package.json",
+      "bytes": 403,
+      "sha256": "d6f1f6a29094db8d31b239d93ac9274d2534168a5c251ba72a33f9f0aaf1c13e",
+      "sourceSha256": "541f0b8fb353280a3d8e0e9c7808fcc3e05a3cf096c6e4d25ae18b10ecf4bd5e",
+      "action": "replace"
+    },
+    {
+      "path": "apps/world-service/src/demo/admission-policy.ts",
+      "bytes": 1117,
+      "sha256": "fbf65d2a5a846479bd925d3bff97e011f144f16e7d70709d7590d55c83fd2d51",
+      "sourceSha256": null,
+      "action": "adapt"
+    },
+    {
+      "path": "apps/world-service/src/demo/engine.ts",
+      "bytes": 13137,
+      "sha256": "913b3efd1fbac9732854eaee5ce20427616347c488b0af2ade0ac64db840e4bd",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "apps/world-service/src/demo/private-prefix-unavailable.ts",
+      "bytes": 1917,
+      "sha256": "6b896239b3e713c089ce480bcb910f651856140722b65495fb6ba60bdd95a6f3",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "apps/world-service/src/invention-affordances.ts",
+      "bytes": 9302,
+      "sha256": "a6818ac1e94b401a9586f983416fc1704d1b412905ef4c8f7e45db9a6d351ee2",
+      "sourceSha256": "a6818ac1e94b401a9586f983416fc1704d1b412905ef4c8f7e45db9a6d351ee2",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/invention-provider.ts",
+      "bytes": 5908,
+      "sha256": "d123e82176110929d482fb7480165f4dadfcc258ad6eacbdd4b95db39895db09",
+      "sourceSha256": "d123e82176110929d482fb7480165f4dadfcc258ad6eacbdd4b95db39895db09",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/local-resident-provider.ts",
+      "bytes": 17467,
+      "sha256": "6db3dc411c2c04db81def103f68ec3dd28f37ffb6869cf1632f7400ab306d252",
+      "sourceSha256": "6db3dc411c2c04db81def103f68ec3dd28f37ffb6869cf1632f7400ab306d252",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/openai-resident-provider.ts",
+      "bytes": 4528,
+      "sha256": "0d2788a1e95713cf9921860038b317aa6979390b182ca1346caf5c5b08770eff",
+      "sourceSha256": "51e712c29e98c76483cb083cdb2479087146bc39fe85705dffd3320f2184b38d",
+      "action": "replace"
+    },
+    {
+      "path": "apps/world-service/src/public-observer/presence.ts",
+      "bytes": 5217,
+      "sha256": "bdaddb32eec74cbdbad05927b92776e31a320cc17d8168c2deea228984c8f680",
+      "sourceSha256": "bdaddb32eec74cbdbad05927b92776e31a320cc17d8168c2deea228984c8f680",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/public-resident-affordances.ts",
+      "bytes": 10709,
+      "sha256": "5bd1069b4cb72db8db6d69e80eb6b1479b7a087bd7e62eb11486313e415e9770",
+      "sourceSha256": "5bd1069b4cb72db8db6d69e80eb6b1479b7a087bd7e62eb11486313e415e9770",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/public-world-projection.ts",
+      "bytes": 33714,
+      "sha256": "9f5ddb0f7d01aba22561b65d8b573d14f38a6b9199b4b46370ff9190e728e224",
+      "sourceSha256": "bd15e809cca99c24e971ddddea837552daa21c4f36932d8ed1963e2a8a3c26cd",
+      "action": "replace"
+    },
+    {
+      "path": "apps/world-service/src/resident-request-composer.ts",
+      "bytes": 3788,
+      "sha256": "2d1cc5ff3edf5f79eb2158629b3cefaf4142a1897ffaad001f997b83eee03a50",
+      "sourceSha256": "2d1cc5ff3edf5f79eb2158629b3cefaf4142a1897ffaad001f997b83eee03a50",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/resident-workbench/artifact-store.ts",
+      "bytes": 10047,
+      "sha256": "2e2a3a8ba97498048323fc149e931960a3f540be77a9691cb1fd5fef235c5caa",
+      "sourceSha256": "2e2a3a8ba97498048323fc149e931960a3f540be77a9691cb1fd5fef235c5caa",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/resident-workbench/contract.ts",
+      "bytes": 2434,
+      "sha256": "8b6bbdb8f353d748856bca60e7ab0a58d2023dac88cab9ffd9a6642bb2233588",
+      "sourceSha256": "8b6bbdb8f353d748856bca60e7ab0a58d2023dac88cab9ffd9a6642bb2233588",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/resident-workbench/diagnostic.ts",
+      "bytes": 2819,
+      "sha256": "7f3c285c4e87639a466bd87f7d57fd5f8522a8b52a73f2c2e5615a20ae568031",
+      "sourceSha256": "7f3c285c4e87639a466bd87f7d57fd5f8522a8b52a73f2c2e5615a20ae568031",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/resident-workbench/executor.ts",
+      "bytes": 8719,
+      "sha256": "71bcb98a4b3fb30c182d65f6c68bd2823381eeeb608c2abd6559c334e7ff3705",
+      "sourceSha256": "71bcb98a4b3fb30c182d65f6c68bd2823381eeeb608c2abd6559c334e7ff3705",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/resident-workbench/learning-execution.ts",
+      "bytes": 11432,
+      "sha256": "4b2e98efcb0940d4f38c70cfb074512708e400809e1261b59c3d9fbe7b1cb4a7",
+      "sourceSha256": "4b2e98efcb0940d4f38c70cfb074512708e400809e1261b59c3d9fbe7b1cb4a7",
+      "action": "retain"
+    },
+    {
+      "path": "apps/world-service/src/resident-workbench/session.ts",
+      "bytes": 17106,
+      "sha256": "ce3554b4711b5e97b2f13a86e2d60a2627f6e118959ee609f394f57a0f951376",
+      "sourceSha256": "ce3554b4711b5e97b2f13a86e2d60a2627f6e118959ee609f394f57a0f951376",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/resident-workbench/socket-executor.ts",
+      "bytes": 13082,
+      "sha256": "a58a0e48793d01ba1ba2334f5b914e0d0a7273c8bbabfb05a0b84113669cda7a",
+      "sourceSha256": "a58a0e48793d01ba1ba2334f5b914e0d0a7273c8bbabfb05a0b84113669cda7a",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/resident-workbench/token-preflight.ts",
+      "bytes": 3217,
+      "sha256": "8c37d335ce3b5a3c0dab0e9b9d51ba8f53a7c21895ea19d568b1a5cae2611ef7",
+      "sourceSha256": "8c37d335ce3b5a3c0dab0e9b9d51ba8f53a7c21895ea19d568b1a5cae2611ef7",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/resident-workbench/tool-validation.ts",
+      "bytes": 2490,
+      "sha256": "cd9a0add958d88e2337e36b68d64711069569cc8fb02899dbaa753bdea5a5a3e",
+      "sourceSha256": "cd9a0add958d88e2337e36b68d64711069569cc8fb02899dbaa753bdea5a5a3e",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/resident-workbench/transport.ts",
+      "bytes": 8314,
+      "sha256": "7efef035114a0c6bc8e2fb534e36bd5599c7a7e185f92fd3ebfea0e50d08ffde",
+      "sourceSha256": "7efef035114a0c6bc8e2fb534e36bd5599c7a7e185f92fd3ebfea0e50d08ffde",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/resident-workbench/trusted-completion.ts",
+      "bytes": 29269,
+      "sha256": "5bebfb424db92f49085b1cca1f813656b30d7e09b19b9297ac59d6308770ef19",
+      "sourceSha256": "bd0d811cfe124657441c1bf991874d169e265d399a060868c09bf2046f1194df",
+      "action": "adapt"
+    },
+    {
+      "path": "apps/world-service/src/slow-log.ts",
+      "bytes": 1246,
+      "sha256": "85fd31e2e34868044f29f2501c3702741ad5c4d59b0d59bef669544edbce7552",
+      "sourceSha256": "85fd31e2e34868044f29f2501c3702741ad5c4d59b0d59bef669544edbce7552",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/store/clock-metadata.ts",
+      "bytes": 2616,
+      "sha256": "5ce4f15afff31952bfd63eebff2a261f4477512c700a96218c2d5cf98d95665e",
+      "sourceSha256": "5ce4f15afff31952bfd63eebff2a261f4477512c700a96218c2d5cf98d95665e",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/store/public-world-store.ts",
+      "bytes": 33526,
+      "sha256": "39ca1ae95fc2f53e8589ec11f4901ee51689b14336e3b64bcdc46cccc5fcdf80",
+      "sourceSha256": "39ca1ae95fc2f53e8589ec11f4901ee51689b14336e3b64bcdc46cccc5fcdf80",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/store/schema.sql",
+      "bytes": 3493,
+      "sha256": "33495d6fd9c0aa803dfb9504a560f433a2d97f6845b09b7b9dbc0c9e3477d359",
+      "sourceSha256": "33495d6fd9c0aa803dfb9504a560f433a2d97f6845b09b7b9dbc0c9e3477d359",
+      "action": "copy"
+    },
+    {
+      "path": "apps/world-service/src/store/world-store.ts",
+      "bytes": 103510,
+      "sha256": "7db0111c198a543ab44aa7f267366543f52357e719decb5ab46489b73d4ec05f",
+      "sourceSha256": "0121adbc3bd5b189b73a971d7330bce7dff4f9f33d4cb6986d9143f621a0747e",
+      "action": "replace"
+    },
+    {
+      "path": "package.json",
+      "bytes": 610,
+      "sha256": "59735131524ba1097fc73070650f11f7e8eec203f5914d11a0d59058868cca37",
+      "sourceSha256": "65e1361f9625fdcbd41bb2edbc5fd5e658df9e5ddfed4dbd2d4e179180e079cd",
+      "action": "replace"
+    },
+    {
+      "path": "packages/mobile-controls/package.json",
+      "bytes": 191,
+      "sha256": "899474a0528c5dbae69bb10815a4094632ac9a3e459a2719486e75b0337b2e89",
+      "sourceSha256": "9d871f39603f2789086273657560b573bad65102286b7f4e1fde5afb87377eee",
+      "action": "replace"
+    },
+    {
+      "path": "packages/mobile-controls/src/gesture-machine.ts",
+      "bytes": 5675,
+      "sha256": "8206ffb62304253253a0deb9262a9d21a868f163bc84958822e17cdba926bea4",
+      "sourceSha256": "8206ffb62304253253a0deb9262a9d21a868f163bc84958822e17cdba926bea4",
+      "action": "copy"
+    },
+    {
+      "path": "packages/mobile-controls/src/index.ts",
+      "bytes": 247,
+      "sha256": "fc347893c77ac0ac1276aa21df941e9fa91ad47b4f35fdb9ab52fec1b5c4a122",
+      "sourceSha256": "fc347893c77ac0ac1276aa21df941e9fa91ad47b4f35fdb9ab52fec1b5c4a122",
+      "action": "copy"
+    },
+    {
+      "path": "packages/procedural-world/package.json",
+      "bytes": 192,
+      "sha256": "c1af3bf28a740fe60ea2edf262fc158716dc1e872febb17ae9f0ef9da355d2a9",
+      "sourceSha256": "c4a20c9e092366b56febc81ba5005c089c59652b9b272a8f6730df5f15845f35",
+      "action": "replace"
+    },
+    {
+      "path": "packages/procedural-world/src/generate-district.ts",
+      "bytes": 4501,
+      "sha256": "4dbc7138e43e47a61f2304caef23ad4da047feaf549c7358a4f53ba02a4a46bd",
+      "sourceSha256": "4dbc7138e43e47a61f2304caef23ad4da047feaf549c7358a4f53ba02a4a46bd",
+      "action": "copy"
+    },
+    {
+      "path": "packages/procedural-world/src/generate-terrain.ts",
+      "bytes": 2502,
+      "sha256": "116196549e95341b45d3873be738abd6e8710da77ae20cc74a47113229ff9cc4",
+      "sourceSha256": "116196549e95341b45d3873be738abd6e8710da77ae20cc74a47113229ff9cc4",
+      "action": "copy"
+    },
+    {
+      "path": "packages/procedural-world/src/index.ts",
+      "bytes": 7980,
+      "sha256": "dca0dc3acdccd025496075e8521b04b0d79404bf07834f2856b5e7473f9dc1c4",
+      "sourceSha256": "dca0dc3acdccd025496075e8521b04b0d79404bf07834f2856b5e7473f9dc1c4",
+      "action": "copy"
+    },
+    {
+      "path": "packages/procedural-world/src/prng.ts",
+      "bytes": 1062,
+      "sha256": "b44cd0b6897eba4a4b02166e444494894484b98302d2c9eb121708fb753d40ac",
+      "sourceSha256": "b44cd0b6897eba4a4b02166e444494894484b98302d2c9eb121708fb753d40ac",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/package.json",
+      "bytes": 466,
+      "sha256": "0981f74cf2a2456cad8cf1245b4451a89bc47f2de4bc7544ab0b975fb7dd6d1d",
+      "sourceSha256": "f735ec787a5b95e8fb9e0fac21e881e39bf4e49c97dcc96dd2d54feeb9bd64f7",
+      "action": "replace"
+    },
+    {
+      "path": "packages/visual-world/src/architecture-surfaces.ts",
+      "bytes": 2567,
+      "sha256": "cc06b11ff2250917737cefeb857fd074bae1ca1c9fd1d21d74f61a9e54618fe0",
+      "sourceSha256": "cc06b11ff2250917737cefeb857fd074bae1ca1c9fd1d21d74f61a9e54618fe0",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/camera-collision.ts",
+      "bytes": 3594,
+      "sha256": "800428a067f8358bcc081f6f51ec09c8ea42076ba1a3fde2863494a35b39c78a",
+      "sourceSha256": "800428a067f8358bcc081f6f51ec09c8ea42076ba1a3fde2863494a35b39c78a",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/celestial-clock.tsx",
+      "bytes": 1461,
+      "sha256": "b6ab0353601bfacfa053bdddee56d3bd98b8ebdf40db72dc86dd739aff9e4b23",
+      "sourceSha256": "b6ab0353601bfacfa053bdddee56d3bd98b8ebdf40db72dc86dd739aff9e4b23",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/city-architecture.tsx",
+      "bytes": 47398,
+      "sha256": "ba7eaeefdd09d7e90f36549ac61fd1debe54d56ae4a33f0a09d24b5eaf5ec2d5",
+      "sourceSha256": "ba7eaeefdd09d7e90f36549ac61fd1debe54d56ae4a33f0a09d24b5eaf5ec2d5",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/city-atmosphere.tsx",
+      "bytes": 4872,
+      "sha256": "b95decd3b3b9b2b20c848b7ed929087f0eab8c2c0ec5e635068c3bfcd32738b7",
+      "sourceSha256": "b95decd3b3b9b2b20c848b7ed929087f0eab8c2c0ec5e635068c3bfcd32738b7",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/city-camera-follower.ts",
+      "bytes": 1308,
+      "sha256": "0abae60ae0544715c3375cec7c47408d9546c3cdf92aec5689f67016d36bfc0f",
+      "sourceSha256": "0abae60ae0544715c3375cec7c47408d9546c3cdf92aec5689f67016d36bfc0f",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/city-interactions.ts",
+      "bytes": 4761,
+      "sha256": "305af3c337dea98ff13d439fcb2eca0ffac6ca7347de570da699680dc38f82b7",
+      "sourceSha256": "305af3c337dea98ff13d439fcb2eca0ffac6ca7347de570da699680dc38f82b7",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/city-kit.tsx",
+      "bytes": 1259,
+      "sha256": "0af6d706ce82eeac0cbe60a3013b85fc3c62d80cddb43bf2f4e40cf7e5ef369d",
+      "sourceSha256": "701730cd6b4f7587c8a96e9a5de1b84adca3a0a352b09f3b978f5650bfebd4c6",
+      "action": "replace"
+    },
+    {
+      "path": "packages/visual-world/src/city-layout.ts",
+      "bytes": 13601,
+      "sha256": "73e1bbed742f7695d89f389cd5b43d22edd479db97b1d286bcf5f0d84bc0aa9f",
+      "sourceSha256": "73e1bbed742f7695d89f389cd5b43d22edd479db97b1d286bcf5f0d84bc0aa9f",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/city-life.tsx",
+      "bytes": 37559,
+      "sha256": "31063bfefb6a8ff2e0922b7cc79a7b09e93188bf184f39b9c198ed2a7fca23bf",
+      "sourceSha256": "31063bfefb6a8ff2e0922b7cc79a7b09e93188bf184f39b9c198ed2a7fca23bf",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/city-plan.ts",
+      "bytes": 1734,
+      "sha256": "6a3618992130b65c384deda582f97711167cbd7766abb5f19e3564e790adb8db",
+      "sourceSha256": "c3e763cb2821526e3704fcbf96c29a672e8778e2e2648ce868c2a3555773034a",
+      "action": "replace"
+    },
+    {
+      "path": "packages/visual-world/src/city-scene.tsx",
+      "bytes": 18562,
+      "sha256": "f329d7714a58378282fd71b4fff93082b91c10b46ff8f37e117f06958501fab0",
+      "sourceSha256": "041f961efe0eb22e7a95062d280e15d49e9c885297380b0562f6abb39654ef49",
+      "action": "replace"
+    },
+    {
+      "path": "packages/visual-world/src/city-theme.ts",
+      "bytes": 6109,
+      "sha256": "8723c9877f70e112787e0f4e10ff61e9158a0cf8717091ab2aec2d03344bb33f",
+      "sourceSha256": "b76b055fef475dc02c81ca27e32123b7ecf8a958919b9f3c8103ede8233593be",
+      "action": "replace"
+    },
+    {
+      "path": "packages/visual-world/src/city-walkability.ts",
+      "bytes": 1736,
+      "sha256": "5519b9b7ba418463e4a7b921b79799a424d79222e1e3018746793c9beab829c3",
+      "sourceSha256": "5519b9b7ba418463e4a7b921b79799a424d79222e1e3018746793c9beab829c3",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/civic-improvements.ts",
+      "bytes": 796,
+      "sha256": "6a1a400c00a3449c59a7318e592bac35f5afcf9cfc276adb33a9251dfb9319ea",
+      "sourceSha256": "6a1a400c00a3449c59a7318e592bac35f5afcf9cfc276adb33a9251dfb9319ea",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/founding-scene.tsx",
+      "bytes": 6230,
+      "sha256": "67cba11db7b4e0c5f571254a734bbcc63d850f56a4b937f0023de1e064ff61d7",
+      "sourceSha256": "67cba11db7b4e0c5f571254a734bbcc63d850f56a4b937f0023de1e064ff61d7",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/frontier-ground-route.ts",
+      "bytes": 1613,
+      "sha256": "0dcb635477e0109b4dec2544cad40465ed19d05c9a750fbf8e25c571089397ed",
+      "sourceSha256": "0dcb635477e0109b4dec2544cad40465ed19d05c9a750fbf8e25c571089397ed",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/frontier-visuals.tsx",
+      "bytes": 9977,
+      "sha256": "9a69fb3d33e515c6fe132dc3af9e2bac0dfd7a0f561fa985d03047a936a06d67",
+      "sourceSha256": "9a69fb3d33e515c6fe132dc3af9e2bac0dfd7a0f561fa985d03047a936a06d67",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/home-camera.ts",
+      "bytes": 13988,
+      "sha256": "569c29225d48827299638f7060029a7be2bc1097f61c6f7456d2881cfb1bf5c3",
+      "sourceSha256": "569c29225d48827299638f7060029a7be2bc1097f61c6f7456d2881cfb1bf5c3",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/home-interior.ts",
+      "bytes": 11136,
+      "sha256": "d636770ced1243ef3ffe536dfadeb1395c0f5461690c17b1a063201329d3ac95",
+      "sourceSha256": "d636770ced1243ef3ffe536dfadeb1395c0f5461690c17b1a063201329d3ac95",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/home-resident-path.ts",
+      "bytes": 8161,
+      "sha256": "e98e7727dd9d7667f50964a7086421a4d4ed4da15c93d50442bb9b9739f8e2b6",
+      "sourceSha256": "e98e7727dd9d7667f50964a7086421a4d4ed4da15c93d50442bb9b9739f8e2b6",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/imported-resident.tsx",
+      "bytes": 488,
+      "sha256": "d9206af502a36d5487081d42613170faf9504ba7d9908ba1d5e4b8ac51286804",
+      "sourceSha256": "cc83bcf254e09b787fa8f4a008cfa23f67ebfe2f1aee484d0d20c56ea4ef588f",
+      "action": "replace"
+    },
+    {
+      "path": "packages/visual-world/src/index.ts",
+      "bytes": 1533,
+      "sha256": "6de867cbd7c47c7e6f81116871a0e32844f5dc9d10daa7096b5e3fb5297cc95e",
+      "sourceSha256": "6de867cbd7c47c7e6f81116871a0e32844f5dc9d10daa7096b5e3fb5297cc95e",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/instanced-buildings.tsx",
+      "bytes": 2044,
+      "sha256": "d4132bd9af651a78670f6c831ccdae95118f26f490545d53515c86612e902f8b",
+      "sourceSha256": "d4132bd9af651a78670f6c831ccdae95118f26f490545d53515c86612e902f8b",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/instanced-residents.tsx",
+      "bytes": 1813,
+      "sha256": "62327cd261ff30764db533cd70002218ca7aa9a17acc282c5714e1142cbdc2f7",
+      "sourceSha256": "62327cd261ff30764db533cd70002218ca7aa9a17acc282c5714e1142cbdc2f7",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/meridian-central.tsx",
+      "bytes": 13633,
+      "sha256": "4a5595202f4f8915f21fde9fbbb43bc53391a89967b13b2c1c82c218bd8039fb",
+      "sourceSha256": "4a5595202f4f8915f21fde9fbbb43bc53391a89967b13b2c1c82c218bd8039fb",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/monument-clock-ticks.ts",
+      "bytes": 2109,
+      "sha256": "52b87e9b02ebb9b122fd2d44eb7a2f6f4ccc81df815b29f9915dc7bc4b1c29b1",
+      "sourceSha256": "52b87e9b02ebb9b122fd2d44eb7a2f6f4ccc81df815b29f9915dc7bc4b1c29b1",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/observer-travel.ts",
+      "bytes": 17073,
+      "sha256": "45909e08f2fb49522dd44633534f8c839b36b20add7a8445069bfeaa4042d3c7",
+      "sourceSha256": "45909e08f2fb49522dd44633534f8c839b36b20add7a8445069bfeaa4042d3c7",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/pedestrian-path.ts",
+      "bytes": 10787,
+      "sha256": "8450bed68b07bdb2777e9dddecc87b313eeea25795f5ebfb9310d08d50914aab",
+      "sourceSha256": "8450bed68b07bdb2777e9dddecc87b313eeea25795f5ebfb9310d08d50914aab",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/projection-visuals.ts",
+      "bytes": 4967,
+      "sha256": "49e486215f8eea0ebace61c9523b84e5f1f1c882a9da9f3f4094171a9fa86b65",
+      "sourceSha256": "49e486215f8eea0ebace61c9523b84e5f1f1c882a9da9f3f4094171a9fa86b65",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/public-construction.tsx",
+      "bytes": 1243,
+      "sha256": "5ce0fd5341860c066491d01c6f74177eed8e059a7655ce4ee6051ba568ea08fe",
+      "sourceSha256": "5ce0fd5341860c066491d01c6f74177eed8e059a7655ce4ee6051ba568ea08fe",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/quality-policy.ts",
+      "bytes": 1477,
+      "sha256": "129a640065e14a73a816f6b204a6e824d060634c512a6e6101339ff483c7700b",
+      "sourceSha256": "129a640065e14a73a816f6b204a6e824d060634c512a6e6101339ff483c7700b",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/resident-appearance.ts",
+      "bytes": 3399,
+      "sha256": "2697c10d050a0407846b4a1707c1f94e5e04b0b57e20dfa8fe83285236daaa3c",
+      "sourceSha256": "2697c10d050a0407846b4a1707c1f94e5e04b0b57e20dfa8fe83285236daaa3c",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/resident-detail.ts",
+      "bytes": 4033,
+      "sha256": "2e770966f7711b2da0136eedbab41ecc6f2d30a450b39abe8bb3ec66bebac959",
+      "sourceSha256": "2e770966f7711b2da0136eedbab41ecc6f2d30a450b39abe8bb3ec66bebac959",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/resident-skins.ts",
+      "bytes": 584,
+      "sha256": "d2fc87f1fd74388244f8b531c6e1bdb93a52f6814077f9fb3a729f47b7bb2fcf",
+      "sourceSha256": "3469853bb9e4d6fe1f95d7c67eb17d6c604bbdf04ec8eb36136e6643cd10203a",
+      "action": "replace"
+    },
+    {
+      "path": "packages/visual-world/src/sky-tram-network.ts",
+      "bytes": 8144,
+      "sha256": "b0661399a228fdfdefce0c71614d63c0b22d3e657e332947f13161418c1409f3",
+      "sourceSha256": "b0661399a228fdfdefce0c71614d63c0b22d3e657e332947f13161418c1409f3",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/sky-tram-sites.ts",
+      "bytes": 932,
+      "sha256": "0c0c667f072b491dbffc22bd66f65bbae8215cbdd71dba5a90c50e092b45bedb",
+      "sourceSha256": "0c0c667f072b491dbffc22bd66f65bbae8215cbdd71dba5a90c50e092b45bedb",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/sky-tram.tsx",
+      "bytes": 10420,
+      "sha256": "be2ddee43ae0e66229b2619a72a23ded635e3920e1c98257d882c8c6c11f5cb1",
+      "sourceSha256": "be2ddee43ae0e66229b2619a72a23ded635e3920e1c98257d882c8c6c11f5cb1",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/surface-patterns.ts",
+      "bytes": 843,
+      "sha256": "772b2473f7013e08e796c67e5a5cd3242204a4ec199f2038ea82bbf04c02ebc2",
+      "sourceSha256": "423b3b57d81c331357fea5b8c44dedbc92ed0c511e37df043c52eeb1e0859637",
+      "action": "replace"
+    },
+    {
+      "path": "packages/visual-world/src/surface-textures.ts",
+      "bytes": 4133,
+      "sha256": "ec27b964e3e038ef9f562bcf4b0a4a8ba1e82748dabfac7257dbbb8badc9c643",
+      "sourceSha256": "ec27b964e3e038ef9f562bcf4b0a4a8ba1e82748dabfac7257dbbb8badc9c643",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/transit-circuit.ts",
+      "bytes": 9807,
+      "sha256": "df0711c3185064d5c8c90bc3d62ed107f74f83efdde249f8daf7fcd6ed03d395",
+      "sourceSha256": "df0711c3185064d5c8c90bc3d62ed107f74f83efdde249f8daf7fcd6ed03d395",
+      "action": "copy"
+    },
+    {
+      "path": "packages/visual-world/src/venture-sites.ts",
+      "bytes": 2768,
+      "sha256": "44ff1e23c1ee0078cd54fe063fb22387be13d964876811aa526c4a9d6dd72c52",
+      "sourceSha256": "44ff1e23c1ee0078cd54fe063fb22387be13d964876811aa526c4a9d6dd72c52",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/package.json",
+      "bytes": 257,
+      "sha256": "a5e135b9f034d4875e2069985782d5673bf1c43145efe8be50f15f9075593877",
+      "sourceSha256": "f8ee103cc56f896d8e1d7b6d42e1d8ef9e4896ecb221c0c8d7e3a4cfb3ba007d",
+      "action": "replace"
+    },
+    {
+      "path": "packages/world-kernel/src/advance-world.ts",
+      "bytes": 2705,
+      "sha256": "47b472450fd24921604c8bf2b9390e6236149df41f78319ab4df9733db85553e",
+      "sourceSha256": "47b472450fd24921604c8bf2b9390e6236149df41f78319ab4df9733db85553e",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/cartography.ts",
+      "bytes": 5588,
+      "sha256": "a83b351605c7ebb8ee3a545b8d7a5e2b1a00d000298f89174b649d296f60d376",
+      "sourceSha256": "a83b351605c7ebb8ee3a545b8d7a5e2b1a00d000298f89174b649d296f60d376",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/city-life-2-state.ts",
+      "bytes": 1197,
+      "sha256": "0c0056eae61284aa63a632a0282144943bb17e1c4f29fc37879fda4d02e2ffc7",
+      "sourceSha256": "0c0056eae61284aa63a632a0282144943bb17e1c4f29fc37879fda4d02e2ffc7",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/city-life-state.ts",
+      "bytes": 1722,
+      "sha256": "ddc1cafb779d2ab576993875e91007ed075845e86c163ab4ac4fefb9d89eb77b",
+      "sourceSha256": "ddc1cafb779d2ab576993875e91007ed075845e86c163ab4ac4fefb9d89eb77b",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/city-state.ts",
+      "bytes": 7290,
+      "sha256": "ca9f1c0e56a0c0a11444fa674928253ccee2e5104670ec545589a5053ac5c4df",
+      "sourceSha256": "ca9f1c0e56a0c0a11444fa674928253ccee2e5104670ec545589a5053ac5c4df",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/civic-improvements.ts",
+      "bytes": 2053,
+      "sha256": "cc0b2ef21be6b7646e6623621cebd11d11473983b5b7b5b1676ba24422ddf7f6",
+      "sourceSha256": "cc0b2ef21be6b7646e6623621cebd11d11473983b5b7b5b1676ba24422ddf7f6",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/discovery-adapter.ts",
+      "bytes": 16689,
+      "sha256": "b4ce8108992edc462f04328a9f97503e86c75d6e9cc869061d263384165f8925",
+      "sourceSha256": "b4ce8108992edc462f04328a9f97503e86c75d6e9cc869061d263384165f8925",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/discovery-core.ts",
+      "bytes": 66319,
+      "sha256": "c981c62767d988a51d3d49b2e40ac4ea27a2ce3423973c09f2ea81a6edd864ef",
+      "sourceSha256": "c981c62767d988a51d3d49b2e40ac4ea27a2ce3423973c09f2ea81a6edd864ef",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/founding-district.ts",
+      "bytes": 2715,
+      "sha256": "c78a90ad1eef0ea3f24933e6cd005a8914463c7dbe961cb8aeac2502befc480e",
+      "sourceSha256": "c78a90ad1eef0ea3f24933e6cd005a8914463c7dbe961cb8aeac2502befc480e",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/frontier-access.ts",
+      "bytes": 14284,
+      "sha256": "99b03d6eb2b03aaa2c1d7b9a2674e9399e620701b3e08ee4dddb09dcb5c1c880",
+      "sourceSha256": "99b03d6eb2b03aaa2c1d7b9a2674e9399e620701b3e08ee4dddb09dcb5c1c880",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/frontier.ts",
+      "bytes": 15777,
+      "sha256": "322726282bc8e3a84de4aa287ece9687500e60c1ffa0a619e5c32c5aefe51f3d",
+      "sourceSha256": "322726282bc8e3a84de4aa287ece9687500e60c1ffa0a619e5c32c5aefe51f3d",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/growth.ts",
+      "bytes": 2853,
+      "sha256": "ac56a3bee321961c6d3b4809aeffca80a313c5d0d69518472b5b269b2f6953d1",
+      "sourceSha256": "ac56a3bee321961c6d3b4809aeffca80a313c5d0d69518472b5b269b2f6953d1",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/index.ts",
+      "bytes": 4702,
+      "sha256": "72fab690c1e594b4f173a42341dcc6f781c0de10d3000607f962dd5c70eba6c3",
+      "sourceSha256": "999aeeea0e21075b1998c15f087dc88eae64be2790a4763333b3059edd043770",
+      "action": "replace"
+    },
+    {
+      "path": "packages/world-kernel/src/invention-cognition.ts",
+      "bytes": 19044,
+      "sha256": "03fb5c178547c02667fe83c10551bd6936170c9c4e6564d8229a7c9252762cc7",
+      "sourceSha256": "03fb5c178547c02667fe83c10551bd6936170c9c4e6564d8229a7c9252762cc7",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/invention-evaluator.ts",
+      "bytes": 3436,
+      "sha256": "f7848b2b318648ab04fa3f0692aa302b910597da1e1042b60d630c449baf9209",
+      "sourceSha256": "f7848b2b318648ab04fa3f0692aa302b910597da1e1042b60d630c449baf9209",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/invention-learning.ts",
+      "bytes": 23739,
+      "sha256": "18a46c3a75c7d12f7c54aad18ccb34b9b65414a0f647de7ee5940e1f8a356359",
+      "sourceSha256": "18a46c3a75c7d12f7c54aad18ccb34b9b65414a0f647de7ee5940e1f8a356359",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/invention-method.ts",
+      "bytes": 18984,
+      "sha256": "0520b42f9c6fe784798dead24061ceec486c4ec9621cab3d896d33366e58c4a5",
+      "sourceSha256": "0520b42f9c6fe784798dead24061ceec486c4ec9621cab3d896d33366e58c4a5",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/invention.ts",
+      "bytes": 49223,
+      "sha256": "d5d9385f7087ef81392c05f6601e2b20f706d99dd24f98891d1bff19b6775fb0",
+      "sourceSha256": "d5d9385f7087ef81392c05f6601e2b20f706d99dd24f98891d1bff19b6775fb0",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/project-lifecycle.ts",
+      "bytes": 24079,
+      "sha256": "bdd2638c824ec32ea0030a45b9e3164840972379104d02eb2bdcd4320ea5429d",
+      "sourceSha256": "bdd2638c824ec32ea0030a45b9e3164840972379104d02eb2bdcd4320ea5429d",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/resident-activity.ts",
+      "bytes": 684,
+      "sha256": "c37f5d3a68d4e29bf72fe9707bcc19475d40df2de65674a82e3ecafc602dbbf5",
+      "sourceSha256": "c37f5d3a68d4e29bf72fe9707bcc19475d40df2de65674a82e3ecafc602dbbf5",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/resident-appearance.ts",
+      "bytes": 3853,
+      "sha256": "32001ca836b554efdd5495651f7ad20b637dab3991dccce16edb5b67e217d06b",
+      "sourceSha256": "32001ca836b554efdd5495651f7ad20b637dab3991dccce16edb5b67e217d06b",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/resident-life.ts",
+      "bytes": 68608,
+      "sha256": "c378c04c610fc2adcc1260e15d27bae661a6e8fc421b8e217cb238b9d0ad2f33",
+      "sourceSha256": "c378c04c610fc2adcc1260e15d27bae661a6e8fc421b8e217cb238b9d0ad2f33",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/resident-travel.ts",
+      "bytes": 2918,
+      "sha256": "c5d97e12c9074aa579c880f8cfbf871f76e1540bfeddc179633ff7cddf56a533",
+      "sourceSha256": "c5d97e12c9074aa579c880f8cfbf871f76e1540bfeddc179633ff7cddf56a533",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/schedule.ts",
+      "bytes": 2605,
+      "sha256": "c2c4630114949782c4d37dffb47ec4ef853208935e84e53a66809e60972bf8a7",
+      "sourceSha256": "c2c4630114949782c4d37dffb47ec4ef853208935e84e53a66809e60972bf8a7",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/social-venues.ts",
+      "bytes": 3143,
+      "sha256": "8230dd1277654163b00eb8b50e0580cb44fdcf3eaafcc1b4672bd83d38953725",
+      "sourceSha256": "8230dd1277654163b00eb8b50e0580cb44fdcf3eaafcc1b4672bd83d38953725",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/transit-journey.ts",
+      "bytes": 6502,
+      "sha256": "d90359f95d200dd4c76f52a128cf80238543743821998acf6e739736f453558f",
+      "sourceSha256": "d90359f95d200dd4c76f52a128cf80238543743821998acf6e739736f453558f",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/transit.ts",
+      "bytes": 17793,
+      "sha256": "ad8ed4a6f59e55ec962bcaa8982e8a66faa5db7855165cb26639ea4e0120f350",
+      "sourceSha256": "ad8ed4a6f59e55ec962bcaa8982e8a66faa5db7855165cb26639ea4e0120f350",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/upkeep.ts",
+      "bytes": 1856,
+      "sha256": "0efe701a459c20cbf1b5503693dfb9c4278cded4f9db8f3e40adb21441b0146b",
+      "sourceSha256": "0efe701a459c20cbf1b5503693dfb9c4278cded4f9db8f3e40adb21441b0146b",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/wardrobe.ts",
+      "bytes": 15609,
+      "sha256": "9e721520ada9468fade263a441c322c4a3f1b1bffdab73e132179ca40a0be4ff",
+      "sourceSha256": "9e721520ada9468fade263a441c322c4a3f1b1bffdab73e132179ca40a0be4ff",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-kernel/src/world-time.ts",
+      "bytes": 1629,
+      "sha256": "3969ac859c0177cc3e48759ce23b026c62b1ec810a0bad5408942056ef47996b",
+      "sourceSha256": "3969ac859c0177cc3e48759ce23b026c62b1ec810a0bad5408942056ef47996b",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-ledger/package.json",
+      "bytes": 257,
+      "sha256": "808f45d397a5582b9e55d7dd533550dbc06131bec20c2d434d892f1ba14a11f1",
+      "sourceSha256": "8096f838bb0e7e932973dad4aa85c25d212e93c1e1603386a5987c8eed024ffa",
+      "action": "replace"
+    },
+    {
+      "path": "packages/world-ledger/src/canonical-json.ts",
+      "bytes": 1880,
+      "sha256": "9edad056c7b73919b2f49d784b4d2cdcf205303df56af77bef934bab758b7830",
+      "sourceSha256": "9edad056c7b73919b2f49d784b4d2cdcf205303df56af77bef934bab758b7830",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-ledger/src/index.ts",
+      "bytes": 179,
+      "sha256": "d992981985cbd6be64e9e3d07121b88dff1cad94257a9ae2ca01ded278359da5",
+      "sourceSha256": "d992981985cbd6be64e9e3d07121b88dff1cad94257a9ae2ca01ded278359da5",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-ledger/src/ledger.ts",
+      "bytes": 3252,
+      "sha256": "3d4f710eae040e397508839bd45a467b5b8dfb36dfa08173507e635c8b41493a",
+      "sourceSha256": "3d4f710eae040e397508839bd45a467b5b8dfb36dfa08173507e635c8b41493a",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-schema/package.json",
+      "bytes": 457,
+      "sha256": "4071b770c081e10d6ac04bb9e4a38f904fe1828a959a8cb9d6437e3ce522f9c2",
+      "sourceSha256": "e1d583d1ec09be5a1c59905d0e2939ee3490a2733214e173df63c22974d4c1f8",
+      "action": "replace"
+    },
+    {
+      "path": "packages/world-schema/src/ai-decision-history.ts",
+      "bytes": 2539,
+      "sha256": "607e4a1a34a102347ebb9f1fb09199b50656ece08c8ec69b773ea56e899166fb",
+      "sourceSha256": "607e4a1a34a102347ebb9f1fb09199b50656ece08c8ec69b773ea56e899166fb",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-schema/src/index.ts",
+      "bytes": 27011,
+      "sha256": "1298495192606f14ab7895914cc490af560d0e1f6116e05d1ad793771f60075b",
+      "sourceSha256": "7f99fe840759dbdff7ac8da106809b192142bda49c343acb7d586accd617d070",
+      "action": "replace"
+    },
+    {
+      "path": "packages/world-schema/src/invention.ts",
+      "bytes": 37927,
+      "sha256": "2b0a0febee14a2d5ce4abf8d6eb33a4079a86bffcb1b9c4beb599573955228ee",
+      "sourceSha256": "2b0a0febee14a2d5ce4abf8d6eb33a4079a86bffcb1b9c4beb599573955228ee",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-schema/src/public-world.ts",
+      "bytes": 35038,
+      "sha256": "8492ae4215ebc03bb219c6ef55fddc24447ee08c1bbbea56e53ba2d0ff171634",
+      "sourceSha256": "1c4a6ecfb0f870ce304d0894c5c4fef80201840dadbe5d8df58895f6c4b7064b",
+      "action": "replace"
+    },
+    {
+      "path": "packages/world-schema/src/resident-appearance.ts",
+      "bytes": 9217,
+      "sha256": "8c0e39c42047e23e19b4c1ab222e5c8d6f961eb57dd14ba0559dca9e0d90ed19",
+      "sourceSha256": "8c0e39c42047e23e19b4c1ab222e5c8d6f961eb57dd14ba0559dca9e0d90ed19",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-schema/src/resident-discovery-view.ts",
+      "bytes": 1916,
+      "sha256": "f8608ef5eb8280f7c268db306c09e95bf2e77441d3cef05a92bd1901769b3b8d",
+      "sourceSha256": "f8608ef5eb8280f7c268db306c09e95bf2e77441d3cef05a92bd1901769b3b8d",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-schema/src/resident-life.ts",
+      "bytes": 24134,
+      "sha256": "b6e2d1de7dd98f3f0acc337bbf0a00a8b025c212675e31202298a5cf696c3f19",
+      "sourceSha256": "b6e2d1de7dd98f3f0acc337bbf0a00a8b025c212675e31202298a5cf696c3f19",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-schema/src/resident-local-context.ts",
+      "bytes": 2550,
+      "sha256": "b0245da5c60ebfa78bf84ccd524c6c3ad7acd1283fa90746ac36798e27627046",
+      "sourceSha256": "b0245da5c60ebfa78bf84ccd524c6c3ad7acd1283fa90746ac36798e27627046",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-schema/src/resident-movement.ts",
+      "bytes": 1238,
+      "sha256": "c238709f47dbbec284f7aa60babec3b869638120dfb056e0d6012a6b3f9b9a13",
+      "sourceSha256": "c238709f47dbbec284f7aa60babec3b869638120dfb056e0d6012a6b3f9b9a13",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-schema/src/resident-workbench.ts",
+      "bytes": 6906,
+      "sha256": "56a3f9427ad25f0a7462dfd16a1e28e8ea38b03cbbc7d7f329374d77544b91bd",
+      "sourceSha256": "56a3f9427ad25f0a7462dfd16a1e28e8ea38b03cbbc7d7f329374d77544b91bd",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-schema/src/transit.ts",
+      "bytes": 21985,
+      "sha256": "9556a5243635f9249e9972d13090bed5e24fc84fc0b6478370d86aa8e6e5f0e4",
+      "sourceSha256": "9556a5243635f9249e9972d13090bed5e24fc84fc0b6478370d86aa8e6e5f0e4",
+      "action": "copy"
+    },
+    {
+      "path": "packages/world-schema/src/venture.ts",
+      "bytes": 5647,
+      "sha256": "cf22ef74b61e8d38f350445cbd05b2dd038d2c832baaf3710b1f2738056bc672",
+      "sourceSha256": "cf22ef74b61e8d38f350445cbd05b2dd038d2c832baaf3710b1f2738056bc672",
+      "action": "copy"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 185119,
+      "sha256": "e69c6962a6c97dca18dd462900f80d3557c07e11bfa19dee901016ecdae86228",
+      "sourceSha256": "e69c6962a6c97dca18dd462900f80d3557c07e11bfa19dee901016ecdae86228",
+      "action": "copy"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "bytes": 40,
+      "sha256": "08d75840c97ab0e72d1d9b5b84a17e47a2e06cb159a5fbec5ee0a6a56682dad7",
+      "sourceSha256": "08d75840c97ab0e72d1d9b5b84a17e47a2e06cb159a5fbec5ee0a6a56682dad7",
+      "action": "copy"
+    },
+    {
+      "path": "scripts/audit-public-artifact.d.mts",
+      "bytes": 219,
+      "sha256": "494dfcb75fd6b9212b0fea787a4b2ee8567b91abd670d5cee8bb7559da2a0de0",
+      "sourceSha256": "494dfcb75fd6b9212b0fea787a4b2ee8567b91abd670d5cee8bb7559da2a0de0",
+      "action": "copy"
+    },
+    {
+      "path": "scripts/audit-public-artifact.mjs",
+      "bytes": 5307,
+      "sha256": "88d6ad4e78eebc9f670e48072c977e335ce6e35ad6e4f19fa46af28f031bb221",
+      "sourceSha256": "d2b0472d3d70cf3ef17b6c49c176f383d23be6c63d2c48305198114a39e65cfd",
+      "action": "replace"
+    },
+    {
+      "path": "scripts/containment/workbench-runner.mjs",
+      "bytes": 767,
+      "sha256": "51f5dc378ab7197e8f3f9388e8edb7281b88ccf2c746e3d8d88ba88c34821600",
+      "sourceSha256": "51f5dc378ab7197e8f3f9388e8edb7281b88ccf2c746e3d8d88ba88c34821600",
+      "action": "copy"
+    },
+    {
+      "path": "scripts/public-asset-manifest.d.mts",
+      "bytes": 68,
+      "sha256": "757f3b82317ca5555624da66f46f7e075f72a88257f308e207086ad9a57cddcb",
+      "sourceSha256": "757f3b82317ca5555624da66f46f7e075f72a88257f308e207086ad9a57cddcb",
+      "action": "copy"
+    },
+    {
+      "path": "scripts/public-asset-manifest.mjs",
+      "bytes": 242,
+      "sha256": "361cb73c6004f1306c39747e6e4be61ea61fdee3874931361aadd90ac77f6a1a",
+      "sourceSha256": "6e8330f118453ae9af7c1ff73fa4c864d420599eff517eed5376c39b7e3802eb",
+      "action": "replace"
+    },
+    {
+      "path": "scripts/public-retirement-worker.d.mts",
+      "bytes": 46,
+      "sha256": "5b9f3bb8190dec832c527ea2148ac20c663bc3281870866af9520d52e04ad857",
+      "sourceSha256": "5b9f3bb8190dec832c527ea2148ac20c663bc3281870866af9520d52e04ad857",
+      "action": "copy"
+    },
+    {
+      "path": "scripts/public-retirement-worker.mjs",
+      "bytes": 788,
+      "sha256": "464a98399980a58450922989def12d4d9c090c7382b9d9f74d74e81a34a6a381",
+      "sourceSha256": "464a98399980a58450922989def12d4d9c090c7382b9d9f74d74e81a34a6a381",
+      "action": "copy"
+    },
+    {
+      "path": "scripts/source-loader.mjs",
+      "bytes": 2131,
+      "sha256": "1e08071ea23f6f34825d9742ec6ecb018814e0eaf6724fa7ccfbc242c76a1fb7",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "scripts/start-demo.mjs",
+      "bytes": 1000,
+      "sha256": "9092b34052117554dd4f3fbe23c308ca9c4630b26b11b64656f0260ef9593607",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "tests/ai-core.test.mjs",
+      "bytes": 5749,
+      "sha256": "17f9626719a36d07f44f09d907fc8df055cb5ac372fb0af711e88e8f16cfb5a0",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "tests/canonical-method.test.mjs",
+      "bytes": 8165,
+      "sha256": "d9bba24bcb4c500cdc2dfda3ba2f3ff68493c9fc1b53599f02ff4ffd74482f3d",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "tests/demo.test.mjs",
+      "bytes": 17552,
+      "sha256": "c717e2d07f5708181194b0bd9b64d902e7b6e10dcf4f8e3ccab6b5940547991e",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "tests/integrity.test.mjs",
+      "bytes": 1937,
+      "sha256": "5f16d7cbbfa7e748585594b31f84d4bae7acf018bf215f686e2bd35710a7bcd6",
+      "sourceSha256": null,
+      "action": "adapt"
+    },
+    {
+      "path": "tests/presence.test.mjs",
+      "bytes": 2060,
+      "sha256": "797f4bc9eeb0190a05f75e9bfbaee6d0481a49091846108636209259cff044de",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "tests/procedural.test.mjs",
+      "bytes": 3199,
+      "sha256": "8014525ba6995f1146b76a49d4962611fcc2be4eeeb42daccfca6e443fcf723f",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "third-party/dependencies.json",
+      "bytes": 111608,
+      "sha256": "b698bd210547175c2160fe23d7856657c88a18224c350b38fb2c1d3e64a52cf4",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "tsconfig.base.json",
+      "bytes": 269,
+      "sha256": "3083d9684231fc844f69b8e0d3b34d73821c79e6c84289708b3e3f61daaa9bcc",
+      "sourceSha256": "3083d9684231fc844f69b8e0d3b34d73821c79e6c84289708b3e3f61daaa9bcc",
+      "action": "copy"
+    },
+    {
+      "path": "tsconfig.public.json",
+      "bytes": 488,
+      "sha256": "29031edfffffb4b206add40f851c4692e3a71ad73b2f5319fb6f552509d294c7",
+      "sourceSha256": null,
+      "action": "authored"
+    }
+  ]
+}

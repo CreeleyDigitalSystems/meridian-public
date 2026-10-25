@@ -1,0 +1,21 @@
+{
+  "name": "meridian",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.22.0",
+  "engines": {
+    "node": "26.7.0"
+  },
+  "scripts": {
+    "demo": "node scripts/start-demo.mjs",
+    "test": "node --experimental-eventsource --import ./scripts/source-loader.mjs --test tests/*.test.mjs",
+    "typecheck": "node node_modules/typescript/bin/tsc -p tsconfig.public.json",
+    "verify:public": "node scripts/audit-public-artifact.mjs apps/web/dist"
+  },
+  "devDependencies": {
+    "@types/node": "26.3.0",
+    "@playwright/test": "1.62.1",
+    "typescript": "7.0.2",
+    "vitest": "4.1.11"
+  }
+}

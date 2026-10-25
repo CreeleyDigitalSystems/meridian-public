@@ -1,0 +1,16 @@
+{
+  "name": "@meridian/world-service",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/demo/engine.ts",
+  "dependencies": {
+    "@meridian/world-kernel": "workspace:*",
+    "@meridian/world-ledger": "workspace:*",
+    "@meridian/world-schema": "workspace:*"
+  },
+  "scripts": {
+    "demo": "node ../../scripts/start-demo.mjs",
+    "typecheck": "pnpm -w typecheck"
+  }
+}

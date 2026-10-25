@@ -1,0 +1,34 @@
+name: Public source checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions: {}
+concurrency:
+  group: public-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  public-core:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Fetch public source without credentials
+        env:
+          REPOSITORY: ${{ github.repository }}
+          REVISION: ${{ github.sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$REPOSITORY" =~ ^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$ ]]
+          [[ "$REVISION" =~ ^[a-f0-9]{40}$ ]]
+          git init source
+          git -C source fetch --depth=1 "https://github.com/$REPOSITORY.git" "$REVISION"
+          git -C source checkout --detach FETCH_HEAD
+      - name: Check inside a disposable container
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run --rm --cap-drop=ALL --security-opt=no-new-privileges --pids-limit=256 --memory=2g --cpus=2 \
+            --mount "type=bind,src=$PWD/source,dst=/workspace" --workdir /workspace \
+            node:26.7.0-bookworm@sha256:4db36457f406501e6f608802e5da617e5fbd0e80b75901b6a09de1ae5a667d32 \
+            sh -ceu 'npm exec --yes --package=pnpm@11.22.0 -- pnpm install --frozen-lockfile --ignore-scripts; npm test; npm run typecheck; npm --prefix apps/web run build'

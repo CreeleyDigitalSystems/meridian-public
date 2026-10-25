@@ -1,0 +1,185 @@
+.meridian-experience{position:fixed;inset:0;isolation:isolate;overflow:hidden;background:#c8b8a2;color:#f8f1e4;font-family:Arial,Helvetica,sans-serif}
+.meridian-experience button,.meridian-experience a{-webkit-tap-highlight-color:transparent}
+.meridian-experience button{font:inherit;color:inherit;cursor:pointer}
+.meridian-experience button:focus-visible,.meridian-experience a:focus-visible{outline:2px solid #f7d9a5;outline-offset:5px}
+.world-viewport{position:absolute;inset:0;touch-action:none}
+.world-viewport canvas{display:block;width:100%;height:100%}
+.world-vignette{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(40,28,20,.26),transparent 18%,transparent 60%,rgba(32,20,13,.6));z-index:1}
+.city-header{position:absolute;top:0;left:0;right:0;padding:30px 38px;display:flex;align-items:center;justify-content:space-between;gap:24px;z-index:3;border-bottom:1px solid #f4e2c428}
+.city-wordmark{display:flex;align-items:center;gap:13px;color:inherit;text-decoration:none;font-size:21px;letter-spacing:.27em}
+.city-wordmark small{display:block;font-size:8px;letter-spacing:.3em;margin-top:6px;color:#eee7d8}
+.meridian-seal{display:grid;place-items:center;width:40px;height:40px;border:1px solid #f2dfb4;border-radius:50%;font:22px Georgia,serif;letter-spacing:0;outline:1px solid #f2dfb488;outline-offset:4px}
+.city-time{display:flex;gap:12px;align-items:center;font-size:8px;letter-spacing:.16em}
+.city-time strong{display:block;font:18px Georgia,serif;letter-spacing:.12em;margin-top:5px}
+.status-dot{width:5px;height:5px;border-radius:50%;background:#f3d9a0;box-shadow:0 0 9px #e9c37a}
+.world-index-button{border:1px solid #f6e6cc70;border-radius:24px;background:#3a2a1f38;padding:12px 20px!important;font-size:11px!important;backdrop-filter:blur(10px)}
+.world-index-button span{margin-left:16px}
+.city-tools{position:absolute;right:30px;top:42%;display:flex;flex-direction:column;gap:11px;z-index:3}
+.city-tools button{width:54px;height:54px;display:grid;place-content:center;gap:1px;border:1px solid #f6e6cc55;border-radius:50%;background:#3b2b2148;backdrop-filter:blur(12px);transition:background .2s}
+.city-tools button:hover,.city-tools button[aria-pressed=true]{background:#6d4f3aa8}
+.city-tools button:disabled{opacity:.45;cursor:default}
+.city-tools button>span{font-size:23px;line-height:1}
+.city-tools small{font-size:7px;letter-spacing:0}
+.city-introduction{position:absolute;left:38px;bottom:142px;z-index:2;pointer-events:none;text-shadow:0 2px 24px #2a1a1090}
+.city-eyebrow{font-size:9px;letter-spacing:.19em;font-weight:400}
+.city-introduction .city-eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:15px}
+.city-introduction .city-eyebrow span{width:23px;height:1px;background:#eed6a8}
+.city-introduction h1{font:400 clamp(27px,3.4vw,51px)/1.15 Georgia,serif;letter-spacing:-.035em;margin:0 0 9px}
+.city-introduction>p:last-child{font:13px/1.6 Georgia,serif;margin:0;color:#f0e6d6;max-width:440px}
+.city-bottom{position:absolute;bottom:68px;left:38px;right:38px;z-index:3;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.city-guide-button{display:flex;gap:13px;align-items:center;text-align:left;border:0;background:none;padding:0!important;font-size:7px!important;letter-spacing:.15em}
+.city-guide-button small{display:block;font-size:12px;letter-spacing:0;margin-top:7px}
+.orb-mark{font:32px Georgia,serif;display:grid;place-items:center;width:46px;height:46px;border:1px solid #e4d1a899;border-radius:50%;background:radial-gradient(circle at 30% 25%,#f9edce88,#4a352866 70%);box-shadow:inset 0 0 14px #f6e2ae33}
+.city-destinations{display:flex;padding:6px;border:1px solid #f6e6cc42;border-radius:40px;background:#2b1e188c;backdrop-filter:blur(18px)}
+.city-destinations button{display:flex;align-items:center;gap:9px;min-height:43px;padding:0 21px;border:0;border-radius:30px;background:transparent;font-size:11px;white-space:nowrap}
+.city-destinations button>span{font-size:8px;opacity:.55}
+.city-destinations button[aria-pressed=true]{background:#f1e6d2;color:#3a2a1f;box-shadow:0 1px 10px #1a110c40}
+.city-gesture-hint{font-size:7px;letter-spacing:.14em;text-align:right;line-height:1.9;color:#efe4d3}
+.city-gesture-hint span{display:block;font-size:6px;color:#d9cbb8}
+.city-footnote{position:absolute;z-index:3;bottom:13px;left:38px;right:38px;display:flex;justify-content:space-between;align-items:center;font-size:8px;letter-spacing:.06em;color:#e4d8c6}
+.city-footnote button{background:none;border:0;font-size:8px;padding:6px;min-height:28px}
+.city-footnote>div{max-width:calc(100% - 82px);line-height:1.5}
+.city-footnote .connection{position:static!important;display:block!important;margin:0;padding:0;border:0;background:none;color:inherit;font:inherit;letter-spacing:inherit}
+.city-residents,.city-guide{position:absolute;z-index:5;right:26px;top:110px;bottom:70px;width:340px;padding:25px;background:#241b17ee;border:1px solid #e9d4b544;backdrop-filter:blur(22px);border-radius:16px;box-shadow:0 20px 60px #1a110c55;overflow:auto;overscroll-behavior:contain}
+.city-residents[hidden]{display:none}
+.city-panel-heading{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.city-close{border:1px solid #f6e6cc55;border-radius:18px;padding:9px 13px;background:none;font-size:10px!important;min-height:36px}
+.city-residents h2,.city-guide h2{font:29px/1.2 Georgia,serif;margin:24px 0 9px;letter-spacing:-.02em}
+.city-residents>p,.city-guide>p{font:14px/1.7 Georgia,serif;color:#e3d7c6}
+.city-resident-list{margin-top:22px;padding:0;list-style:none}
+.resident-search{margin-top:20px}
+.resident-search label{display:block;font-size:11px;color:#e6dac9;margin-bottom:8px}
+.resident-search input{box-sizing:border-box;display:block;width:100%;min-height:44px;border:1px solid #f6e6cc55;border-radius:9px;padding:10px 12px;background:#140d0a88;color:#fff;font:14px Arial,Helvetica,sans-serif}
+.resident-search input::placeholder{color:#bfae99;font-size:12px}
+.resident-search input:focus-visible{outline:2px solid #f7d9a5;outline-offset:3px}
+.city-residents .resident-result-count{font:11px/1.5 Arial,Helvetica,sans-serif;color:#c2b09b;margin:12px 0}
+.city-resident-list:has(button){margin-top:12px}
+.resident-no-results{font-size:13px!important}
+.city-resident-list button{display:flex;align-items:center;gap:16px;width:100%;padding:15px 0;background:none;border:0;border-top:1px solid #f6e6cc22;text-align:left}
+.city-resident-list button>span:first-child{font:12px Georgia,serif;color:#d2b47f}
+.city-resident-list strong{display:block;font-size:13px;font-weight:400}
+.city-resident-list small{display:block;font-size:10px;color:#c9b8a3;margin-top:6px}
+.inspect-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.city-state-note{font-size:11px!important;margin-top:25px}
+.city-fiction-note,.city-guide>small{display:block;font-size:10px;line-height:1.6;color:#c0ae98}
+.all-residents,.resident-details-toggle{background:none;border:0;padding:10px 0;font-size:12px!important;margin:0;min-height:40px}
+.resident-details-toggle{margin-left:auto;margin-right:6px;font-size:11px!important;color:#f4dfb6!important}
+.resident-summary h2{margin:13px 0 8px}
+.resident-summary p{font-size:13px;line-height:1.5;margin:6px 0;color:#e6dac9}
+.resident-summary .resident-current-task{color:#f7ead1}
+.resident-summary .resident-current-task strong{font-weight:400}
+.resident-summary h2:focus{outline:none}
+#resident-details{border-top:1px solid #f6e6cc22;margin-top:18px;padding-top:8px;font-size:12px;line-height:1.6;color:#e6dac9;overflow-wrap:anywhere}
+#resident-details .resident-location-note{font-size:11px;color:#c9b8a3}
+.city-inspection-meta[hidden],#resident-details[hidden]{display:none}
+.resident-life-details h3,.city-public-life h3{font-size:11px;font-weight:500;letter-spacing:.07em;color:#f1d6a6;margin:19px 0 7px}
+.resident-life-details ul{padding-left:17px}.resident-life-details li span{float:right;color:#e6cb96}
+.resident-decision-source{padding:8px 10px;border:1px solid #d1be8d44;border-radius:7px;color:#efdaaf}
+.resident-needs{display:grid;grid-template-columns:1fr;gap:8px;margin:15px 0}.resident-needs label>span{display:flex;justify-content:space-between;font-size:11px}.resident-needs strong{font-weight:400;color:#e9d4b0}.resident-needs meter{display:block;width:100%;height:9px;accent-color:#c5b07c}
+.resident-memories{padding:0;list-style:none}.resident-memories li{border-left:1px solid #cbb57a77;padding:0 0 12px 12px}.resident-memories small{display:block;color:#b3a28c;font-size:10px;margin-bottom:4px}
+.resident-life-disclosure{font-size:10px;color:#c0ae98}.resident-blocker{color:#f0c595}.resident-summary .resident-partner{font-size:11px;color:#cfbd95}
+.city-public-life{padding:12px;border:1px solid #d8c4a444;border-radius:10px;margin-top:18px}.city-public-life h3{margin:0 0 8px}.city-public-life h3 span{float:right;font-weight:400;font-size:10px}.city-public-life progress{width:100%;height:4px;accent-color:#c8b47c;display:block;margin-bottom:9px}.city-public-life button{display:block;width:100%;text-align:left;border:0;border-top:1px solid #f6e6cc22;padding:10px 0;background:none}.city-public-life strong,.city-public-life small{display:block;font-size:11px;font-weight:400}.city-public-life small{font-size:10px;margin-top:5px;color:#cfbfa8}.city-public-life p{font-size:11px;line-height:1.5;color:#cfbfa8;margin-bottom:0}
+.city-guide{left:26px;right:auto;top:auto;bottom:120px;height:auto;width:310px}
+.city-guide>.city-close{float:right}
+.city-residents.observing{top:auto;bottom:135px;max-height:50vh;height:auto}
+@media(max-width:900px){.city-guide-button>span:last-child,.city-gesture-hint{display:none}.city-bottom{justify-content:center}.city-guide-button{position:absolute;left:0}.city-destinations button{padding:0 14px}.city-introduction{bottom:148px}}
+@media(max-width:600px){.city-header{padding:23px 22px;gap:12px}.city-wordmark{font-size:16px;letter-spacing:.22em;gap:10px}.city-wordmark small{font-size:6px}.meridian-seal{width:29px;height:29px;font-size:17px}.city-time{display:none}.world-index-button{padding:10px 12px!important;font-size:10px!important}.world-index-button span{margin-left:6px}.city-tools{right:16px;top:32%;gap:9px}.city-tools button{width:45px;height:45px}.city-tools small{font-size:6px}.city-tools button>span{font-size:20px}.city-introduction{left:23px;right:20px;bottom:146px}.city-introduction h1{font-size:31px;max-width:285px}.city-introduction>p:last-child{font-size:12px;max-width:265px}.city-introduction .city-eyebrow{font-size:7px;letter-spacing:.17em;margin-bottom:11px}.city-bottom{left:15px;right:15px;bottom:max(48px,env(safe-area-inset-bottom));gap:0}.city-destinations{width:100%;justify-content:space-between;padding:5px;border-radius:24px}.city-destinations button{flex-direction:column;gap:5px;padding:9px 10px;flex:1;font-size:9px;min-height:52px}.city-destinations button>span{font-size:7px}.city-guide-button{display:none}.city-footnote{left:23px;right:19px;bottom:12px;font-size:7px}.city-residents{left:12px;right:12px;top:87px;bottom:40px;width:auto;padding:20px}.city-guide{left:12px;right:12px;width:auto}.world-viewport>section{padding-top:110px!important;height:100%;overflow:auto}.world-vignette{background:linear-gradient(180deg,#2a1c1233,transparent 20%,transparent 55%,#1c120c99)}}
+@media(prefers-reduced-motion:reduce){.meridian-experience *{transition:none!important;animation:none!important}}
+@media(max-width:600px){.city-residents.observing{top:auto;bottom:calc(max(48px,env(safe-area-inset-bottom)) + 72px);max-height:calc(100dvh - 215px);padding:8px 14px 10px;box-sizing:border-box}.city-residents.observing .city-panel-heading{position:sticky;top:-8px;z-index:1;background:#241b17;min-height:40px}.city-residents.observing .all-residents{font-size:11px!important;white-space:nowrap}.city-residents.observing .city-close{min-height:40px;padding:8px 12px}.city-residents.observing .resident-summary h2{font-size:23px;line-height:27px;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.city-residents.observing .resident-current-task{font-size:12px;line-height:17px;margin:3px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.city-residents.observing .resident-current-place{font-size:11px;line-height:15px;margin:3px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.city-residents.observing.details-expanded .resident-summary h2,.city-residents.observing.details-expanded .resident-current-task,.city-residents.observing.details-expanded .resident-current-place{white-space:normal;overflow:visible}.city-residents.observing.details-expanded{max-height:calc(100dvh - 215px)}.meridian-experience:has(.city-residents.observing:not([hidden])) .city-introduction{display:none}}
+
+.meridian-experience.blue-hour .city-residents,.meridian-experience.blue-hour .city-guide{background:#1d1a20ee;border-color:#c9c1d444}.meridian-experience.blue-hour .city-destinations{background:#1e1a2290}.meridian-experience.blue-hour .world-vignette{background:linear-gradient(180deg,rgba(16,20,40,.3),transparent 18%,transparent 60%,rgba(12,14,30,.62))}
+.city-ledger-button{display:inline-flex;align-items:center;gap:6px;min-height:28px;padding:4px 10px;margin-left:10px;border:1px solid #f6e6cc55;border-radius:16px;background:#3a2a1f38;font-size:8px;letter-spacing:.06em;color:inherit}.city-ledger-button strong{font:12px Georgia,serif;letter-spacing:0;color:#f3d9a0}.city-ledger-button--error strong{font-size:8px;color:#f0c595}.city-ledger-button--loading strong,.city-ledger-button--idle strong{color:#c9b8a3}
+.city-ledger-drawer{top:110px;bottom:70px}.city-ledger-drawer h2{margin-top:16px}.ai-decision-scope,.ai-decision-state{font-size:12px;line-height:1.6;color:#e3d7c6}.ai-decision-state button,.ai-decision-newer button{margin-left:8px}.ai-decision-newer{font-size:11px;color:#f1d6a6}
+.ai-decision-list,.city-venture-list,.city-happenings-list{list-style:none;padding:0;margin:14px 0 0}.ai-decision-list li,.city-venture-list >li,.city-happenings-list >li{display:grid;gap:4px;padding:12px 0;border-top:1px solid #f6e6cc22}.ai-decision-list small,.city-venture-list small,.city-happenings-list small{font-size:10px;color:#c2b09b}.ai-decision-list strong,.city-venture-list strong{font-size:13px;font-weight:400}.ai-decision-list span,.city-venture-list span,.city-happenings-list span{font-size:12px;color:#e6dac9;overflow-wrap:anywhere}.ai-decision-list code,.city-venture-list code{font-size:11px}.ai-decision-list em,.city-venture-list em{font-style:normal;font-size:10px;color:#c9b8a3}.ai-decision-list li button,.city-venture-list >li button,.city-happenings-list >li button{justify-self:start;background:none;border:1px solid #f6e6cc55;border-radius:14px;padding:6px 10px;font-size:11px;min-height:32px}.city-venture-list ul{list-style:none;padding:0;margin:2px 0 0;display:flex;flex-wrap:wrap;gap:6px 10px;font-size:12px;color:#e6dac9}.city-venture-list ul li{display:flex;align-items:center;gap:6px}.city-venture-list span button{display:inline;padding:2px 8px;min-height:24px;font-size:11px}.city-happenings p{font-size:11px;line-height:1.5;margin:4px 0;color:#e6dac9}.city-happenings .city-fiction-note{display:block;margin-top:10px}
+.ai-decision-more{display:block;width:100%;min-height:40px;margin-top:14px;border:1px solid #f6e6cc55;border-radius:10px;background:none;font-size:12px}
+@media(max-width:600px){.city-ledger-button{margin-left:0;margin-top:6px}.city-ledger-drawer{left:12px;right:12px;top:87px;bottom:40px;width:auto;padding:20px}.city-footnote>div{display:flex;flex-direction:column;align-items:flex-start;gap:2px}}
+.resident-observations{border-top:1px solid #f6e6cc22;margin-top:14px;padding-top:4px}.resident-observations h3{font-size:11px;font-weight:500;letter-spacing:.07em;color:#f1d6a6;margin:12px 0 7px}.resident-observations p{font-size:12px;line-height:1.6;margin:6px 0}
+.city-public-life .ai-decision-more{border:1px solid #f6e6cc55;text-align:center;padding:0}.city-place-list button strong{font-size:12px}.resident-here-button{margin-left:8px;padding:4px 10px;min-height:28px;border:1px solid #f6e6cc55;border-radius:14px;background:none;font-size:10px}.place-summary .resident-current-place{margin:6px 0}.place-summary .resident-life-disclosure{font-size:10px;line-height:1.5;color:#c9b8a3;margin-top:12px}
+.city-ledger-controls{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px}.city-public-life .resident-details-toggle{width:100%;text-align:left;border:0;border-top:1px solid #f6e6cc22;padding:10px 0;margin-top:8px;color:#f1d6a6}#city-happenings-body[hidden],#city-places-body[hidden]{display:none}
+@media(max-width:600px){.city-ledger-controls{margin-top:4px}.city-ledger-button{margin-top:0}.city-bottom{bottom:max(76px,env(safe-area-inset-bottom))}}
+
+/* Live AI status inside the footer: footer-sized, one line, never taller than the row it sits in. The drawer keeps the larger .ai-decision-state size. */
+.city-footnote .ai-decision-state{font-size:inherit;line-height:1.5;color:inherit;max-width:100%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.city-footnote .ai-decision-state p{margin:0;overflow:hidden;text-overflow:ellipsis}
+/* Letters from the focused resident: same drawer, prose-sized text. */
+.luna-letter-list li p{font:14px/1.65 Georgia,serif;margin:2px 0 0;color:#f0e6d6;overflow-wrap:anywhere}.luna-letters-new{font-style:normal;color:#f1d6a6;margin-left:4px}
+.city-chart-coverage{font-size:13px;color:#f0e6d6;margin:10px 0}.city-chart-coverage strong{color:#f1d6a6}.city-chart-focus{border:1px solid rgba(241,214,166,.28);border-radius:8px;padding:10px 12px;margin:8px 0 12px;font-size:13px;line-height:1.55;color:#e3d7c6}.city-chart-focus p{margin:0 0 8px}.city-chart-list li p{font-size:13px;line-height:1.55;margin:2px 0 0;color:#f0e6d6;overflow-wrap:anywhere}.city-chart-seen{color:#cbbda8!important;font-size:12px!important}.city-chart-due small{color:#f1d6a6}
+.resident-mind{border-top:1px solid rgba(241,214,166,.18);padding:12px 0 4px}.resident-mind h3{margin:0 0 6px;font:600 15px/1.3 Georgia,serif;color:#f1d6a6}.resident-mind-intention{font:15px/1.6 Georgia,serif;color:#f0e6d6;margin:0 0 6px;overflow-wrap:anywhere}.resident-mind-why{font-size:13px;line-height:1.55;color:#e3d7c6;margin:0 0 4px}.resident-mind-why span{color:#cbbda8}.resident-mind-alignment{font-size:13px;color:#e3d7c6;margin:6px 0}.resident-mind-alignment strong{color:#f1d6a6}.resident-mind-choices,.resident-mind-earlier{list-style:none;padding:0;margin:6px 0;font-size:13px;line-height:1.6;color:#e3d7c6}.resident-mind-choice--aligned{color:#f0e6d6}.resident-mind-choices small,.resident-mind-earlier small{color:#cbbda8;margin-left:4px}
+/* Small screens: the record buttons scroll sideways instead of wrapping, so the footer keeps one row and never climbs into the district nav. */
+@media(max-width:600px){.city-ledger-controls{flex-wrap:nowrap;max-width:100%;overflow-x:auto;scrollbar-width:none}.city-ledger-controls::-webkit-scrollbar{display:none}.city-ledger-controls .city-ledger-button{flex:0 0 auto}.luna-letters-from{display:none}}
+
+/* The static public map uses document flow, never the 3D camera's overlay layout. */
+.meridian-experience.map-view{position:relative;inset:auto;min-height:100dvh;overflow:visible;display:flex;flex-direction:column;background:#071832}
+.map-view .world-viewport{position:relative;inset:auto;order:3;width:100%;touch-action:pan-y}
+.map-view .world-viewport>section{padding:16px!important;height:auto;overflow:visible}
+.map-view .city-header{position:static;order:0;flex-wrap:wrap;padding:20px;gap:16px}
+.map-view .city-time{display:flex}
+.map-view .city-footnote{position:static;order:1;margin:0;padding:12px 20px;display:block;font-size:11px}
+.map-view .city-footnote>div{max-width:100%;width:100%}
+.map-view .city-footnote button{font-size:12px;min-height:44px;padding:8px 10px}
+.map-view .city-residents{position:static;order:2;inset:auto;width:auto;max-height:none;box-sizing:border-box;margin:12px 16px;padding:20px;overflow:visible}
+.map-view .city-residents.observing.details-expanded{max-height:none}
+.map-view .city-residents .city-panel-heading{position:static}
+/* The viewer's own walk: a small pad in the introduction's place while walking (3D only; never in the map view). */
+.city-walk{position:absolute;left:38px;bottom:142px;z-index:3;display:flex;flex-direction:column;gap:8px;max-width:280px}
+.city-walk p{margin:0;font:12px/1.45 Georgia,serif;color:#f0e6d6;text-shadow:0 2px 14px #2a1a10b0}
+.city-walk-pad{display:grid;grid-template-columns:repeat(3,46px);grid-template-rows:repeat(2,46px);gap:6px}
+.city-walk-pad button{border:1px solid #f6e6cc55;border-radius:50%;background:#3b2b2148;backdrop-filter:blur(12px);font-size:18px;line-height:1;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+.city-walk-pad button:active{background:#6d4f3aa8}
+.city-walk-pad button:nth-child(1){grid-column:2;grid-row:1}.city-walk-pad button:nth-child(2){grid-column:1;grid-row:2}.city-walk-pad button:nth-child(3){grid-column:2;grid-row:2}.city-walk-pad button:nth-child(4){grid-column:3;grid-row:2}
+@media(max-width:900px){.city-walk{bottom:148px}}
+@media(max-width:600px){.city-walk{left:23px;right:auto;bottom:146px;max-width:220px}.city-walk p{font-size:11px}.meridian-experience:has(.city-residents.observing:not([hidden])) .city-walk{display:none}}
+
+/* The real city remains the main surface; its public activity rail is independently scrollable. */
+.watching-now{box-sizing:border-box;display:inline-block;max-width:100%;padding:8px 12px;border:1px solid #f6e6cc70;border-radius:18px;background:#241b17e6;backdrop-filter:blur(10px);font:12px/1.5 Arial,Helvetica,sans-serif;letter-spacing:0;color:#fff3df}
+.watching-now strong{display:block;font-weight:400;color:#f7d9a5}
+.live-activity{box-sizing:border-box;position:absolute;z-index:4;right:16px;top:112px;bottom:20px;width:340px;padding:22px;overflow:auto;overscroll-behavior:contain;border:1px solid #e9d4b544;border-radius:16px;background:#241b17f2;color:#f8f1e4;backdrop-filter:blur(16px);font:13px/1.6 Arial,Helvetica,sans-serif}
+.activity-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.live-activity h2{font:400 25px/1.2 Georgia,serif;margin:0}
+.live-activity h3{font:500 14px/1.4 Arial,Helvetica,sans-serif;margin:24px 0 8px;color:#f1d6a6}
+.live-activity p{margin:10px 0;color:#e3d7c6;overflow-wrap:anywhere}
+.live-activity .activity-intro,.live-activity .activity-note{font-size:12px;color:#c9b8a3}
+.activity-heading button{min-height:44px;padding:8px 10px;border:1px solid #f6e6cc55;border-radius:18px;background:none;font-size:12px;white-space:nowrap}
+.activity-status{padding:10px;border:1px solid #f6e6cc55;border-radius:8px}
+.activity-tasks,.activity-changes{list-style:none;padding:0;margin:0}
+.activity-tasks li,.activity-changes li{border-top:1px solid #f6e6cc22;padding:12px 0;overflow-wrap:anywhere}
+.activity-tasks li>span,.activity-tasks small{display:block;font-size:12px;color:#c9b8a3}
+.activity-tasks button{border:0;background:none;padding:0;min-height:44px;text-align:left;width:100%}
+.activity-tasks strong{display:block;font-weight:500;font-size:14px}
+.activity-tasks button span{display:block;color:#f1d6a6;font-size:13px}
+.activity-note{margin-top:20px}.activity-note summary{cursor:pointer;min-height:44px;line-height:44px}.activity-note summary:focus-visible{outline:2px solid #f7d9a5;outline-offset:3px}
+.activity-link{border:0;background:none;text-decoration:underline;min-height:44px;padding:4px;font-size:12px}
+@media(min-width:1001px){
+ .with-activity .world-viewport,.with-activity .world-vignette{right:372px}
+ .with-activity .city-tools{right:390px}
+ .with-activity .city-bottom,.with-activity .city-footnote{right:390px}
+ .with-activity .city-residents{box-sizing:border-box;right:16px;width:340px;bottom:20px}
+ .with-activity .city-gesture-hint{display:none}
+ .with-activity .city-destinations button{padding:0 12px}
+ .with-activity.map-view{padding-right:372px}
+ .with-activity.map-view .world-viewport{right:auto}
+ .with-activity.map-view .live-activity{position:fixed}
+ .with-activity.map-view .city-residents{width:auto}
+}
+@media(max-width:1000px){
+ .live-activity{top:auto;bottom:0;left:0;right:0;width:auto;height:34dvh;min-height:0;border-radius:16px 16px 0 0;padding:18px 22px}
+ .with-activity:not(.map-view) .world-viewport{bottom:34dvh}
+ .with-activity:not(.map-view) .city-bottom{bottom:calc(34dvh + 70px)}
+ .with-activity:not(.map-view) .city-footnote{bottom:calc(34dvh + 12px)}
+ .with-activity:not(.map-view) .city-introduction,.with-activity:not(.map-view) .city-walk{bottom:calc(34dvh + 150px)}
+ .with-activity:not(.map-view) .city-introduction>p:last-child{display:none}
+ .with-activity:not(.map-view) .city-tools{top:25%}
+ .with-activity .city-header{padding:18px 22px;gap:12px;flex-wrap:wrap}
+ .watching-now{font-size:11px}
+ .map-view .live-activity{position:relative;inset:auto;order:2;height:auto;max-height:50dvh;min-height:0;width:auto;margin:12px 16px;border-radius:16px}
+ .map-view .city-residents{order:3}.map-view .world-viewport{order:4}
+}
+@media(max-width:600px){
+ .city-header .watching-now{display:flex;align-items:baseline;gap:8px;order:5;width:auto}
+ .with-activity .city-introduction{display:none}
+ .with-activity .city-tools{top:23%;gap:6px}
+ .with-activity .city-tools button{width:42px;height:42px}
+ .with-activity .city-bottom{bottom:calc(34dvh + 75px)}
+ .with-activity .city-residents.observing{bottom:calc(34dvh + 12px);max-height:calc(66dvh - 120px)}
+ .with-activity .city-header .city-wordmark{font-size:14px}
+}

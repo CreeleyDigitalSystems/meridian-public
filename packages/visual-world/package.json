@@ -1,0 +1,21 @@
+{
+  "name": "@meridian/visual-world",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "@meridian/mobile-controls": "workspace:*",
+    "@react-three/drei": "10.7.8",
+    "@react-three/fiber": "9.7.0",
+    "react": "19.2.8",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "@types/three": "0.185.0"
+  },
+  "scripts": {
+    "typecheck": "pnpm -w typecheck"
+  }
+}

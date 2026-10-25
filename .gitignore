@@ -1,0 +1,14 @@
+node_modules/
+apps/web/dist/
+.meridian-demo/
+.test-data/
+*.sqlite
+*.sqlite-*
+.env*
+*.log
+.DS_Store
+
+# Optional contributor-local AI inputs and generated evidence
+.local-ai/
+.workbench/
+*.workbench.json
