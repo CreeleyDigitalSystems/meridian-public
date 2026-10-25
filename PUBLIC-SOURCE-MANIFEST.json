@@ -54,8 +54,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6831,
-      "sha256": "885302f31e7aab745e4c1aa85da5c7c371dd1585ab6d518496b4311d76f6d0b5",
+      "bytes": 8833,
+      "sha256": "e4c7cb208a8b7ca0e9ed3f73369f82d81b2d95b38ffe8bb919d967f107bdb0c1",
       "sourceSha256": "9f2ccf929e2cc0e69917571bb94802979b8779ebc7669c13650ff83f48769076",
       "action": "replace"
     },
@@ -68,8 +68,8 @@
     },
     {
       "path": "THIRD-PARTY-NOTICES.md",
-      "bytes": 1136,
-      "sha256": "ebe224f625b9270337ba71f4675c5dbdcf2db05318252957db2c8fc3f3ce9903",
+      "bytes": 1619,
+      "sha256": "a89c3e2525cf83a4e5886ae78f527aa0f04239edd2aa6cb56176515bccecbb98",
       "sourceSha256": null,
       "action": "authored"
     },
@@ -422,6 +422,69 @@
       "sha256": "7db0111c198a543ab44aa7f267366543f52357e719decb5ab46489b73d4ec05f",
       "sourceSha256": "0121adbc3bd5b189b73a971d7330bce7dff4f9f33d4cb6986d9143f621a0747e",
       "action": "replace"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "sourceSha256": null,
+      "action": "authored",
+      "bytes": 5757,
+      "sha256": "358e846f56a5d37523d20f04944506081d8015972325ef8f336849e61847898a"
+    },
+    {
+      "path": "docs/media/README.md",
+      "sourceSha256": null,
+      "action": "authored",
+      "bytes": 1201,
+      "sha256": "bdbf5a3ad67f11af9c54bd1b193f94ab8e69d5fcdde8a5d348450641a5c48d5b"
+    },
+    {
+      "path": "docs/media/live-founding-district.jpg",
+      "sourceSha256": null,
+      "action": "authored",
+      "bytes": 139576,
+      "sha256": "7e787b7ab500ff663a294b82ce1e0184439893ee02687a703bca98480d01b89b"
+    },
+    {
+      "path": "docs/media/live-prismatic-gardens.jpg",
+      "sourceSha256": null,
+      "action": "authored",
+      "bytes": 147640,
+      "sha256": "9c03fe0b9e4a57c62f913bd312ce30fea73c31c10cc37940f0a851c353d26881"
+    },
+    {
+      "path": "docs/media/live-riverside-workshops.jpg",
+      "sourceSha256": null,
+      "action": "authored",
+      "bytes": 150631,
+      "sha256": "9a56370f069f32688e1f7ff05249b132066db6ca1ac8603834fc2490e159c51a"
+    },
+    {
+      "path": "docs/media/meridian-future-vision.png",
+      "sourceSha256": null,
+      "action": "authored",
+      "bytes": 3344658,
+      "sha256": "6df5cadb3d8025cf8ba532693524163ec5c6c9601cb4cc8abfb3f04fcf40323a"
+    },
+    {
+      "path": "docs/media/meridian-logo-dark.svg",
+      "sourceSha256": null,
+      "action": "authored",
+      "bytes": 1382,
+      "sha256": "45b44f8058c8d84a8cae77f7fee5051f0fc08291a0d99d79be825634b2f2eb88"
+    },
+    {
+      "path": "docs/media/meridian-logo.svg",
+      "sourceSha256": null,
+      "action": "authored",
+      "bytes": 1382,
+      "sha256": "4011aa7582dac882d13f9961884ace438057ec2dd814ed961f1bc218eed32bdc"
+    },
+    {
+      "path": "docs/media/meridian-mark.svg",
+      "sourceSha256": null,
+      "action": "authored",
+      "bytes": 558,
+      "sha256": "fcc35e3204287910c40b370710487cab781e7112de2413ea84701bd76a4dcf59"
     },
     {
       "path": "package.json",

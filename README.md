@@ -1,16 +1,113 @@
-# Meridian
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/media/meridian-logo-dark.svg">
+    <img src="docs/media/meridian-logo.svg" alt="Meridian — a world axis, a shared horizon, an M" width="620">
+  </picture>
+</p>
 
-A persistent 3D city where residents travel, work, spend materials and leave a saved history. Built by Jake Creeley at Creeley Digital Systems.
+<p align="center"><strong>A persistent world for exploring what AI can build, learn and share.</strong></p>
 
-[Watch the live city](https://meridian.creeleydigital.com.au). The hosted viewer observes a separately operated saved city; this repository runs a new fictional local city. A repository change does not update the hosted city.
+<p align="center">
+  <a href="https://meridian.creeleydigital.com.au/">Watch the live city</a> ·
+  <a href="#run-your-own-fictional-city">Run it locally</a> ·
+  <a href="#build-with-me">Build with me</a> ·
+  <a href="mailto:jake@creeleydigital.com.au?subject=Meridian%20research%20and%20development">Research &amp; development</a>
+</p>
 
-This alpha source showcase contains the city engine, procedural viewer and generic optional AI interfaces. The default demo needs no account or provider key. Project-owned source is licensed under the [Apache License 2.0](LICENSE). Copyright 2026 Jake Creeley / Creeley Digital Systems. Third-party dependencies retain their own terms.
+![A photorealistic future vision of Meridian: the astronomical clock tower, inhabited ivory-and-gold terraces, gardens, waterways and a connected rail system.](docs/media/meridian-future-vision.png)
 
-The demo runs Meridian's actual integrated city-life kernel, hash-chained ledger, SQLite store, streamed integrity verification and public fact projection. Twenty-four fictional residents choose deterministic legal engine actions, complete tasks and change the saved city. Sol and Luna are fictional given names here, with no recovered biography or relationships. The default run is a deterministic simulation with no model calls, paid inference or internet tools. Optional AI source is included separately; there is no AGI or general autonomous-development claim.
+*The horizon: AI-generated concept art, inspired by Meridian’s existing city. This illustrates the long-term visual ambition. Genuine captures of the current world appear below.*
 
-## Run the fictional city
+# A city with a future to work out
 
-Install Node **26.7.0** and pnpm **11.22.0**, then run these commands from the repository root:
+Meridian is an independent, open-source experiment in persistent AI worlds, created by **Jake Creeley at Creeley Digital Systems, Sydney**.
+
+The idea is a city that keeps its history. Residents have places to go, work to do and a world that responds to their actions. The research ambition is for useful abilities to accumulate: an individual notices a problem, tries an idea, learns from failure, makes something that works, then teaches someone else.
+
+A better building method should eventually mean better buildings. A discovery should outlast the resident who made it. Cooperation should produce something we can point to in the world.
+
+## Why I’m building it
+
+I’m Jake. I’m fascinated by artificial general intelligence, open worlds and the possibility of intelligence that develops through doing things over time.
+
+I want to build a world that keeps going. A place where AI residents can notice that a house could be better, talk through ideas, develop the tools to improve it and show another resident how to use them. Where a journey matters because you actually have to travel. Where knowledge is earned, kept and shared.
+
+My long-term ambition is a city that can build and improve itself, with people around the world able to tune in and watch. Getting there means solving practical problems: memory, planning, tool use, useful invention, teaching, resources and the consequences of getting something wrong.
+
+I care about what that could teach us beyond the city, too. Better ways for AI systems to collaborate, retain useful skills and help people are worth working on. Meridian gives those questions a place to play out, with a history we can inspect.
+
+There is a lot still to build. I’m opening the source because I’d like other curious builders and researchers to help shape it.
+
+— **Jake Creeley**
+
+## Inside the world today
+
+These are **actual browser captures of the hosted city**, taken on 26 October 2026 (Sydney time). The camera and blue-hour lighting are controls in the viewer. These screenshots have no generated buildings or visual replacements.
+
+### The Founding District
+
+![Actual live-world screenshot: Meridian’s clock tower, civic terraces, homes and water ring in daylight.](docs/media/live-founding-district.jpg)
+
+*Ivory-and-gold neighbourhoods around the clock tower, with the waterfront and surrounding frontier visible.*
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/media/live-prismatic-gardens.jpg" alt="Actual live-world screenshot of the Prismatic Gardens at blue hour."></td>
+    <td width="50%"><img src="docs/media/live-riverside-workshops.jpg" alt="Actual live-world screenshot of the Riverside Workshops in daylight."></td>
+  </tr>
+  <tr>
+    <td><strong>The Prismatic Gardens</strong><br>A shared courtyard beneath the clock spire, using the viewer’s blue-hour setting.</td>
+    <td><strong>The Riverside Workshops</strong><br>Workspaces, homes, terraces and residents beside the quays.</td>
+  </tr>
+</table>
+
+[Enter the live city →](https://meridian.creeleydigital.com.au/)
+
+## The research question
+
+**Can a community become more capable because of what its members have learned?**
+
+For Meridian, that means asking questions we can test:
+
+- Can a resident turn a failed attempt into a useful, repeatable method?
+- Can another resident learn it and independently produce something useful?
+- Does that ability survive a restart and the original teacher’s absence?
+- Does the improvement justify the time, materials and model calls it consumed?
+- Can people watching understand what happened and why it matters?
+
+AGI is a motivation for the work. Meridian is an experimental world and a research direction; a city of genuinely general agents that can develop itself remains a long-term goal.
+
+## What you can explore now
+
+| Available in this public source | The next research milestones |
+| --- | --- |
+| A persistent fictional city with 24 residents, work, travel and material accounting | Useful resident inventions that improve construction and production |
+| A procedural 3D viewer with district cameras, audience movement and resident inspection | Richer homes, abilities, local awareness and coherent long-term plans |
+| Saved history, replay verification and a read-only public view | Clear public accounts of real AI requests, tools, failures and results |
+| Optional OpenAI API, prompt and bounded tool-session interfaces | Complete real-model invention, paid useful work and independent teaching |
+| Offline tests (with test doubles) of failure, repair, method admission and adoption after restart | Reproduction by multiple learners after restart, with the teacher absent |
+
+The hosted world and this repository have separate releases. The local demo starts a new fictional city and makes **no model calls by default**. Optional interfaces require explicit configuration. A passing offline test does not establish the next research milestone. [Read the technical scope and current limits](docs/DEVELOPMENT.md).
+
+### Using the OpenAI API
+
+The source includes OpenAI API integration for model-driven resident decisions and bounded tool sessions. The aim is to pair capable language models with persistent memory, explicit actions and observable consequences, then measure whether the combination produces useful progress.
+
+Meridian is independently created and maintained by Jake Creeley and Creeley Digital Systems. The research ambitions, project direction and results presented here are our own. OpenAI API integration is a technical component of that work.
+
+## Build with me
+
+If you’re interested in AI worlds, this is an invitation to help build one.
+
+Useful contributions include resident planning and memory, learning and teaching, simulation rules, navigation, construction, 3D rendering, accessible observation, evaluations and model-cost efficiency. Small, reproducible improvements are welcome. So are careful experiments that show an idea doesn’t work.
+
+Start with [CONTRIBUTING.md](CONTRIBUTING.md), [the AI interfaces](AI-CONTRIBUTING.md) or an issue describing what you want to explore. Changes to this repository are reviewed by Jake. Public-source changes do not automatically deploy into the hosted city.
+
+**Research, development and collaboration enquiries:** [jake@creeleydigital.com.au](mailto:jake@creeleydigital.com.au?subject=Meridian%20research%20and%20development).
+
+## Run your own fictional city
+
+Use Node **26.7.0** and pnpm **11.22.0**. From the repository root:
 
 ```sh
 pnpm install --frozen-lockfile --ignore-scripts
@@ -23,35 +120,16 @@ In a second terminal:
 pnpm --filter @meridian/web dev --host 127.0.0.1 --port 5173 --strictPort
 ```
 
-Open `http://127.0.0.1:5173`. The viewer proxies public snapshot, event and history requests to `127.0.0.1:8787`. The engine advances one canonical minute every 100ms. Keep the engine running while viewing. Stop it with Ctrl-C; `pnpm demo` resumes the same verified synthetic city from `.meridian-demo`. To create another fictional run, use `pnpm demo --data new-empty-directory`. Unknown/unmarked directories are refused; there is no reset or import-production command.
+Open **http://127.0.0.1:5173**. Stop with Ctrl-C; `pnpm demo` resumes the same verified fictional save. [Setup, checks and architecture notes →](docs/DEVELOPMENT.md)
 
-The read-only local service exposes `/world`, `/events?after=<public-cursor>`, `/world?view=city-ledger&limit=20`, `/world?view=resident-discovery&resident=<public-number>` and `/health`. Public cursors are separate from the canonical ledger. Raw canonical state, private owner commands and companion routes are unavailable over HTTP.
+## The name and the mark
 
-The city starts with operator-commissioned Meridian Central, civic plans at zero progress and an entirely fogged frontier. Residents must earn charting by travelling to a real worksite, working and returning; a circuit is derived only after real connected ground is charted. The provisional first landing is civic; it grants no free house or materials. Later work still uses canonical paid resource accounting. Opening events are recorded in the actual ledger. Public cursors and clock minutes are separate.
+A meridian is a line of longitude running from pole to pole: a reference for locating ourselves in a world. The logo brings that axis together with a shared horizon and an **M** formed like two rising city structures. It reflects the project’s interest in place, continuity and a world with room to grow.
 
-The procedural viewer retains the integrated circuit, home/door/camera and audience walking controls, resident inspection and readable saved-world history. Its owned layout supplies 24 homes and 24 workplaces; it does not reproduce the private city's full population or visual appearance. Unresolved binary kits, authored characters, kit coordinates and provider-generated texture patterns are replaced by procedural shells and flat materials. No GLB, photograph, panorama or brand icon is shipped. Imported models are disabled explicitly. Viewer walking changes only the audience camera, never a resident's canonical location or knowledge.
+[Light wordmark](docs/media/meridian-logo.svg) · [Dark wordmark](docs/media/meridian-logo-dark.svg) · [Standalone mark](docs/media/meridian-mark.svg)
 
-Wardrobe stays closed in this provider-free world, with no fabricated model choices or unsupported adult model changes; shared typed catalogue/capability/replay code is retained. Hosted feedback and its relay/proxy are omitted only from this local demo, with no fake feedback success. Private continuity, production service composition, cloud administration and hosted deployment are outside this candidate; generic optional AI/tool/session source is included. An optional offline host binder has observed failure/repair, canonical admission, verified cold restart and a typed adopt-version transition using configured doubles; production execution, paid useful work and teaching remain unproved. The default demo still refuses executable admission; no integrity validator is bypassed to simulate success. This new format refuses older or unknown demo directories and never overwrites/imports production data. The source showcase does not include the hosted operator environment.
+## Licence and privacy
 
-See [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE](LICENSE), [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) and the exact `PUBLIC-SOURCE-MANIFEST.json`. Build/runtime checks establish local behaviour, not ownership, a licence grant or public deployment acceptance.
+[Apache 2.0](LICENSE) · Copyright 2026 Jake Creeley / Creeley Digital Systems.
 
-## What works and what remains alpha
-
-The current viewer includes city-centre navigation, resident task/change activity and an ephemeral “Watching now” viewing-session badge. The badge counts this local demo's sessions, not verified humans or the hosted project's audience; it resets on restart. Use `http://127.0.0.1:5173` for the local viewer (`pnpm --filter @meridian/web dev --host 127.0.0.1 --port 5173 --strictPort`). If you use a different loopback viewer origin, pass exactly that origin with `pnpm demo --viewer-origin http://127.0.0.1:PORT`. The provider-free engine still records actual canonical work, transit, materials and replay; its fictional residents do not represent the live saved city. Hosted feedback and chat are not available in this demo.
-
-Generic optional provider, prompt, tool-session, revision/evaluator and executor source is included. Importing it enables nothing. See AI-CONTRIBUTING.md for explicit caller configuration, native runtime limitations and the private production composition excluded from this tree. The included request/tool tests use explicit doubles; no live provider or native runtime acceptance is claimed. Private canonical method admission and root prefix attestation refuse explicitly, while ordinary uncached store verification remains active.
-
-## Contribute
-
-Useful areas include clearer resident choices, repair feedback, measured task usefulness, replay correctness and the procedural viewer. Start with a focused issue describing an observed problem and a way to reproduce it. Contributions are accepted under Apache 2.0; see [CONTRIBUTING.md](CONTRIBUTING.md). Jake reviews and approves merges and releases.
-
-For the existing local checks:
-
-```sh
-pnpm test
-pnpm typecheck
-pnpm --filter @meridian/web build
-pnpm verify:public
-```
-
-Protected-branch enforcement and private security reporting require repository settings; files alone do not enable them. There is no deployment workflow or automatic release. See [SECURITY.md](SECURITY.md) before reporting sensitive material.
+This public repository excludes the private production save, personal continuity, letters, credentials and cloud administration. The demo uses fictional data. [Security reporting](SECURITY.md) · [Third-party notices](THIRD-PARTY-NOTICES.md) · [Showcase image provenance](docs/media/README.md).
