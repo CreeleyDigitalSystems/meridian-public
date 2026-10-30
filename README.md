@@ -89,7 +89,7 @@ AGI is a motivation for the work. Meridian is an experimental world and a resear
 
 The hosted world and this repository have separate releases. The local demo starts a new fictional city and makes **no model calls by default**. Optional interfaces require explicit configuration. A passing offline test does not establish the next research milestone. [Read the technical scope and current limits](docs/DEVELOPMENT.md).
 
-[See every feature, why it exists, and what Jake and the AI each did](FEATURES.md).
+[See every feature, why it exists, and what Jake and the AI each did](FEATURES.md). [See how it got here, version by version, with pictures](VERSIONS.md).
 
 ### Using the OpenAI API
 

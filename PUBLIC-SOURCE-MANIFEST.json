@@ -47,8 +47,8 @@
     },
     {
       "path": "FEATURES.md",
-      "bytes": 22780,
-      "sha256": "dc0b91cbfd4142eb16f04429d3076a868b442f010fd948b25762c4a4e641e26e",
+      "bytes": 27455,
+      "sha256": "501b8483286e41a964da44f0d2b69bf63e49808b8dbb40fd8f6c610e9f792fc8",
       "sourceSha256": null,
       "action": "authored"
     },
@@ -61,8 +61,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8918,
-      "sha256": "04e55d0e0ee153008d8a4f9bd6b3938c4f15afba09fc931af69100a701031780",
+      "bytes": 8989,
+      "sha256": "926412d7aa6fdd57301d27304cd0980e7531c36001118a5bc3c2d73b5cd8d70e",
       "sourceSha256": "9f2ccf929e2cc0e69917571bb94802979b8779ebc7669c13650ff83f48769076",
       "action": "replace"
     },
@@ -77,6 +77,13 @@
       "path": "THIRD-PARTY-NOTICES.md",
       "bytes": 1619,
       "sha256": "a89c3e2525cf83a4e5886ae78f527aa0f04239edd2aa6cb56176515bccecbb98",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "VERSIONS.md",
+      "bytes": 13427,
+      "sha256": "4a4eb48a6b795bf2b5e0218bb45b1b59b3316c91720375a715b4bdebad37eae2",
       "sourceSha256": null,
       "action": "authored"
     },
@@ -441,8 +448,8 @@
       "path": "docs/media/README.md",
       "sourceSha256": null,
       "action": "authored",
-      "bytes": 1201,
-      "sha256": "bdbf5a3ad67f11af9c54bd1b193f94ab8e69d5fcdde8a5d348450641a5c48d5b"
+      "bytes": 1466,
+      "sha256": "634eb45e434268a63cc0fe8e3551063ae527df611c3cbda7c9996d4905401a96"
     },
     {
       "path": "docs/media/live-founding-district.jpg",
@@ -492,6 +499,90 @@
       "action": "authored",
       "bytes": 558,
       "sha256": "fcc35e3204287910c40b370710487cab781e7112de2413ea84701bd76a4dcf59"
+    },
+    {
+      "path": "docs/media/versions/v2-central.jpg",
+      "bytes": 129061,
+      "sha256": "efc216dca69480f5092fbee523186b4efe21bc4d06f91ddf38eee914f60bceb8",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v3-stairs.jpg",
+      "bytes": 52122,
+      "sha256": "db1ca6027089b597028b3513e3cf95bb1ff955a4df0e043b35ad85469ed05c37",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v4-mountain.jpg",
+      "bytes": 68905,
+      "sha256": "798ad5b45e51a9efb35ffdaa90e874ae73a1eac37cba6e45ecd307968a5cc20c",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v5-port-blue-hour.jpg",
+      "bytes": 97729,
+      "sha256": "9c9a76700bffdcc37d710614d5140a2ea9ce67cbb661f93f75aae3db573a2066",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v5-port.jpg",
+      "bytes": 88393,
+      "sha256": "8ea0c162188ea8bd70e4c94e8abb8e3aa7163879954baa7c89396b3cc583f813",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v6-auto.jpg",
+      "bytes": 143334,
+      "sha256": "cde53f75e6612118bf426cc8be56b211f9be57ba65e30093fb8537ba1552da15",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v6-whole-world.jpg",
+      "bytes": 80221,
+      "sha256": "086e490d939672e3108607a6c5d25a3edec06fd1a6578178870b7cf9e47db4b6",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v7-countdown-phone.jpg",
+      "bytes": 79453,
+      "sha256": "e70bf6c8eccbf5665083fc60db9a0a5131208d56a1840ecf263deda0ad67fd16",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v7-doorway.jpg",
+      "bytes": 59986,
+      "sha256": "4c572f93b0c90a786667a568c97004f1d8d63a77452925c25d755c4e0152d205",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v7-ride-city.jpg",
+      "bytes": 151598,
+      "sha256": "122533ccb41c508100b6a3393ea2a3ad64a3bb1efd55e9af3f51d16c820d7ec6",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v7-ride-port.jpg",
+      "bytes": 104808,
+      "sha256": "d82ca2033e3f0b0ec4dd212578b7327b7d69fa9da5815edacd7d7681cbffb556",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v7-stall-doors.jpg",
+      "bytes": 78308,
+      "sha256": "6d6935cbacb298415a77f9e9c99668d2c55b62a48eaf6b7dbfd6e12876f724bb",
+      "sourceSha256": null,
+      "action": "authored"
     },
     {
       "path": "package.json",
