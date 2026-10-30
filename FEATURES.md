@@ -154,7 +154,7 @@ As of 31 October 2026. How it got here, release by release and with pictures: [V
 
 ### The Scenic Line, and riding it
 
-**Live since 2026-10-31.** A sightseeing railway for people watching Meridian. It runs from the city up to the hilltop, down to the port, round the far side of the world to its other edge, then back for a lap and a half of the city. Press Ride the train and you sit in the front carriage, drag to look around, and a panel counts down to the next station. It is for visitors only: no resident rides it, the world does not know it is there, and it runs to the wall clock so everyone sees the same train in the same place.
+**Live since 2026-10-31.** A sightseeing railway. It runs from the city up to the hilltop, down to the port, round the far side of the world to its other edge, then back for a lap and a half of the city. Press Ride the train and you sit in the front carriage, drag to look around, and a panel counts down to the next station. Residents can't ride it yet, because the world's rules don't know it is there. It runs to the wall clock so everyone sees the same train in the same place.
 
 **Why:** The older railway only circles the city, and a visitor had no way to feel how big the world has become. A moving window does that.
 
@@ -376,11 +376,21 @@ As of 31 October 2026. How it got here, release by release and with pictures: [V
 
 **AI (not built yet):** Not built yet. Claude traced the cause in the live city's public data and wrote the work order.
 
+### Residents riding the whole Scenic Line
+
+**Planned.** The Scenic Line becomes part of the world itself, so residents can choose to ride the whole loop and a visitor on board sees who is really there.
+
+**Why:** A train nobody in the world can ride is scenery. Meridian's rule is that what you see is what residents are really doing.
+
+**Jake:** "residents also need to ride the entire train line".
+
+**AI (not built yet):** Not built yet.
+
 ### Riding the real railway with residents
 
 **Planned.** The same on-board view on the real railway, so the people around you are real residents on their way somewhere. Those cars need a proper interior first.
 
-**Why:** The Scenic Line is empty because residents do not ride it, and Meridian does not show people who are not there.
+**Why:** The Scenic Line has nobody on it yet, and Meridian does not show people who are not there.
 
 **Jake:** "will u be able to see characters on the train with u when u look around".
 
