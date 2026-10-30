@@ -46,6 +46,13 @@
       "action": "authored"
     },
     {
+      "path": "FEATURES.md",
+      "bytes": 22780,
+      "sha256": "dc0b91cbfd4142eb16f04429d3076a868b442f010fd948b25762c4a4e641e26e",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
       "path": "LICENSE",
       "bytes": 11358,
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
@@ -54,8 +61,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8833,
-      "sha256": "e4c7cb208a8b7ca0e9ed3f73369f82d81b2d95b38ffe8bb919d967f107bdb0c1",
+      "bytes": 8918,
+      "sha256": "04e55d0e0ee153008d8a4f9bd6b3938c4f15afba09fc931af69100a701031780",
       "sourceSha256": "9f2ccf929e2cc0e69917571bb94802979b8779ebc7669c13650ff83f48769076",
       "action": "replace"
     },
