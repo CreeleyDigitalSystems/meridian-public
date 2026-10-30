@@ -4,7 +4,7 @@ Everything in Meridian, why it exists, and who did what. Jake Creeley sets the d
 
 How credit is worked out: every commit carries the company name, so that proves nothing. The AI credit comes from commit trailers, branches and working records, and where those do not settle it the entry says so. Words in quotation marks are Jake's own, spelling included.
 
-As of 30 October 2026.
+As of 31 October 2026. How it got here, release by release and with pictures: [VERSIONS.md](VERSIONS.md).
 
 ## The world
 
@@ -16,7 +16,7 @@ As of 30 October 2026.
 
 **Jake:** Looked at ready-made asset kits, then: "nah maybe i build my own??" He set the look, "white and gold with accents", and decided not to switch game engines.
 
-**AI (AI, record does not say which):** Claude built the 53-piece street kit using a team of AI agents and fitted the city into the live scene. A separate AI assistant, which the records do not name, built the 26-piece civic kit and the city plan.
+**AI (Record does not say which):** Claude built the 53-piece street kit using a team of AI agents and fitted the city into the live scene. A separate AI assistant, which the records do not name, built the 26-piece civic kit and the city plan.
 
 ### The fog and the frontier
 
@@ -92,7 +92,7 @@ As of 30 October 2026.
 
 ### Residents' bodies and wardrobes
 
-**Live since 2026-10-12.** Adults have distinct 3D bodies from an open-licensed avatar set, matched to their saved appearance, and since the railway release a resident may change their own look and nobody else's. A known display bug currently leaves these bodies without textures, and the fix is waiting on approval.
+**Live since 2026-10-12.** Adults have distinct 3D bodies from an open-licensed avatar set, matched to their saved appearance, and since the railway release a resident may change their own look and nobody else's.
 
 **Why:** A look should belong to the resident wearing it. The wardrobe came from Jake's point about a resident asking why she looked the way she did.
 
@@ -130,7 +130,7 @@ As of 30 October 2026.
 
 **Jake:** "do the phone detail thing".
 
-**AI (AI, record does not say which):** The first viewer, from September, carries no AI credit in the record. Claude later added phone detail and home navigation, and Codex adapted the viewer to public data and fixed its navigation.
+**AI (Record does not say which):** The first viewer, from September, carries no AI credit in the record. Claude later added phone detail and home navigation, and Codex adapted the viewer to public data and fixed its navigation.
 
 ### Move around the whole world
 
@@ -152,6 +152,26 @@ As of 30 October 2026.
 
 **AI (Claude):** Claude built it, taking the reasons from the engine's own rules.
 
+### The Scenic Line, and riding it
+
+**Live since 2026-10-31.** A sightseeing railway for people watching Meridian. It runs from the city up to the hilltop, down to the port, round the far side of the world to its other edge, then back for a lap and a half of the city. Press Ride the train and you sit in the front carriage, drag to look around, and a panel counts down to the next station. It is for visitors only: no resident rides it, the world does not know it is there, and it runs to the wall clock so everyone sees the same train in the same place.
+
+**Why:** The older railway only circles the city, and a visitor had no way to feel how big the world has become. A moving window does that.
+
+**Jake:** "it goes from the city to the hilltop to the port to the other side edge then back to loop the city as a viewing excercise for travellers". And: "how cool would view the train button be and you can be on the train and look around and out the window", "with a thing that tells you how long until next station".
+
+**AI (Claude):** Claude built the route, the timetable, the carriages and the on-board view.
+
+### Doorways, and walking round buildings
+
+**Live since 2026-10-31.** Meridian Central's glass front now has a real doorway with a porch, so the way in reads as a way in, and the gold rail that used to run straight across the path to it has an opening. The market stalls have doorways in their back and side walls. Residents crossing a founded parcel now go round the building instead of straight through its walls. They still do not go inside these buildings, because nothing is drawn in there yet.
+
+**Why:** Jake saw residents walking through glass, and people gather all round buildings that looked like blank boxes from most sides.
+
+**Jake:** "also should put a door way" and "currently they walk through the glass into the inner dome".
+
+**AI (Claude):** Claude built it.
+
 ## How it runs
 
 ### The engine decides, and everything is recorded
@@ -162,7 +182,7 @@ As of 30 October 2026.
 
 **Jake:** Settled the principle that AI decides what residents want and the engine decides what happens.
 
-**AI (AI, record does not say which):** The September foundation carries no AI credit in the record. Claude later added bounded checks, hourly checkpoints and compression that cut the history from 13.8 GB to 3.2 GB, and Codex added a verified faster start.
+**AI (Record does not say which):** The September foundation carries no AI credit in the record. Claude later added bounded checks, hourly checkpoints and compression that cut the history from 13.8 GB to 3.2 GB, and Codex added a verified faster start.
 
 ### Public facts only
 
@@ -192,7 +212,7 @@ As of 30 October 2026.
 
 **Jake:** No request in his own words found. It came up while building Auto.
 
-**AI (Claude):** Claude found the wrong label and checked it against the saved decision record: all five live tasks with that label matched an AI decision. The viewer now corrects it, and the fix in the public data itself is queued for Codex.
+**AI (Claude):** Claude found the wrong label and checked it against the saved decision record: all five live tasks with that label matched an AI decision. The viewer now corrects it, and the fix in the public data itself is queued for Claude.
 
 ### The "Meridian is updating" page
 
@@ -234,15 +254,25 @@ As of 30 October 2026.
 
 **AI (Claude and Codex):** Claude built the form and a separate private relay. Codex integrated them into the viewer.
 
-### How Claude and Codex split the work
+### Who builds Meridian
 
-**Live since 2026-10-30.** Claude leads and deploys, Codex builds from a written work queue, and Jake sets the direction and approves. Before this, Codex led the public launch and prepared the railway release; nothing from the new queue has been delivered yet.
+**Live since 2026-10-30.** Jake sets the direction and makes the calls. Claude leads, builds and deploys. Codex built a large part of Meridian earlier, including the public launch and the railway release, and that work stays credited on each feature here. Since 30 October the building has been Claude's alone, and the written work queue is its to-do list. Nothing from that queue has been delivered yet.
 
-**Why:** Jake wanted one AI accountable for priorities and deploys, with the other building in the background without him having to drive it.
+**Why:** Jake wanted one AI accountable for the priorities, the building and the deploys.
 
-**Jake:** "Claude, you're in charge, Codex just helps you. You deploy." And: "design a cool system that prompts codex to build the leftover stuff".
+**Jake:** "Claude, you're in charge, Codex just helps you. You deploy." Later the same day he made the building Claude's alone.
 
-**AI (Claude):** Claude designed the queue and writes the orders. The orders are still waiting to be picked up.
+**AI (Claude):** Claude wrote the queue and its orders.
+
+### A version history with pictures
+
+**Live since 2026-10-30.** VERSIONS.md on GitHub lists each public release: what changed, why, and pictures of it. Every new release adds an entry. Pictures are real captures of the running city, and an entry says so when a picture was taken later than the release it shows.
+
+**Why:** People following Meridian should be able to see how it got here and the thinking behind each step.
+
+**Jake:** "git should have version control and the people can see v1 updated to x y z and heres screenshots and reasoning behind it".
+
+**AI (Claude):** Claude wrote it from the release record.
 
 ### This features page
 
@@ -264,7 +294,7 @@ As of 30 October 2026.
 
 **Jake:** Asked for the port, "build the port", and wants residents using the boats (see fishing and family meals).
 
-**AI (not built yet):** Not built yet. Claude wrote the work order and it is queued for Codex.
+**AI (not built yet):** Not built yet. Claude wrote the work order and it is queued for Claude.
 
 ### Fishing and family meals
 
@@ -274,7 +304,7 @@ As of 30 October 2026.
 
 **Jake:** Residents should "decide to jump onto the boats and go fishing for food, then at times either eat at restaurants ... or take home to their families".
 
-**AI (not built yet):** Not built yet. Claude wrote the work order and it is queued for Codex.
+**AI (not built yet):** Not built yet. Claude wrote the work order and it is queued for Claude.
 
 ### Roads, carts and moving goods
 
@@ -284,7 +314,7 @@ As of 30 October 2026.
 
 **Jake:** "roads to be starting to get developed to one day build carts"
 
-**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Codex.
+**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Claude.
 
 ### Births and growing up
 
@@ -294,7 +324,7 @@ As of 30 October 2026.
 
 **Jake:** Decided the rules: births only, both adults must choose, one year per 30 world days, a ceiling of 240.
 
-**AI (not built yet):** Not built yet. Claude ran the audit that raised these questions, wrote the work order, and it is queued for Codex.
+**AI (not built yet):** Not built yet. Claude ran the audit that raised these questions, wrote the work order, and it is queued for Claude.
 
 ### The Commons and resident-designed buildings
 
@@ -304,7 +334,7 @@ As of 30 October 2026.
 
 **Jake:** "build new themes based on their ideas, build things however they want, add tools, look different if they so choose after a group vote"
 
-**AI (not built yet):** Not built yet. Claude drafted the proposal for Jake and wrote the work orders, which are queued for Codex.
+**AI (not built yet):** Not built yet. Claude drafted the proposal for Jake and wrote the work orders, which are queued for Claude.
 
 ### Goals that steer what residents do
 
@@ -314,7 +344,7 @@ As of 30 October 2026.
 
 **Jake:** "lunas coherence ai properly into the world"
 
-**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Codex.
+**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Claude.
 
 ### The method workbench
 
@@ -325,6 +355,36 @@ As of 30 October 2026.
 **Jake:** No request in his own words found for this design.
 
 **AI (Claude and Codex):** Codex built it and Claude made the remaining fixes.
+
+### Luna proposing changes to her own world
+
+**Being built.** Luna would read the public facts about the city and write one plain-words proposal a day: a rule, a feature, a look or a tool. Claude would try to build it in a separate copy of the code and report back, and Jake decides whether it goes live. She never writes code or holds keys. The proposal desk is written and tested, but it has not yet run with a real model, so nothing she has proposed exists yet.
+
+**Why:** Jake wants residents shaping the world they live in, not only living in it. One resident and one idea a day is the smallest honest test of that.
+
+**Jake:** "i would love it if luna had access to this thinking and building your doing. like she could decide hmm, i think we need to add this set of rules to the environment, or this feature. and can build it". And: "lets get luna going pleaser".
+
+**AI (Claude):** Claude wrote the proposal desk and its checks.
+
+### Residents choosing where to meet
+
+**Planned.** Today a rule picks the meeting place for a pair: the least crowded place, with ties settled alphabetically, counting only people who have already arrived. So most meetings land on the first few frontier places, such as the market stalls by the channel. The plan is for residents to choose for themselves.
+
+**Why:** People were gathering round the same little building for no reason of their own. A rule should not decide where two friends go.
+
+**Jake:** "why do they always hang around where is in view now, around this little shack building". And: "they should be alouid to go wehere they like".
+
+**AI (not built yet):** Not built yet. Claude traced the cause in the live city's public data and wrote the work order.
+
+### Riding the real railway with residents
+
+**Planned.** The same on-board view on the real railway, so the people around you are real residents on their way somewhere. Those cars need a proper interior first.
+
+**Why:** The Scenic Line is empty because residents do not ride it, and Meridian does not show people who are not there.
+
+**Jake:** "will u be able to see characters on the train with u when u look around".
+
+**AI (not built yet):** Not built yet. Claude wrote the work order.
 
 ### Bodies that show what residents are doing
 
@@ -344,7 +404,7 @@ As of 30 October 2026.
 
 **Jake:** No request in his own words found for these two items.
 
-**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Codex. Codex has already written part of the faster start.
+**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Claude. Codex has already written part of the faster start.
 
 ### Following a journey, and a richer look
 
@@ -354,4 +414,4 @@ As of 30 October 2026.
 
 **Jake:** Wants to be able to see the rail in action.
 
-**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Codex.
+**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Claude.
