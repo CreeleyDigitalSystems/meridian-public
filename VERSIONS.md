@@ -1,5 +1,45 @@
 # Meridian versions
 
+## What the AI residents have done
+
+Counted on 31 October 2026 at 03:09 Sydney time, about 45 world days in, and updated with each release. Each line counts choices a language model made for a resident and the world accepted, taken from the world's decision record. A choice can still be cut short, so these count choices, not finished actions.
+
+| What they chose to do | Times | Residents |
+| --- | ---: | ---: |
+| Do their job | 2,103 | 69 |
+| Recover energy at home | 1,652 | 77 |
+| Think and reflect | 1,379 | 20 |
+| Spend time with another resident | 988 | 71 |
+| Work on a new building | 75 | 6 |
+| Survey a place | 58 | 2 |
+| Chart the fog | 38 | 2 |
+| Work on a shared venture | 15 | 5 |
+| Hand over borrowed tools | 3 | 1 |
+| Use a tool | 1 | 1 |
+| Return a tool | 1 | 1 |
+| Not labelled in the record | 12 | 2 |
+| **All choices** | **6,325** | **78** |
+
+**The jobs:** instrument maker 517, cartographer 493, market keeper 247, builder 165, water keeper 159, cook 109, baker 88, transit steward 74, ceramicist 70, weaver 66, gardener 62, archivist 53.
+
+**The buildings:** Gathering Hall 19, Market Stalls 15, Garden Terrace 14, Home 10, Lookout 9, Workshop 8.
+
+The model returns no written reason with its choices, so none is given here.
+
+**How much of the city that is.** Most of the time Meridian's rules play the residents, and a model plays only some of them. When this was counted, the rules had picked 118 of the 121 tasks under way and a model had picked 3. In about the last world day, a model made 401 choices for 20 residents. What the rules picked is not in the table above, because it has not been counted.
+
+**The city so far, rules and AI together:**
+
+- **122 residents:** 120 adults and 2 children.
+- **3,141 frontier plots charted** out of the fog, with 216 known plots still in it.
+- **302 buildings on the frontier:** 59 garden terraces, 59 market stalls, 51 homes, 46 workshops, 44 gathering halls and 43 lookouts.
+- **34 shared ventures proposed:** 14 finished, 18 failed (15 ran out of time, 3 had nobody agree in time) and 2 still going.
+- **275 requests to borrow something:** 169 lent and returned, 55 declined, 46 ran out of time, 4 cut short and 1 out on loan now.
+
+---
+
+## Releases
+
 How Meridian got here, one public release at a time: what changed, why, who did what, and pictures of the real thing.
 
 Every picture is a screenshot of the running world, with nothing retouched or generated. Where a picture was taken later than the release it sits under, the caption says so, and it may show things added since. Times are Sydney time. Words in quotation marks are Jake's own, spelling included. Commit numbers refer to the private source repository, so they cannot be opened from here.
@@ -30,7 +70,7 @@ Everything before v1 happened in private, with no public site to update. That wo
 
 **What changed**
 
-- **The Scenic Line**, a sightseeing railway for people watching Meridian. It runs from the city up to the hilltop, down to the port, round the far side of the world to its other edge, then back for a lap and a half of the city. One trip takes a little under six minutes.
+- **The Scenic Line**, a sightseeing railway. It runs from the city up to the hilltop, down to the port, round the far side of the world to its other edge, then back for a lap and a half of the city. One trip takes a little under six minutes.
 - **Ride the train.** Press the button and you sit in the front carriage. Drag to look around, and a panel counts down to the next station.
 - **A doorway at Meridian Central.** The glass front has a framed door and a porch, and the gold rail that ran straight across the path to it now has an opening.
 - **Doorways on the market stalls**, in their back and side walls.
@@ -57,7 +97,7 @@ Everything before v1 happened in private, with no public site to update. That wo
 
 *A market stall with its new doors, and the spiral stair behind it.*
 
-**Not finished.** Residents do not ride this line and it does not pretend they do: the world does not know it is there. They still do not go inside the frontier buildings, because nothing is drawn in there yet. It has not been tried on a real phone. We could not confirm which glass Jake saw people walk through, so the doorway is our best reading of it. Riding the real railway alongside residents is planned.
+**Not finished.** Residents can't ride this line yet, because the world's rules don't know it is there, and it does not pretend they do. Jake wants them on it: "residents also need to ride the entire train line". That is on the way. They still do not go inside the frontier buildings, because nothing is drawn in there yet. It has not been tried on a real phone. We could not confirm which glass Jake saw people walk through, so the doorway is our best reading of it. Riding the real railway alongside residents is planned.
 
 ---
 
