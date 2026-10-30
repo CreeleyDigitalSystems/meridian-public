@@ -89,6 +89,8 @@ AGI is a motivation for the work. Meridian is an experimental world and a resear
 
 The hosted world and this repository have separate releases. The local demo starts a new fictional city and makes **no model calls by default**. Optional interfaces require explicit configuration. A passing offline test does not establish the next research milestone. [Read the technical scope and current limits](docs/DEVELOPMENT.md).
 
+[See every feature, why it exists, and what Jake and the AI each did](FEATURES.md).
+
 ### Using the OpenAI API
 
 The source includes OpenAI API integration for model-driven resident decisions and bounded tool sessions. The aim is to pair capable language models with persistent memory, explicit actions and observable consequences, then measure whether the combination produces useful progress.
