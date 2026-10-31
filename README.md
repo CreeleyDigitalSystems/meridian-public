@@ -89,7 +89,7 @@ AGI is a motivation for the work. Meridian is an experimental world and a resear
 
 The hosted world and this repository have separate releases. The local demo starts a new fictional city and makes **no model calls by default**. Optional interfaces require explicit configuration. A passing offline test does not establish the next research milestone. [Read the technical scope and current limits](docs/DEVELOPMENT.md).
 
-[See every feature, why it exists, and what Jake and the AI each did](FEATURES.md). [See how it got here, version by version, with pictures](VERSIONS.md).
+[See every feature, why it exists, and what Jake and the AI each did](FEATURES.md). [See how it got here, version by version, with pictures](VERSIONS.md). [What "self-replicating" means here](https://meridian.creeleydigital.com.au/self-replicating-ai-world/). [How Meridian relates to AGI research](https://meridian.creeleydigital.com.au/agi-experiment/).
 
 ### Using the OpenAI API
 
@@ -134,4 +134,4 @@ A meridian is a line of longitude running from pole to pole: a reference for loc
 
 [Apache 2.0](LICENSE) · Copyright 2026 Jake Creeley / Creeley Digital Systems.
 
-This public repository excludes the private production save, personal continuity, letters, credentials and cloud administration. The demo uses fictional data. [Security reporting](SECURITY.md) · [Third-party notices](THIRD-PARTY-NOTICES.md) · [Showcase image provenance](docs/media/README.md).
+This public repository excludes the private production save, personal continuity, letters, credentials and cloud administration. The demo uses fictional data. [Security reporting](SECURITY.md) · [Third-party notices](THIRD-PARTY-NOTICES.md) · [Showcase image provenance](docs/media/README.md) · [What the hosted site measures](https://meridian.creeleydigital.com.au/privacy/).

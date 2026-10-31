@@ -6,6 +6,6 @@ The Founding District, Prismatic Gardens and Riverside Workshops images are unre
 
 The Meridian identity began with AI-assisted visual exploration and was finished as original, scalable SVG geometry for this project. Light and dark wordmarks and a standalone mark are included. Its meridian axis, horizon and M represent orientation, continuity and a growing world. It contains no OpenAI logo, partner badge or other third-party brand mark.
 
-The pictures in `versions/` belong to [VERSIONS.md](../../VERSIONS.md). They are unretouched captures of the running world, taken on 30 October 2026, one of them by Jake Creeley on his own screen. Each caption says when a picture was taken later than its release.
+The pictures in `versions/` belong to [VERSIONS.md](../../VERSIONS.md). They are unretouched captures of the running world and its public pages, taken on 30 and 31 October 2026, one of them by Jake Creeley on his own screen. Each caption says when a picture was taken later than its release.
 
 Source code, current hosted-world captures and aspirational artwork are identified separately so visitors can judge the work accurately.
