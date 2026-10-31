@@ -82,8 +82,8 @@
     },
     {
       "path": "VERSIONS.md",
-      "bytes": 21324,
-      "sha256": "144342b226fd9626b3a3a6195402f5d684ec60a2e8ce8ce6bb81208734a7e189",
+      "bytes": 21350,
+      "sha256": "88103d369fb14bf72f595e91fb3f4c533edce63120d79e30332c79904bfeb524",
       "sourceSha256": null,
       "action": "authored"
     },

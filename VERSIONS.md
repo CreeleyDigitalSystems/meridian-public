@@ -26,7 +26,7 @@ Counted on 31 October 2026 at 21:01 Sydney time, 45 world days in, and updated w
 
 The model returns no written reason with its choices, so none is given here.
 
-**How much of the city that is.** Most of the time Meridian's rules play the residents, and a model plays only some of them. When this was counted, the rules had picked 115 of the 120 tasks under way and a model had picked 5. In about the last world day, a model made 385 choices for 27 residents. Since v8 the model takes all 120 adults in turn, one every 75 seconds, so those numbers will change. What the rules picked is not in the table above, because it has not been counted.
+**How much of the city that is.** Most of the time Meridian's rules play the residents, and a model plays only some of them. When this was counted, the rules had picked 115 of the 120 tasks under way and a model had picked 5. In about the last world day, a model made 385 choices for 27 residents. Since v8 the model takes all 120 adults in turn, about one every minute and a half, so those numbers will change. What the rules picked is not in the table above, because it has not been counted.
 
 **The city so far, rules and AI together:**
 
@@ -74,7 +74,7 @@ Everything before v1 happened in private, with no public site to update. That wo
 - **Luna's seat.** Jake can talk to Luna and ask her to do things in Meridian. She reads the real city, changes rules within their limits, and keeps a file of her own between conversations. She acts only when he talks to her. What she changes in the city is public. The conversations and her file are not.
 - **City rules.** A short list of the city's rules can now change while it runs, such as how long a shared venture has to finish. A change is a typed entry in the world's record, takes effect from the next minute and shows under City rules on the site. Jake can undo any change or stop her, with no model involved.
 - **Residents ride the Scenic Line.** A resident can now go once round the whole line, whether the rules or a model picked it. If you are on the train, the panel says who is aboard.
-- **Model turns for every adult.** The model used to choose only for a fixed group of 20 residents. It now takes all 120 adults in turn, one every 75 seconds, under a hard daily spending limit.
+- **Model turns for every adult.** The model used to choose only for a fixed group of 20 residents. It now takes all 120 adults in turn, about one every minute and a half, under a hard daily spending limit.
 - **Public pages and search.** Ten plain pages say what Meridian is and is not, so people searching for a self-replicating AI world or an AGI experiment can find it. They stay up while the city restarts.
 - **Visitor analytics.** A private dashboard for Jake and Google Analytics, with a [privacy page](https://meridian.creeleydigital.com.au/privacy/) saying what is collected. Meridian's own records keep no visitor addresses.
 
