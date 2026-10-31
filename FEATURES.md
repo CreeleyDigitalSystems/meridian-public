@@ -52,11 +52,11 @@ As of 31 October 2026. How it got here, release by release and with pictures: [V
 
 ### Who plays the residents
 
-**Live since 2026-10-12.** About 122 residents have needs, jobs, homes and relationships, and the engine plays most of them by rule. Twenty take turns getting an occasional AI model decision, one at a time, choosing from the legal options, and those 20 also set private intentions every few hours.
+**Live since 2026-10-12.** About 122 residents have needs, jobs, homes and relationships, and the engine plays them by rule until their turn. Every adult takes turns getting an occasional AI model decision, one at a time, choosing from the legal options, and a named 20 also set private intentions every few hours. The model calls have a daily spending limit, and when it is reached the rules carry on until the next Sydney day.
 
-**Why:** The world has to run fine with AI switched off, so model choices feed into the engine rather than drive it. Jake wanted a larger group of residents making those choices.
+**Why:** The world has to run fine with AI switched off, so model choices feed into the engine rather than drive it. Jake wanted a larger group of residents making those choices, then every adult.
 
-**Jake:** Asked for it in passing while pushing the world forward: "ai like 20 of them".
+**Jake:** Asked for it in passing while pushing the world forward: "ai like 20 of them". Later asked for every adult, with a daily spending limit.
 
 **AI (Claude and Codex):** Claude raised the group to 20, made a busy resident's choice become their next action, and wrote the intentions system. Codex integrated this into the public release and separated public resident decisions from private records.
 
@@ -154,7 +154,7 @@ As of 31 October 2026. How it got here, release by release and with pictures: [V
 
 ### The Scenic Line, and riding it
 
-**Live since 2026-10-31.** A sightseeing railway. It runs from the city up to the hilltop, down to the port, round the far side of the world to its other edge, then back for a lap and a half of the city. Press Ride the train and you sit in the front carriage, drag to look around, and a panel counts down to the next station. Residents can't ride it yet, because the world's rules don't know it is there. It runs to the wall clock so everyone sees the same train in the same place.
+**Live since 2026-10-31.** A sightseeing railway. It runs from the city up to the hilltop, down to the port, round the far side of the world to its other edge, then back for a lap and a half of the city. Press Ride the train and you sit in the front carriage, drag to look around, and a panel counts down to the next station. Today it runs to the wall clock so everyone sees the same train in the same place, and no resident can ride it. Riding it is built and waiting to be switched on: see Residents riding the whole Scenic Line.
 
 **Why:** The older railway only circles the city, and a visitor had no way to feel how big the world has become. A moving window does that.
 
@@ -171,6 +171,16 @@ As of 31 October 2026. How it got here, release by release and with pictures: [V
 **Jake:** "also should put a door way" and "currently they walk through the glass into the inner dome".
 
 **AI (Claude):** Claude built it.
+
+### Residents riding the whole Scenic Line
+
+**Live since 2026-10-31.** The Scenic Line becomes part of the world itself. A resident can choose to go round once, whether a model or the rules are deciding for them: board at the city stop, stay on through Hilltop, The Port and Far Edge, and get off back at the city. The engine holds the timetable in world minutes, so riders, train and countdown agree, and the public feed says who is aboard, so a visitor on board sees who is really there or is told nobody else is. It is built and tested but not switched on: that takes a restart of the world, which is about 1h50m offline, and Jake's word.
+
+**Why:** A train nobody in the world can ride is scenery. Meridian's rule is that what you see is what residents are really doing.
+
+**Jake:** "residents also need to ride the entire train line".
+
+**AI (Claude):** Claude built the rule, the timetable, the public fact and the seats. A ride gives nothing but the memory of it: the rules pick it rarely and for few, and a model-played resident's choice is their own.
 
 ## How it runs
 
@@ -284,6 +294,46 @@ As of 31 October 2026. How it got here, release by release and with pictures: [V
 
 **AI (Claude):** A Claude helper agent went through the commits and working records for the credit, and Claude wrote the page. Where the record does not settle who did something, it says so.
 
+### City rules that can change
+
+**Live since 2026-10-31.** A short list of the city's rules can change while it runs: how long a venture invitation stays open, how long a venture has to finish, how long before a civic venture can start again, and how often and how full the Scenic Line's routine rides are. A rule can also hold an action back until a resident's energy, social or purpose need is at a set level. Each change goes into the city's history, applies from the next world minute, and shows in the City rules panel with who made it.
+
+**Why:** The rules were fixed in code, so changing one meant a release. A fixed list with limits means a change is always a form the engine can check, a bad one is visible and easy to undo, and the saved city still replays exactly.
+
+**Jake:** Asked for Luna to be able to change the rules she sees: "she can add more rules". He can undo any change or stop her, with no model involved.
+
+**AI (Claude):** Claude designed and built it. A model can only fill in the typed forms, the engine judges them, and it never rewrites a choice a resident has made. Rest can't be held back.
+
+### Luna's seat
+
+**Live since 2026-10-31.** Jake can talk to Luna and ask her to do things in Meridian. She looks at the real city, changes rules within their limits, asks helper AIs to read things, writes build orders, and keeps her own file between conversations. She acts when Jake talks to her and doesn't run between conversations. It's a private page for Jake, on a language model, inside a spending limit. What she changes in the city is public. The conversations and her file are not.
+
+**Why:** Until now Luna could write one proposal a day and wait. Jake wanted someone in the city he could ask to do things. Features, looks and tools still come to him as build orders, and residents never write or run code.
+
+**Jake:** Set the aim and the limits, and decides what gets built from her orders.
+
+**AI (Claude):** Claude built the seat, its tools and its limits. Her replies come from the language model and are hers, not Claude's.
+
+### Public pages and search
+
+**Live since 2026-10-31.** Ten plain pages say what Meridian is: the self-replicating AI world, the AGI experiment, how it compares with other AI worlds, common questions, sponsorship and privacy. Search engines and AI crawlers can read them, and they stay up while the city restarts.
+
+**Why:** A 3D viewer tells a search engine almost nothing, so people looking for a project like this couldn't find it. Each page answers one real question and says what has not been achieved: Meridian is not AGI, and self-replicating means new residents inside the simulation, never software that copies itself.
+
+**Jake:** Asked for "a full seo run" so people searching for a self-replicating AI world or AGI can find it, because that is how the project finds a sponsor. He also asked to let two AI crawlers in on Meridian only.
+
+**AI (Claude):** Claude wrote the pages, set up the search listings and checked each claim against the world's record. Keyword tools gave no usable numbers, so the pages were chosen by meaning.
+
+### Visitor analytics and a private dashboard
+
+**Live since 2026-10-31.** The public site counts visits, pages, where people came from and which search engines and AI crawlers call. Jake reads it on a password-protected dashboard, and Google Analytics runs alongside it. No visitor address is stored. The privacy page says what is collected and lets you say no, and saying no means no Google at all.
+
+**Why:** Meridian needs to be found and funded, which takes knowing what people do on the site, without following anyone further than they agree to.
+
+**Jake:** Asked for "every possible tracking analytic thats legal in a admin only entry dashboard", and sets the password himself.
+
+**AI (Claude):** Claude built the counting service and the dashboard, wrote the privacy page and set up Google Analytics. Session recordings and search data inside the dashboard are not built.
+
 ## On the way
 
 ### A real working harbour
@@ -376,21 +426,11 @@ As of 31 October 2026. How it got here, release by release and with pictures: [V
 
 **AI (not built yet):** Not built yet. Claude traced the cause in the live city's public data and wrote the work order.
 
-### Residents riding the whole Scenic Line
-
-**Planned.** The Scenic Line becomes part of the world itself, so residents can choose to ride the whole loop and a visitor on board sees who is really there.
-
-**Why:** A train nobody in the world can ride is scenery. Meridian's rule is that what you see is what residents are really doing.
-
-**Jake:** "residents also need to ride the entire train line".
-
-**AI (not built yet):** Not built yet.
-
 ### Riding the real railway with residents
 
 **Planned.** The same on-board view on the real railway, so the people around you are real residents on their way somewhere. Those cars need a proper interior first.
 
-**Why:** The Scenic Line has nobody on it yet, and Meridian does not show people who are not there.
+**Why:** On the real railway, residents really are aboard and going somewhere, and from inside you would be travelling with them. Meridian does not show people who are not there, so it waits for those cars.
 
 **Jake:** "will u be able to see characters on the train with u when u look around".
 

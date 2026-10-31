@@ -47,8 +47,8 @@
     },
     {
       "path": "FEATURES.md",
-      "bytes": 27836,
-      "sha256": "0f0f8b61988aa9bf7d5dec4e00eb1ce32b6772d4c67f0d25a2ab7fd0c3ef5504",
+      "bytes": 32794,
+      "sha256": "1dfcdac3e7652bce56022cb75b60904e18eb19a9b7d0988ffe6faea026a5b9a4",
       "sourceSha256": null,
       "action": "authored"
     },
@@ -61,8 +61,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8989,
-      "sha256": "926412d7aa6fdd57301d27304cd0980e7531c36001118a5bc3c2d73b5cd8d70e",
+      "bytes": 9274,
+      "sha256": "5e597adc2718b83253a08a18f503f393fc7a2c283d12d28c94198d80aeb22e5c",
       "sourceSha256": "9f2ccf929e2cc0e69917571bb94802979b8779ebc7669c13650ff83f48769076",
       "action": "replace"
     },
@@ -82,8 +82,8 @@
     },
     {
       "path": "VERSIONS.md",
-      "bytes": 15729,
-      "sha256": "efa19eb543a17d1d8f2b1801683520d61238cdf49683208ce90b61df667fc809",
+      "bytes": 21324,
+      "sha256": "144342b226fd9626b3a3a6195402f5d684ec60a2e8ce8ce6bb81208734a7e189",
       "sourceSha256": null,
       "action": "authored"
     },
@@ -448,8 +448,8 @@
       "path": "docs/media/README.md",
       "sourceSha256": null,
       "action": "authored",
-      "bytes": 1466,
-      "sha256": "634eb45e434268a63cc0fe8e3551063ae527df611c3cbda7c9996d4905401a96"
+      "bytes": 1494,
+      "sha256": "7c28befabc97b21f68f882682b4f6f2100bc8712442bf552f9b03374825e985f"
     },
     {
       "path": "docs/media/live-founding-district.jpg",
@@ -581,6 +581,27 @@
       "path": "docs/media/versions/v7-stall-doors.jpg",
       "bytes": 78308,
       "sha256": "6d6935cbacb298415a77f9e9c99668d2c55b62a48eaf6b7dbfd6e12876f724bb",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v8-aboard-with-you.jpg",
+      "bytes": 50588,
+      "sha256": "bec15400510146ce0899a57fdf9972dcf62fba29a5c7bd23bdfd3d37cfe1f899",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v8-agi-page.jpg",
+      "bytes": 53507,
+      "sha256": "f8fa166cb7380bf55e267b7a5a649209862e9dcae7874e1ee000836dd635790a",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v8-city-rules.jpg",
+      "bytes": 18518,
+      "sha256": "d5232ddbeccb459e0a607bba384be8aa3324ec3546313649e7f6833dc76723da",
       "sourceSha256": null,
       "action": "authored"
     },

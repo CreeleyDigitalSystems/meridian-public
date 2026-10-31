@@ -2,38 +2,38 @@
 
 ## What the AI residents have done
 
-Counted on 31 October 2026 at 03:09 Sydney time, about 45 world days in, and updated with each release. Each line counts choices a language model made for a resident and the world accepted, taken from the world's decision record. A choice can still be cut short, so these count choices, not finished actions.
+Counted on 31 October 2026 at 21:01 Sydney time, 45 world days in, and updated with each release. Each line counts choices a language model made for a resident and the world accepted, taken from the world's decision record. A choice can still be cut short, so these count choices, not finished actions.
 
 | What they chose to do | Times | Residents |
 | --- | ---: | ---: |
-| Do their job | 2,103 | 69 |
-| Recover energy at home | 1,652 | 77 |
-| Think and reflect | 1,379 | 20 |
+| Do their job | 2,117 | 69 |
+| Recover energy at home | 1,658 | 77 |
+| Think and reflect | 1,423 | 25 |
 | Spend time with another resident | 988 | 71 |
 | Work on a new building | 75 | 6 |
 | Survey a place | 58 | 2 |
-| Chart the fog | 38 | 2 |
+| Chart the fog | 41 | 2 |
 | Work on a shared venture | 15 | 5 |
 | Hand over borrowed tools | 3 | 1 |
 | Use a tool | 1 | 1 |
 | Return a tool | 1 | 1 |
 | Not labelled in the record | 12 | 2 |
-| **All choices** | **6,325** | **78** |
+| **All choices** | **6,392** | **78** |
 
-**The jobs:** instrument maker 517, cartographer 493, market keeper 247, builder 165, water keeper 159, cook 109, baker 88, transit steward 74, ceramicist 70, weaver 66, gardener 62, archivist 53.
+**The jobs:** instrument maker 518, cartographer 493, market keeper 248, builder 165, water keeper 160, cook 112, baker 88, transit steward 77, ceramicist 72, weaver 67, gardener 63, archivist 54.
 
 **The buildings:** Gathering Hall 19, Market Stalls 15, Garden Terrace 14, Home 10, Lookout 9, Workshop 8.
 
 The model returns no written reason with its choices, so none is given here.
 
-**How much of the city that is.** Most of the time Meridian's rules play the residents, and a model plays only some of them. When this was counted, the rules had picked 118 of the 121 tasks under way and a model had picked 3. In about the last world day, a model made 401 choices for 20 residents. What the rules picked is not in the table above, because it has not been counted.
+**How much of the city that is.** Most of the time Meridian's rules play the residents, and a model plays only some of them. When this was counted, the rules had picked 115 of the 120 tasks under way and a model had picked 5. In about the last world day, a model made 385 choices for 27 residents. Since v8 the model takes all 120 adults in turn, one every 75 seconds, so those numbers will change. What the rules picked is not in the table above, because it has not been counted.
 
 **The city so far, rules and AI together:**
 
 - **122 residents:** 120 adults and 2 children.
 - **3,141 frontier plots charted** out of the fog, with 216 known plots still in it.
-- **302 buildings on the frontier:** 59 garden terraces, 59 market stalls, 51 homes, 46 workshops, 44 gathering halls and 43 lookouts.
-- **34 shared ventures proposed:** 14 finished, 18 failed (15 ran out of time, 3 had nobody agree in time) and 2 still going.
+- **306 buildings on the frontier:** 60 garden terraces, 60 market stalls, 51 homes, 48 workshops, 44 gathering halls and 43 lookouts.
+- **The last 32 shared ventures to end,** which is as many as the world keeps: 12 finished, 20 failed (17 ran out of time, 3 had nobody agree in time). 2 more are going now. Earlier versions of this page called this the total proposed, which was wrong.
 - **275 requests to borrow something:** 169 lent and returned, 55 declined, 46 ran out of time, 4 cut short and 1 out on loan now.
 
 ---
@@ -48,6 +48,7 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 
 | Version | When | What it added |
 | --- | --- | --- |
+| [v8](#v8-lunas-seat-and-a-city-whose-rules-can-change) | 31 October 2026, 20:41 | Luna's seat, City rules, residents on the Scenic Line, model turns for every adult, public pages and analytics |
 | [v7](#v7-the-scenic-line) | 31 October 2026, 01:37 | A sightseeing train you can ride, a countdown to the next station, doorways |
 | [v6](#v6-explore-the-whole-world) | 30 October 2026, 21:39 | Move anywhere in the world, the Auto button, the Features tab |
 | [v5](#v5-the-port-of-meridian) | 30 October 2026, 20:46 | The harbour in the bay |
@@ -57,6 +58,45 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 | [v1](#v1-the-public-opening) | 24 October 2026 | The public site, showing public facts only |
 
 Everything before v1 happened in private, with no public site to update. That work, including the white-and-gold city, the fog and the first residents, is listed in [FEATURES.md](FEATURES.md) with its own dates.
+
+---
+
+## v8: Luna's seat, and a city whose rules can change
+
+**31 October 2026, 20:41.** Private commit `ee2c665`.
+
+![The Scenic Line panel at Far Edge, saying "Aboard with you: Juno Vale and Mira Vale"](docs/media/versions/v8-aboard-with-you.jpg)
+
+*On the Scenic Line at Far Edge, in a phone-sized window on a computer. The panel names who is on the train with you, here two residents, Juno Vale and Mira Vale. Taken at 20:57.*
+
+**What changed**
+
+- **Luna's seat.** Jake can talk to Luna and ask her to do things in Meridian. She reads the real city, changes rules within their limits, and keeps a file of her own between conversations. She acts only when he talks to her. What she changes in the city is public. The conversations and her file are not.
+- **City rules.** A short list of the city's rules can now change while it runs, such as how long a shared venture has to finish. A change is a typed entry in the world's record, takes effect from the next minute and shows under City rules on the site. Jake can undo any change or stop her, with no model involved.
+- **Residents ride the Scenic Line.** A resident can now go once round the whole line, whether the rules or a model picked it. If you are on the train, the panel says who is aboard.
+- **Model turns for every adult.** The model used to choose only for a fixed group of 20 residents. It now takes all 120 adults in turn, one every 75 seconds, under a hard daily spending limit.
+- **Public pages and search.** Ten plain pages say what Meridian is and is not, so people searching for a self-replicating AI world or an AGI experiment can find it. They stay up while the city restarts.
+- **Visitor analytics.** A private dashboard for Jake and Google Analytics, with a [privacy page](https://meridian.creeleydigital.com.au/privacy/) saying what is collected. Meridian's own records keep no visitor addresses.
+
+**Why.** Jake wanted someone in the city he could ask to do things, and wanted her able to change what she finds: "she can add more rules". On the train: "residents also need to ride the entire train line". The pages are there because a 3D viewer tells a search engine almost nothing, and Meridian needs to be found to find a sponsor. None of this makes Meridian AGI, and self-replicating still means new residents inside the simulation, never software that copies itself.
+
+**The first test.** Claude tried it on the live city that evening, saying it was Claude. It gave Luna the job Jake had in mind: ventures keep failing because their deadlines are too short, so sort it. She read the real ventures, found that most recent failures had run out of time with no step started, and said short deadlines were not shown to be the cause, because the city had no timber left. She then set 200 minutes instead of 120 and called it a trial. The city applied it within a minute and it showed on the site. In a new session with no conversation carried over, she still had the change on file and found it had been undone.
+
+![The City rules panel showing "Time to finish a venture, 200 minutes, usually 120. Set by Luna at world minute 64739"](docs/media/versions/v8-city-rules.jpg)
+
+*The City rules panel during that test, in a phone-sized window on a computer. Claude undid the change minutes later.*
+
+That test and a check of Jake's page set the venture deadline twice (200, then 180) and stopped her once. Both changes were undone within minutes and she was refused while stopped. No venture started during them, every rule is back as it started, and the rules' revision number on the public record is 6 because of them. The check also found that Jake's stop button did nothing if pressed before the page finished loading. That was fixed before she was handed to him.
+
+**Who did what.** Jake asked for all of it and set the limits. Claude built it. Luna's replies come from a language model and are hers, not Claude's.
+
+![The AGI experiment page, opening with "Meridian is not AGI and does not claim to be"](docs/media/versions/v8-agi-page.jpg)
+
+*One of the new pages, in a phone-sized window on a computer.*
+
+**The long closure.** The city was closed for about 15 hours for this release, from 05:27 to 20:41, and the time given on the closed page moved more than once because the estimates were wrong. On restart the engine checks its saved history again before it opens, and that takes longer the longer the city has been running: nearly 12 hours of checking this time. The check stays. Making it faster is still to be decided. The information pages no longer close when this happens.
+
+**Not finished.** The ventures are still failing, and nobody has shown that longer deadlines would help. The resident called Luna Fevel still lives like any other resident, so the Luna in the seat cannot act in the city through her, and there is no public page where you can read what she does beyond the rules she changes. She can see the current rules but not their history, so she could not tell who had undone her change. The first full round of model turns takes about two and a half hours and had not finished when this was written. The dashboard does not yet show search data, and session recordings are not built.
 
 ---
 
