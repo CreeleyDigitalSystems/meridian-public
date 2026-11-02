@@ -47,8 +47,8 @@
     },
     {
       "path": "FEATURES.md",
-      "bytes": 32794,
-      "sha256": "1dfcdac3e7652bce56022cb75b60904e18eb19a9b7d0988ffe6faea026a5b9a4",
+      "bytes": 34572,
+      "sha256": "32439ebc1122ae3643b388d9b8178b033d1f7f04268470777ccc3badcf67a31b",
       "sourceSha256": null,
       "action": "authored"
     },
@@ -82,8 +82,8 @@
     },
     {
       "path": "VERSIONS.md",
-      "bytes": 21350,
-      "sha256": "88103d369fb14bf72f595e91fb3f4c533edce63120d79e30332c79904bfeb524",
+      "bytes": 26147,
+      "sha256": "7555e6f419bfc5f50284d12b33055a675fc8657e465c4b0cac0a58d9abd8e9cc",
       "sourceSha256": null,
       "action": "authored"
     },
@@ -448,8 +448,8 @@
       "path": "docs/media/README.md",
       "sourceSha256": null,
       "action": "authored",
-      "bytes": 1494,
-      "sha256": "7c28befabc97b21f68f882682b4f6f2100bc8712442bf552f9b03374825e985f"
+      "bytes": 1507,
+      "sha256": "3a51da1a1e86d5719036db2399cad5864aa89ca24492cc24270a4be879d11f2e"
     },
     {
       "path": "docs/media/live-founding-district.jpg",
@@ -602,6 +602,27 @@
       "path": "docs/media/versions/v8-city-rules.jpg",
       "bytes": 18518,
       "sha256": "d5232ddbeccb459e0a607bba384be8aa3324ec3546313649e7f6833dc76723da",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v9-home-computer.jpg",
+      "bytes": 166432,
+      "sha256": "b2a969df14dce06a026efeab62376dc43ae05ac69d44b2a0ad963ad4c1b5018e",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v9-home-phone.jpg",
+      "bytes": 61701,
+      "sha256": "a2f972727992890bb1ee6c9e196c6a62403a10bf4a0f4a9127c939c51d8eddd0",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v9-right-now.jpg",
+      "bytes": 146332,
+      "sha256": "84b627a5638bb965ba237e2546a338a836e6ee387fc7b21770dcd3fc392a0d70",
       "sourceSha256": null,
       "action": "authored"
     },
