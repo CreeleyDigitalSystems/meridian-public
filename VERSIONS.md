@@ -2,38 +2,38 @@
 
 ## What the AI residents have done
 
-Counted on 31 October 2026 at 21:01 Sydney time, 45 world days in, and updated with each release. Each line counts choices a language model made for a resident and the world accepted, taken from the world's decision record. A choice can still be cut short, so these count choices, not finished actions.
+Counted on 2 November 2026 at about 20:00 Sydney time, 48 world days in, and updated with each release. Each line counts choices a language model made for a resident and the world accepted, taken from the world's decision record. A choice can still be cut short, so these count choices, not finished actions.
 
 | What they chose to do | Times | Residents |
 | --- | ---: | ---: |
-| Do their job | 2,117 | 69 |
-| Recover energy at home | 1,658 | 77 |
-| Think and reflect | 1,423 | 25 |
+| Do their job | 2,684 | 117 |
+| Think and reflect | 2,317 | 119 |
+| Recover energy at home | 1,728 | 99 |
 | Spend time with another resident | 988 | 71 |
-| Work on a new building | 75 | 6 |
-| Survey a place | 58 | 2 |
-| Chart the fog | 41 | 2 |
+| Survey a place | 97 | 10 |
+| Work on a new building | 83 | 11 |
+| Chart the fog | 83 | 10 |
 | Work on a shared venture | 15 | 5 |
+| Use a tool | 14 | 2 |
 | Hand over borrowed tools | 3 | 1 |
-| Use a tool | 1 | 1 |
 | Return a tool | 1 | 1 |
 | Not labelled in the record | 12 | 2 |
-| **All choices** | **6,392** | **78** |
+| **All choices** | **8,025** | **120** |
 
-**The jobs:** instrument maker 518, cartographer 493, market keeper 248, builder 165, water keeper 160, cook 112, baker 88, transit steward 77, ceramicist 72, weaver 67, gardener 63, archivist 54.
+**The jobs:** instrument maker 580, cartographer 496, market keeper 312, builder 232, water keeper 217, cook 158, baker 124, transit steward 124, weaver 119, ceramicist 115, archivist 108, gardener 99.
 
-**The buildings:** Gathering Hall 19, Market Stalls 15, Garden Terrace 14, Home 10, Lookout 9, Workshop 8.
+**The buildings:** Gathering Hall 19, Market Stalls 17, Garden Terrace 16, Home 11, Workshop 11, Lookout 9.
 
 The model returns no written reason with its choices, so none is given here.
 
-**How much of the city that is.** Most of the time Meridian's rules play the residents, and a model plays only some of them. When this was counted, the rules had picked 115 of the 120 tasks under way and a model had picked 5. In about the last world day, a model made 385 choices for 27 residents. Since v8 the model takes all 120 adults in turn, about one every minute and a half, so those numbers will change. What the rules picked is not in the table above, because it has not been counted.
+**How much of the city that is.** Most of the time Meridian's rules play the residents, and a model plays only some of them. When this was counted, the rules had picked 108 of the 112 tasks under way and a model had picked 4. In about the last world day, a model made 528 choices for 120 residents: since v8 it takes all 120 adults in turn, about one every minute and a half. Of its 1,645 choices since v8, none was to spend time with another resident or to ride the Scenic Line, so the 988 in the table are all from before v8. Why has not been looked into yet. What the rules picked is not in the table above, because it has not been counted.
 
 **The city so far, rules and AI together:**
 
 - **122 residents:** 120 adults and 2 children.
 - **3,141 frontier plots charted** out of the fog, with 216 known plots still in it.
-- **306 buildings on the frontier:** 60 garden terraces, 60 market stalls, 51 homes, 48 workshops, 44 gathering halls and 43 lookouts.
-- **The last 32 shared ventures to end,** which is as many as the world keeps: 12 finished, 20 failed (17 ran out of time, 3 had nobody agree in time). 2 more are going now. Earlier versions of this page called this the total proposed, which was wrong.
+- **339 buildings on the frontier:** 69 garden terraces, 68 market stalls, 60 homes, 55 workshops, 44 gathering halls and 43 lookouts.
+- **The last 32 shared ventures to end,** which is as many as the world keeps: 11 finished, 21 failed (13 ran out of time, 8 had nobody agree in time). 2 more are going now. Earlier versions of this page called this the total proposed, which was wrong.
 - **275 requests to borrow something:** 169 lent and returned, 55 declined, 46 ran out of time, 4 cut short and 1 out on loan now.
 
 ---
@@ -48,6 +48,7 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 
 | Version | When | What it added |
 | --- | --- | --- |
+| [v9](#v9-restarts-in-minutes-and-a-new-home-page) | 2 November 2026, 19:54 | Restarts in minutes instead of hours, and a new home page |
 | [v8](#v8-lunas-seat-and-a-city-whose-rules-can-change) | 31 October 2026, 20:41 | Luna's seat, City rules, residents on the Scenic Line, model turns for every adult, public pages and analytics |
 | [v7](#v7-the-scenic-line) | 31 October 2026, 01:37 | A sightseeing train you can ride, a countdown to the next station, doorways |
 | [v6](#v6-explore-the-whole-world) | 30 October 2026, 21:39 | Move anywhere in the world, the Auto button, the Features tab |
@@ -58,6 +59,40 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 | [v1](#v1-the-public-opening) | 24 October 2026 | The public site, showing public facts only |
 
 Everything before v1 happened in private, with no public site to update. That work, including the white-and-gold city, the fog and the first residents, is listed in [FEATURES.md](FEATURES.md) with its own dates.
+
+---
+
+## v9: Restarts in minutes, and a new home page
+
+**2 November 2026, 19:54.** Private commits `ac78ea1` for the engine and `f604476` for the site.
+
+![The new home page on a computer: the live city in a window, the heading beside it, and a large Ride the train button](docs/media/versions/v9-home-computer.jpg)
+
+*The new home page on a computer, in a fresh browser. Taken at 20:00.*
+
+**What changed**
+
+- **Restarts in minutes.** The engine used to check its whole saved history again before it opened: 11 hours 35 minutes on 31 October, an estimated 17 hours by this release, and about 3 hours more each day. It now saves a proof of what it has already checked, opens from the newest one and checks only what came after. The first restart this way closed the city for 10 minutes, from 19:14 to 19:24, and the engine itself opened in 2 minutes. The closure on 31 October was 15 hours 14 minutes.
+- **A new home page.** The city now sits in a window beside a plain statement of what Meridian is, with a Fullscreen button for the whole view. Ride the train is the main button, with Follow Luna and Walk the city beside it, and the places are in a row under the window. Riding, walking, Auto and the resident panel all still work. Putting it up closed the city for under 2 minutes, from 19:52 to 19:54.
+- **Right now.** Under the window, the page counts what residents are doing, how many current tasks AI models chose and how many town rules chose, the latest rule change and how recent ventures ended. It is all counted from the public facts the page already holds, and the proportions stay in view.
+- **Places and sponsorship.** Seven real pictures take you to each place. A plain line at the bottom says Meridian has no sponsor yet, what a sponsor pays for and that it buys no say in the city.
+- **One load on a first visit.** A first visit in a clean browser loaded the page twice, throwing away the city it had started loading. It now loads once. Returning visitors get one reload the first time they come back.
+
+![The Right now section: four counts of what residents are doing, a bar showing 4 tasks chosen by AI models and 117 by town rules, six residents with who chose their task, and the latest rule change](docs/media/versions/v9-right-now.jpg)
+
+*The Right now section, taken at 20:02. The numbers change from minute to minute.*
+
+**Why.** On the page, Jake said: "smaller world view with easier to view secitons perhaps with option for fullscreen , buttons that stand out more with importantce. its messy at the moment i feel". On the closure: "what do we do to fix that ridiculous downtime error today". A city that takes most of a day to come back can't be updated often or recover quickly from a crash.
+
+**How the quick way was checked.** On a copy of the real city, opening through a proof reached the same state as the long way, and five kinds of damage to a proof each sent it back to the long way. So the check has moved rather than gone. A new proof is saved each world hour, and the saved history is checked against the newest proof every day, starting tonight. If a check fails, Jake gets a mail and the next restart takes the long way. Only a test of that mail has been sent, because no check has failed.
+
+**Who did what.** Jake asked for both, chose this layout from Claude's mock-ups and said when to close the site. Claude built and measured them and ran the restart. Jake ran the last two install commands himself.
+
+![The new home page on a phone: the city across the top, the heading, then the Ride the train button](docs/media/versions/v9-home-phone.jpg)
+
+*The same page in a phone-sized window on a computer. Taken at 20:01.*
+
+**Not finished.** A full re-check of old history from the start is not on a schedule yet: it takes over 21 hours, and running it beside the hourly proofs has not been measured. A crash with no good proof to open from is still the long way. A new version of the engine needs its own full proof first, over 21 hours in the background, though no closure for that. The 2 minute open had a proof only moments old, and an open late in the hour has not been timed on the live city. If the hourly proofs stop being made, nothing tells Jake yet, and the next restart would just be slower. On the new page, the View menu looks like a plain label. The Features tab on the site still shows the old entry for restarts until the next site release; [FEATURES.md](FEATURES.md) has the new one. Ventures are still failing, 21 of the last 32 to end.
 
 ---
 

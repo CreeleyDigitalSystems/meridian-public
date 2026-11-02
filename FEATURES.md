@@ -4,7 +4,7 @@ Everything in Meridian, why it exists, and who did what. Jake Creeley sets the d
 
 How credit is worked out: every commit carries the company name, so that proves nothing. The AI credit comes from commit trailers, branches and working records, and where those do not settle it the entry says so. Words in quotation marks are Jake's own, spelling included.
 
-As of 31 October 2026. How it got here, release by release and with pictures: [VERSIONS.md](VERSIONS.md).
+As of 2 November 2026. How it got here, release by release and with pictures: [VERSIONS.md](VERSIONS.md).
 
 ## The world
 
@@ -204,15 +204,25 @@ As of 31 October 2026. How it got here, release by release and with pictures: [V
 
 **AI (Claude and Codex):** Codex built the public facts, the separate reader and the viewer delivery. Claude built the public-only feed and the first bridge and ran an adversarial privacy review, in which none of 411 outputs leaked planted test strings. Codex made the corrections and launched it.
 
-### Live activity and the watching count
+### Right now and the watching count
 
-**Live since 2026-10-26.** A panel of what residents are doing now and what they recently finished. The "watching" number is an approximate count of open tabs, not unique people.
+**Live since 2026-10-26.** A section under the city showing what residents are doing now, counted from the public view, with who chose each task. The "watching" number is an approximate count of open tabs, not unique people.
 
 **Why:** Visitors should be able to see real outcomes without seeing anything private. The count is labelled approximate because bots and extra tabs can move it.
 
 **Jake:** No specific request found in the records searched.
 
-**AI (Codex):** Codex built it.
+**AI (Claude and Codex):** Codex built the first version as a side panel. Claude moved it under the city on the new home page.
+
+### A home page with the city in a window
+
+**Live since 2026-11-02.** The city sits in a smaller window with a fullscreen button, beside what Meridian is and a clear main button to ride the train. Under it: what residents are doing now, the places, and how to sponsor it. Riding, walking and Auto go full size by themselves.
+
+**Why:** The old first screen had 26 clickable things and no main action, and never said what Meridian was. On a phone the controls covered the city.
+
+**Jake:** "smaller world view with easier to view secitons perhaps with option for fullscreen , buttons that stand out more with importantce" and, picking from three mock-ups, "a is the best mockup i agree implement this please."
+
+**AI (Claude):** Claude drew three mock-ups, then built the one Jake picked. The 3D scene is never rebuilt going in and out of full size.
 
 ### AI decision or town routine
 
@@ -334,6 +344,16 @@ As of 31 October 2026. How it got here, release by release and with pictures: [V
 
 **AI (Claude):** Claude built the counting service and the dashboard, wrote the privacy page and set up Google Analytics. Session recordings and search data inside the dashboard are not built.
 
+### Restarts in minutes
+
+**Live since 2026-11-02.** The engine saves a proof of the history it has already checked and opens from the newest one, checking only what came after. If a proof fails any check, it goes back to checking everything, which is still about 17 hours and growing. A new proof is saved each world hour, and the saved history is checked against it daily. The first restart this way closed the city for 10 minutes.
+
+**Why:** On 31 October a restart closed the city for over 15 hours, and that time grew by about 3 hours a day. A city that takes most of a day to come back can't be updated often or recover quickly from a crash.
+
+**Jake:** "what do we do to fix that ridiculous downtime error today", then "swap! close site and fix please". He ran the last install commands himself.
+
+**AI (Claude):** Claude built it, measured it on a copy of the real city and ran the restart. A failed check mails Jake; so far only a test mail has been sent. A full re-check of old history is not on a schedule yet.
+
 ## On the way
 
 ### A real working harbour
@@ -446,15 +466,15 @@ As of 31 October 2026. How it got here, release by release and with pictures: [V
 
 **AI (Claude):** Claude built it.
 
-### Faster restarts, smaller history
+### Smaller history
 
-**Planned.** Reopening the city after an engine update takes close to two hours today, and the aim is minutes. New history would also take at least half the space, with nothing old deleted or rewritten.
+**Planned.** New history would take at least half the space, with nothing old deleted or rewritten.
 
-**Why:** Long restarts mean long closures, and the world's history is growing faster than its storage can hold for long.
+**Why:** The world's history is growing faster than its storage can hold for long.
 
-**Jake:** No request in his own words found for these two items.
+**Jake:** No request in his own words found for this.
 
-**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Claude. Codex has already written part of the faster start.
+**AI (not built yet):** Not built yet. Claude wrote the work order and it is queued for Claude.
 
 ### Following a journey, and a richer look
 
