@@ -82,8 +82,8 @@
     },
     {
       "path": "VERSIONS.md",
-      "bytes": 26147,
-      "sha256": "7555e6f419bfc5f50284d12b33055a675fc8657e465c4b0cac0a58d9abd8e9cc",
+      "bytes": 30732,
+      "sha256": "eadcd7da3471d8a85d7b6746ef017908bdc931d67d2124e020021acd411afe92",
       "sourceSha256": null,
       "action": "authored"
     },
@@ -499,6 +499,27 @@
       "action": "authored",
       "bytes": 558,
       "sha256": "fcc35e3204287910c40b370710487cab781e7112de2413ea84701bd76a4dcf59"
+    },
+    {
+      "path": "docs/media/versions/v10-night.jpg",
+      "bytes": 188286,
+      "sha256": "03d5a3a322fe18793583bf961d9d719b20dbcfe167f8376e2eefe05904bb53e3",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v10-rail-after.jpg",
+      "bytes": 138258,
+      "sha256": "fa317744119ebe27e19daec7a95046ec89cca6af535bedfef0780ca7b2aaa0a7",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v10-rail-before.jpg",
+      "bytes": 133171,
+      "sha256": "6b5b82e580abd1739511a3f4c157611b158cb8a86cd4635e03e55914cc704d4a",
+      "sourceSha256": null,
+      "action": "authored"
     },
     {
       "path": "docs/media/versions/v2-central.jpg",

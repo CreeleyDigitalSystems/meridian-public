@@ -2,38 +2,38 @@
 
 ## What the AI residents have done
 
-Counted on 2 November 2026 at about 20:00 Sydney time, 48 world days in, and updated with each release. Each line counts choices a language model made for a resident and the world accepted, taken from the world's decision record. A choice can still be cut short, so these count choices, not finished actions.
+Counted on 2 November 2026 at about 22:40 Sydney time, 48 world days in, and updated with each release. Each line counts choices a language model made for a resident and the world accepted, taken from the world's decision record. A choice can still be cut short, so these count choices, not finished actions.
 
 | What they chose to do | Times | Residents |
 | --- | ---: | ---: |
-| Do their job | 2,684 | 117 |
-| Think and reflect | 2,317 | 119 |
-| Recover energy at home | 1,728 | 99 |
+| Do their job | 2,717 | 117 |
+| Think and reflect | 2,362 | 119 |
+| Recover energy at home | 1,735 | 100 |
 | Spend time with another resident | 988 | 71 |
-| Survey a place | 97 | 10 |
-| Work on a new building | 83 | 11 |
-| Chart the fog | 83 | 10 |
+| Survey a place | 102 | 10 |
+| Work on a new building | 84 | 11 |
+| Chart the fog | 84 | 10 |
 | Work on a shared venture | 15 | 5 |
 | Use a tool | 14 | 2 |
 | Hand over borrowed tools | 3 | 1 |
 | Return a tool | 1 | 1 |
 | Not labelled in the record | 12 | 2 |
-| **All choices** | **8,025** | **120** |
+| **All choices** | **8,117** | **120** |
 
-**The jobs:** instrument maker 580, cartographer 496, market keeper 312, builder 232, water keeper 217, cook 158, baker 124, transit steward 124, weaver 119, ceramicist 115, archivist 108, gardener 99.
+**The jobs:** instrument maker 584, cartographer 496, market keeper 317, builder 236, water keeper 221, cook 162, transit steward 125, baker 124, weaver 123, ceramicist 117, archivist 111, gardener 101.
 
-**The buildings:** Gathering Hall 19, Market Stalls 17, Garden Terrace 16, Home 11, Workshop 11, Lookout 9.
+**The buildings:** Gathering Hall 19, Market Stalls 18, Garden Terrace 16, Workshop 11, Home 11, Lookout 9.
 
 The model returns no written reason with its choices, so none is given here.
 
-**How much of the city that is.** Most of the time Meridian's rules play the residents, and a model plays only some of them. When this was counted, the rules had picked 108 of the 112 tasks under way and a model had picked 4. In about the last world day, a model made 528 choices for 120 residents: since v8 it takes all 120 adults in turn, about one every minute and a half. Of its 1,645 choices since v8, none was to spend time with another resident or to ride the Scenic Line, so the 988 in the table are all from before v8. Why has not been looked into yet. What the rules picked is not in the table above, because it has not been counted.
+**How much of the city that is.** Most of the time Meridian's rules play the residents, and a model plays only some of them. When this was counted, the rules had picked 107 of the 114 tasks under way and a model had picked 7. In about the last world day, a model made 497 choices for 120 residents: since v8 it takes all 120 adults in turn, about one every minute and a half. Of its 1,737 choices since v8, none was to spend time with another resident or to ride the Scenic Line, so the 988 in the table are all from before v8. The drop began earlier than v8, on 27 October, when the world changed how it puts the choice to the model: time with others fell from about a third of its choices to 2 of about 3,800. In a side test on a frozen copy of the public facts, the same model given a plainer description of residents' lives chose time with others 12 times in 60 and the ride once. That wording goes live in a later release, so the real numbers are still to come. The model gives no reason with its choices, so this describes what changed, not why it chose. What the rules picked is not in the table above, because it has not been counted.
 
 **The city so far, rules and AI together:**
 
 - **122 residents:** 120 adults and 2 children.
 - **3,141 frontier plots charted** out of the fog, with 216 known plots still in it.
-- **339 buildings on the frontier:** 69 garden terraces, 68 market stalls, 60 homes, 55 workshops, 44 gathering halls and 43 lookouts.
-- **The last 32 shared ventures to end,** which is as many as the world keeps: 11 finished, 21 failed (13 ran out of time, 8 had nobody agree in time). 2 more are going now. Earlier versions of this page called this the total proposed, which was wrong.
+- **344 buildings on the frontier:** 71 garden terraces, 70 market stalls, 60 homes, 56 workshops, 44 gathering halls and 43 lookouts.
+- **The last 32 shared ventures to end,** which is as many as the world keeps: 10 finished, 22 failed (13 ran out of time, 9 had nobody agree in time). 2 more are going now. Earlier versions of this page called this the total proposed, which was wrong.
 - **275 requests to borrow something:** 169 lent and returned, 55 declined, 46 ran out of time, 4 cut short and 1 out on loan now.
 
 ---
@@ -48,6 +48,7 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 
 | Version | When | What it added |
 | --- | --- | --- |
+| [v10](#v10-nobody-in-the-sky-nothing-through-the-rail-and-the-night-button-back) | 2 November 2026, 23:02 | Riders no longer walk through the air, the rail clears the lookouts, the night button is back |
 | [v9](#v9-restarts-in-minutes-and-a-new-home-page) | 2 November 2026, 19:54 | Restarts in minutes instead of hours, and a new home page |
 | [v8](#v8-lunas-seat-and-a-city-whose-rules-can-change) | 31 October 2026, 20:41 | Luna's seat, City rules, residents on the Scenic Line, model turns for every adult, public pages and analytics |
 | [v7](#v7-the-scenic-line) | 31 October 2026, 01:37 | A sightseeing train you can ride, a countdown to the next station, doorways |
@@ -59,6 +60,38 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 | [v1](#v1-the-public-opening) | 24 October 2026 | The public site, showing public facts only |
 
 Everything before v1 happened in private, with no public site to update. That work, including the white-and-gold city, the fog and the first residents, is listed in [FEATURES.md](FEATURES.md) with its own dates.
+
+---
+
+## v10: Nobody in the sky, nothing through the rail, and the night button back
+
+**2 November 2026, 23:02.** Private commit `8cc4208`, for the site only. The engine and the world did not change.
+
+![Before: the little train's rail running through the dome of a lookout on the first ring of the frontier](docs/media/versions/v10-rail-before.jpg)
+
+*Before: the little train's rail runs through a lookout's dome. Taken at 21:31 from a build on Claude's machine showing the live city's public facts, with the camera aimed at the lookout by hand.*
+
+![After: the same lookout with its dome and finial clear under the raised rail](docs/media/versions/v10-rail-after.jpg)
+
+*After: the rail passes over the same lookout. Taken at 21:42 the same way, before the night button went back.*
+
+**What changed**
+
+- **Riders stay on the train until it stops.** The world says which stop a train has reached, and the drawn train gets there a moment later. Riders were let off as soon as the world's minute turned, then walked to the top of the stairs in a straight line at rail height. Replaying the live feed through the old code, 13 riders did that in 6.5 minutes, the longest for 15 seconds and 42 units. They now ride in with the train and step off once it has stopped. If it never pulls in, they appear at the top of the stairs instead. No long walk can start from off the ground any more, whatever the reason.
+- **The rail clears the lookouts.** The little train's rail ran at height 9, straight over the middle of the first ring's plots, and the two lookouts there reach 11. The residents didn't build into it: the lookouts went up around world minute 15,000 and the rail arrived at minute 56,069, so it was wrong from the day it opened. It now runs at 12, and the station stairs and Meridian Central's vault and towers went up with it.
+- **The night button is back.** v9 moved day and night into the View menu, and nothing showed that View opened. That was Claude's mistake. It now sits on the city window beside Fullscreen and stays there at full size. View has an arrow now too.
+
+![The home page at night on the public site, with the Day and Fullscreen buttons at the top of the city window](docs/media/versions/v10-night.jpg)
+
+*The public site after pressing Night, in a fresh browser. Taken at 23:04.*
+
+**Why.** Jake was watching the live city: "they also started floating again today and built through the railway line". While the fix was being built: "theres still a house through the railway lol", "and just saw a character walking through the sky" and "the night time button has vanished too".
+
+**How it was checked.** Two replays of the live feed went through the real walking code, frame by frame, with the real train movement: 64 snapshots, 38,400 frames, 32 minutes of real time. Nobody crossed open air. All they flagged were 15 riders taking a one-second step from the train down onto Meridian Central's platform deck, which is solid floor. For the rail, 18,191 drawn building parts and 632,013 triangles of the city model were tested against every line. On the old rail exactly two buildings met it, those two lookouts. On the new one nothing meets any line. The site was closed for 2 minutes 29 seconds and the engine paused for 1 minute 19 seconds, and the files on the public site match the build byte for byte. The replays test the code against real data. Nobody has yet sat and watched hours of rides on the public site.
+
+**Still not right.** The little train stands still between minutes, then darts to the next stop in about 2 seconds. Six plots that nobody has built on, from ring 18 outward, are close enough to the Scenic Line's stop towers that a building there could hit one. Building has only reached ring 9.
+
+**Who did what.** Jake spotted all three on the live site and ran the deploy command. Claude found the causes, built the fixes and measured them.
 
 ---
 
