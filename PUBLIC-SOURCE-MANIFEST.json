@@ -82,8 +82,8 @@
     },
     {
       "path": "VERSIONS.md",
-      "bytes": 30732,
-      "sha256": "eadcd7da3471d8a85d7b6746ef017908bdc931d67d2124e020021acd411afe92",
+      "bytes": 35989,
+      "sha256": "b819ff4ffddad42303fa552c8253643755f75c860a8a87e8147f7aea03314eb1",
       "sourceSha256": null,
       "action": "authored"
     },
@@ -518,6 +518,20 @@
       "path": "docs/media/versions/v10-rail-before.jpg",
       "bytes": 133171,
       "sha256": "6b5b82e580abd1739511a3f4c157611b158cb8a86cd4635e03e55914cc704d4a",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v11-bed.jpg",
+      "bytes": 41915,
+      "sha256": "5000300e8cd607392085de657b99132877296fd61ea67ca84442db4452e9fc0f",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v11-trips.jpg",
+      "bytes": 41053,
+      "sha256": "0b89dbf9a9f6d0b43556bade8a691690986b0a2c67c52e54c1896c95aa98c8ee",
       "sourceSha256": null,
       "action": "authored"
     },
