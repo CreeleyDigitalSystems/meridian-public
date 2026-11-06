@@ -48,6 +48,7 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 
 | Version | When | What it added |
 | --- | --- | --- |
+| [v12](#v12-bodies-sooner-and-riders-in-their-seats) | 7 November 2026, 08:45 | Residents' bodies appear in about a third of the time, and Scenic Line riders sit in the seats |
 | [v11](#v11-home-to-bed-bodies-that-move-and-lunas-workbench) | 6 November 2026, 17:57 and 19:28 | Residents rest indoors and lie on the bed, bodies move with their task, trips are named, a plainer question to the AI, Luna's workbench |
 | [v10](#v10-nobody-in-the-sky-nothing-through-the-rail-and-the-night-button-back) | 2 November 2026, 23:02 | Riders no longer walk through the air, the rail clears the lookouts, the night button is back |
 | [v9](#v9-restarts-in-minutes-and-a-new-home-page) | 2 November 2026, 19:54 | Restarts in minutes instead of hours, and a new home page |
@@ -61,6 +62,46 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 | [v1](#v1-the-public-opening) | 24 October 2026 | The public site, showing public facts only |
 
 Everything before v1 happened in private, with no public site to update. That work, including the white-and-gold city, the fog and the first residents, is listed in [FEATURES.md](FEATURES.md) with its own dates.
+
+---
+
+## v12: Bodies sooner, and riders in their seats
+
+**7 November 2026, 08:45.** The site moved to private commit `a107106`. The engine didn't change.
+
+![Inside the Scenic Line's front carriage: three residents sit on the seats with bent knees, shins and shoes in front of the seats](docs/media/versions/v12-riders-seated.jpg)
+
+*Inside the Scenic Line with v12, looking back from the front of the carriage. Taken before the release, on 7 November at about 03:40, in a browser on Claude's machine. The ride comes from a test world the real engine ran, not from the live city.*
+
+![The same view with v11: the same three riders stand sunk into the seats, only their bodies above the cushions showing](docs/media/versions/v12-riders-before.jpg)
+
+*The same ride and view with v11, the build that was live, for comparison. Taken on Claude's machine at about 03:43, before the release.*
+
+**What changed**
+
+- **Bodies appear sooner.** A resident's body used to take over a minute to appear after the page opened, and about as long on a return visit. The body files are now about half the size (49 MB down to 22 MB on a first visit with every body), the ones on screen load first, loading starts as soon as the page does, and the files are kept by the browser for a year, so a returning visitor downloads about 4 MB instead of 49 MB. The movements are stored a little less exactly (each file is checked to be under a twentieth of a degree out at every joint) and the skin pictures in a smaller format.
+- **Riders sit in the seats.** Residents riding the Scenic Line used to be drawn standing, with their feet about 25 cm below the carriage floor and their legs inside the seats. They now sit on the cushion with their knees bent, shins down to the floor and hands on their laps, for short and tall residents alike, and on the steepest climbs and descents. The seats are set back underneath, so the shins show in front of them.
+
+**Why.** Jake approved the work with "approve all" and the release with "and ship 12 in the meantime". Both were found watching the live city: bodies were slow enough that visitors saw stand-in figures for the first minute, and riders looked like they were standing in the floor.
+
+**How it was checked.** The load times were measured before and after on the same slow test machine, which draws in software at about one frame a second, so the real times on a phone or computer should be shorter than these, though nobody has checked on one yet. With every body:
+
+| | First body | All bodies | Body files downloaded |
+| --- | ---: | ---: | ---: |
+| v11, first visit | 76 s | 81 s | 49 MB |
+| v12, first visit | 23 s | 48 s | 22 MB |
+| v11, returning | 79 s | 79 s | 49 MB |
+| v12, returning | 19 s | 39 s | 4 MB |
+
+With the lighter mode, the first body came in 21 seconds instead of 58. The seating was checked by replaying a whole ride from the real engine, six riders over 18 world minutes, frame by frame: in all 41,286 rider frames each rider sat on a drawn cushion in the right carriage, feet on the floor and inside the walls. The same replay with v11 had every rider's feet 24 to 26 cm below the floor. The public file audit passed for all 113 files, including the 34 smaller body files. The site was closed for about 2 minutes 13 seconds while the new viewer did its first full check, with the city engine paused for 65 seconds of that. After it reopened, the server's own check loaded the page, a picture, the rules and the Scenic Line from inside, and a body file came back from outside with its one-year cache.
+
+**Still not right.**
+- The city model itself (3.9 MB) is still downloaded again on every visit, because its name doesn't change when it does.
+- The bodies have no sitting movement in the library they come from, so sitting is made by bending a standing body's joints. Seated riders don't move their arms or look around.
+- The smaller body files haven't been compared side by side with the old ones up close.
+- The live feed still goes stale more often than before 6 November (see v11). v12 doesn't change that.
+
+**Who did what.** Jake approved the work and said when to ship it. Claude found both causes, built the smaller body files, the loading order and the seating, measured before and after, wrote the deploy kit and ran the deploy.
 
 ---
 
