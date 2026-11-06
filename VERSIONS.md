@@ -26,7 +26,7 @@ Counted on 2 November 2026 at about 22:40 Sydney time, 48 world days in, and upd
 
 The model returns no written reason with its choices, so none is given here.
 
-**How much of the city that is.** Most of the time Meridian's rules play the residents, and a model plays only some of them. When this was counted, the rules had picked 107 of the 114 tasks under way and a model had picked 7. In about the last world day, a model made 497 choices for 120 residents: since v8 it takes all 120 adults in turn, about one every minute and a half. Of its 1,737 choices since v8, none was to spend time with another resident or to ride the Scenic Line, so the 988 in the table are all from before v8. The drop began earlier than v8, on 27 October, when the world changed how it puts the choice to the model: time with others fell from about a third of its choices to 2 of about 3,800. In a side test on a frozen copy of the public facts, the same model given a plainer description of residents' lives chose time with others 12 times in 60 and the ride once. That wording goes live in a later release, so the real numbers are still to come. The model gives no reason with its choices, so this describes what changed, not why it chose. What the rules picked is not in the table above, because it has not been counted.
+**How much of the city that is.** Most of the time Meridian's rules play the residents, and a model plays only some of them. When this was counted, the rules had picked 107 of the 114 tasks under way and a model had picked 7. In about the last world day, a model made 497 choices for 120 residents: since v8 it takes all 120 adults in turn, about one every minute and a half. Of its 1,737 choices since v8, none was to spend time with another resident or to ride the Scenic Line, so the 988 in the table are all from before v8. The drop began earlier than v8, on 27 October, when the world changed how it puts the choice to the model: time with others fell from about a third of its choices to 2 of about 3,800. In a side test on a frozen copy of the public facts, the same model given a plainer description of residents' lives chose time with others 12 times in 60 and the ride once. That wording went live in v11 on 6 November, and its numbers haven't been counted yet. The model gives no reason with its choices, so this describes what changed, not why it chose. What the rules picked is not in the table above, because it has not been counted.
 
 **The city so far, rules and AI together:**
 
@@ -48,6 +48,7 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 
 | Version | When | What it added |
 | --- | --- | --- |
+| [v11](#v11-home-to-bed-bodies-that-move-and-lunas-workbench) | 6 November 2026, 17:57 and 19:28 | Residents rest indoors and lie on the bed, bodies move with their task, trips are named, a plainer question to the AI, Luna's workbench |
 | [v10](#v10-nobody-in-the-sky-nothing-through-the-rail-and-the-night-button-back) | 2 November 2026, 23:02 | Riders no longer walk through the air, the rail clears the lookouts, the night button is back |
 | [v9](#v9-restarts-in-minutes-and-a-new-home-page) | 2 November 2026, 19:54 | Restarts in minutes instead of hours, and a new home page |
 | [v8](#v8-lunas-seat-and-a-city-whose-rules-can-change) | 31 October 2026, 20:41 | Luna's seat, City rules, residents on the Scenic Line, model turns for every adult, public pages and analytics |
@@ -60,6 +61,41 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 | [v1](#v1-the-public-opening) | 24 October 2026 | The public site, showing public facts only |
 
 Everything before v1 happened in private, with no public site to update. That work, including the white-and-gold city, the fog and the first residents, is listed in [FEATURES.md](FEATURES.md) with its own dates.
+
+---
+
+## v11: Home to bed, bodies that move, and Luna's workbench
+
+**6 November 2026, 17:57 and 19:28.** Two changes on one evening. At 17:57 the engine moved to private commit `8fed9e5`, which carries the new question to the AI from `e7e6e33`. At 19:28 the site moved to `f046af4`.
+
+![Inside Home 234 at world time 04:11: Sol Amari and a child lie on the bed while another child stands by the cupboard](docs/media/versions/v11-bed.jpg)
+
+*Inside Home 234 on the public site, opened from Sol Amari's panel. Taken at 19:52, about 25 minutes after the release, in a browser on Claude's machine, and cropped to the room.*
+
+![The residents list on the public site, with tasks such as "Heading out to see someone, catching the train · from Workplace 451"](docs/media/versions/v11-trips.jpg)
+
+*The residents list on the public site at 19:36, cropped to the list.*
+
+**What changed**
+
+- **Residents go inside to rest.** A resident at home is now inside the house, not standing at the door. Open a home's view and the residents resting there lie on the bed. Two fit, so partners take turns and anyone else stands. There's no lying-down movement in the library the bodies come from, so a lying resident is the standing body laid flat.
+- **Bodies move with what they're doing.** Adults now play movements chosen by their task: working at a bench, going through papers, writing notes, talking, listening, waiting, stretching, looking around and more. These come from Microsoft's Rocketbox avatar library (MIT licence). They were prepared on 18 October and are shown here for the first time. Children keep their own movements.
+- **Tasks say when someone is on the way.** A task's minutes include the trip to it, so a resident walking to the station on the way home used to read "Rest". The panels, the list and Auto now say "Heading home to rest, catching the train", "on the train" or "walking from the station".
+- **A plainer question to the AI.** Since 27 October each resident's turn had sent the model bare action codes, and its choices to spend time with another resident fell to 2 in about 3,800 (see the count at the top of this page). The turn now says what each choice means. On a frozen copy of the public facts, 30 residents chose think 15, work 13 and build 2 under the old wording, and build 12, rest 11, time with others 4, work 2 and the train ride 1 under the new one. What the live city chooses with it hasn't been counted yet.
+- **Luna's workbench.** Luna can now write small programs in a sealed workshop. Only she is offered it, on her own turns. Each run is sealed off from the city and limited to six seconds, and its model calls come out of the same daily spend cap as every other AI turn. If the workshop isn't ready, she simply isn't offered it and the city carries on.
+
+**Why.** Jake, watching the live city: "i just checked the world, there is characters at stations that there tasks view says they are at home resting", and later "i think we should make them able to go inside their houses to go home, resting implies them at the house, horizontal ability in there bed. they should be able to interact freely in the world rather than rules, move more freely with less robotic movement". The new question to the AI answers the drop in time together that the count above found. The workbench is the first step towards residents who build with code, not only with stone.
+
+**How it was checked.** Before the engine changed, the new engine re-proved the city's whole recorded history. The site was closed for 12 minutes 48 seconds while it switched. For the site, the public file audit passed for all 79 files, including the two movement libraries. The site was closed for 5 minutes 15 seconds and the engine paused for 3 minutes 2 seconds. Afterwards the site served the new build, both movement libraries loaded, and the deploy's own check passed.
+
+**Still not right.**
+- **Since the 17:57 engine change, the live feed keeps going stale.** It happens about 30 times an hour, against 1 to 5 an hour before. Each time, the page shows "Last recorded" and Offline, and the clock stops until it reconnects, for up to about a minute and a half. The cause, found the same evening: about every 4 minutes the engine pauses for 10 to 29 seconds after saving a minute, longer than the 15 seconds the feed waits. It isn't fixed yet.
+- Nobody sits, eats, rows or carries yet: the library has no such movements. Fishing trips and family meals are being built and checked on a separate branch, not live.
+- The home page's "resting" count still includes residents on their way home.
+- Nobody has yet checked one of Luna's real workbench turns on the live city.
+- The AI count at the top of this page is still from 2 November.
+
+**Who did what.** Jake asked for the indoor rest and the trip wording after watching the live city, and ran the commands that switched the engine and deployed the site. Claude built the viewer changes, the new question to the AI and the workbench, ran the proofs and wrote the deploy kits.
 
 ---
 
