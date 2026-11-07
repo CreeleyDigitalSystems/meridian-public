@@ -48,6 +48,7 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 
 | Version | When | What it added |
 | --- | --- | --- |
+| [v13](#v13-the-same-city-drawn-in-far-fewer-pieces) | 7 November 2026, 14:50 | The city is drawn in about a ninth of the pieces each frame, with the same look |
 | [v12](#v12-bodies-sooner-and-riders-in-their-seats) | 7 November 2026, 08:45 | Residents' bodies appear in about a third of the time, and Scenic Line riders sit in the seats |
 | [v11](#v11-home-to-bed-bodies-that-move-and-lunas-workbench) | 6 November 2026, 17:57 and 19:28 | Residents rest indoors and lie on the bed, bodies move with their task, trips are named, a plainer question to the AI, Luna's workbench |
 | [v10](#v10-nobody-in-the-sky-nothing-through-the-rail-and-the-night-button-back) | 2 November 2026, 23:02 | Riders no longer walk through the air, the rail clears the lookouts, the night button is back |
@@ -62,6 +63,54 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 | [v1](#v1-the-public-opening) | 24 October 2026 | The public site, showing public facts only |
 
 Everything before v1 happened in private, with no public site to update. That work, including the white-and-gold city, the fog and the first residents, is listed in [FEATURES.md](FEATURES.md) with its own dates.
+
+---
+
+## v13: The same city, drawn in far fewer pieces
+
+**7 November 2026, 14:50.** The site moved to private commit `80d1864`. The engine didn't change, and no public file was added or removed.
+
+![The home page with v13: the Founding District from the Arrival view, terraces, balustrades and palms in full detail, the clock tower behind](docs/media/versions/v13-arrival.jpg)
+
+*The home page with v13 at the Arrival view. Taken before the release, on 7 November at about 09:00, in a test browser on Claude's machine that draws in software. The city is a snapshot of the live city taken at 08:50 the same morning.*
+
+![The same view with v12, the build that was live: it looks the same](docs/media/versions/v13-arrival-before.jpg)
+
+*The same snapshot and view with v12, the build that was live, for comparison. Same machine, same morning.*
+
+**What changed**
+
+- **The city is drawn in far fewer pieces.** Each frame, the browser used to ask the graphics card to draw over a thousand separate pieces at the default view. Buildings, terrain, civic architecture and Meridian Central are now grouped, so pieces that look alike are drawn together. Every fixed view is now under 140 draws at full quality, the limit set in September.
+- **Fewer triangles where nobody can see them.** Far-off buildings use their simpler model, distant residents switch to the light figures sooner, and residents only cast shadows when their shadow can land on screen.
+- **The look stays the same.** The first v13 build switched the Founding District to the simpler models at the Arrival view, which flattened its balustrades and stonework. That was caught by comparing it with v12 side by side and fixed before release: the two pictures above differ in 0.15% of their pixels.
+
+**Why.** Jake approved the work with "yes build v13" and the release with "ship 13". The city had grown to more than a thousand draws a frame at the default view, eight times the limit set in September for computer and phone screens alike.
+
+**How it was checked.** Both builds drew the same snapshot of the live city from the same fixed cameras, in the same software-drawing test browser, and the browser's own counters were read:
+
+| View (full quality, computer screen) | v12 draws | v13 draws | v12 triangles | v13 triangles |
+| --- | ---: | ---: | ---: | ---: |
+| Arrival | 1,165 | 131 | 3.03M | 1.37M |
+| Frontier | 1,148 | 115 | 3.04M | 0.88M |
+| Observatory | 978 | 106 | 2.94M | 0.92M |
+| Port | 662 | 95 | 2.21M | 0.40M |
+| Construction | 624 | 121 | 2.10M | 0.56M |
+
+On a phone-sized screen, Arrival went from 1,189 draws to 110. In the lighter mode, every view went from 164–618 draws to 72–95. The tests passed (411 for the city drawing, 170 for the site), and so did the public file audit for all 113 files. The site was closed for 3 minutes 29 seconds while the new viewer did its first full check, with the city engine paused for 65 seconds of that. After the release, the browser built into Claude's app opened the live site and counted 120 draws a frame at the Arrival view, at whatever quality it picked for itself, by counting its own draw requests over 30 frames.
+
+![The live home page a minute after the release: the Founding District at the Arrival view, with the residents' tally below](docs/media/versions/v13-live-home.jpg)
+
+*The live home page with v13, taken at 14:51, a minute after the release, in the browser built into Claude's app.*
+
+**Also fixed the same day.** From v12 at 08:45 until 14:40, residents on the live site showed as block figures instead of their bodies. v12's smaller body files need WebAssembly to unpack, and the site's security policy blocked it. Jake spotted it on the live site. The policy now allows WebAssembly and nothing else new; it changed at 14:40, ten minutes before v13, without closing the site. See v12 for why the checks missed it.
+
+**Still not right.**
+- The Scenic Line train isn't grouped yet, so it still adds about 37 draws when it is in view (counted before v13).
+- Where two finishes already fought for the same spot (gold trim against ivory stone, kerbs against paving), a few dots can show the other one now. They were checked up close and look the same to the eye.
+- The speed-up hasn't been timed on a real phone yet; the counts above are what the browser was asked to draw, not frame times.
+- Nobody has looked at a body up close on the live site since the 14:40 fix. The live page loaded 23 body files with no errors.
+
+**Who did what.** Jake approved the work, said when to ship it, spotted the block bodies and ran the command that fixed the security policy. Claude grouped the buildings, terrain, civic architecture and Meridian Central, wrote the finish tables that let many untextured finishes share one draw, built v13 from v12, found and fixed the Arrival look, measured before and after, found the cause of the block bodies, wrote both deploy kits and ran the v13 deploy.
 
 ---
 
@@ -96,6 +145,7 @@ Everything before v1 happened in private, with no public site to update. That wo
 With the lighter mode, the first body came in 21 seconds instead of 58. The seating was checked by replaying a whole ride from the real engine, six riders over 18 world minutes, frame by frame: in all 41,286 rider frames each rider sat on a drawn cushion in the right carriage, feet on the floor and inside the walls. The same replay with v11 had every rider's feet 24 to 26 cm below the floor. The public file audit passed for all 113 files, including the 34 smaller body files. The site was closed for about 2 minutes 13 seconds while the new viewer did its first full check, with the city engine paused for 65 seconds of that. After it reopened, the server's own check loaded the page, a picture, the rules and the Scenic Line from inside, and a body file came back from outside with its one-year cache.
 
 **Still not right.**
+- **On the live site, the bodies didn't appear at all until 14:40.** The smaller body files need WebAssembly to unpack, and the site's security policy blocked it, so every resident showed the block figure for about six hours. The load times above were measured on Claude's machine without that policy, and the check after the release fetched a body file but didn't unpack it, so neither caught it. Jake noticed; the policy was fixed at 14:40 (see v13).
 - The city model itself (3.9 MB) is still downloaded again on every visit, because its name doesn't change when it does.
 - The bodies have no sitting movement in the library they come from, so sitting is made by bending a standing body's joints. Seated riders don't move their arms or look around.
 - The smaller body files haven't been compared side by side with the old ones up close.
