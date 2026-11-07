@@ -82,8 +82,8 @@
     },
     {
       "path": "VERSIONS.md",
-      "bytes": 35989,
-      "sha256": "b819ff4ffddad42303fa552c8253643755f75c860a8a87e8147f7aea03314eb1",
+      "bytes": 45973,
+      "sha256": "9c8d901cd8451f9f22d415b72b97ac540cb90121a729b9c23979a47156656457",
       "sourceSha256": null,
       "action": "authored"
     },
@@ -532,6 +532,41 @@
       "path": "docs/media/versions/v11-trips.jpg",
       "bytes": 41053,
       "sha256": "0b89dbf9a9f6d0b43556bade8a691690986b0a2c67c52e54c1896c95aa98c8ee",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v12-riders-before.jpg",
+      "bytes": 33449,
+      "sha256": "7b0402863d2abf0df8ac9e9e5fc98405ae0bc646f2651a5bd462170f1b0db3fa",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v12-riders-seated.jpg",
+      "bytes": 37366,
+      "sha256": "25da0f672d061a5be9c407ff3065e89fb8b212d2f9160d3a57d70bf3876b9f25",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v13-arrival-before.jpg",
+      "bytes": 265942,
+      "sha256": "3e125fadde10b9fec43d27f92b557e0616e0222484183d9c901316a7fd58932e",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v13-arrival.jpg",
+      "bytes": 265807,
+      "sha256": "6da04413c637562dd12280c07e2193b60455819cfeb0852cbbb46baa1092bf7d",
+      "sourceSha256": null,
+      "action": "authored"
+    },
+    {
+      "path": "docs/media/versions/v13-live-home.jpg",
+      "bytes": 73358,
+      "sha256": "75c3c71df8092d210846250df51fbeddbd29555022d8deeeb7bce00f8aaad7fb",
       "sourceSha256": null,
       "action": "authored"
     },
