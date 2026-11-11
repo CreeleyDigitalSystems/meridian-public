@@ -48,6 +48,7 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 
 | Version | When | What it added |
 | --- | --- | --- |
+| [v14](#v14-a-working-harbour-fishing-and-meals-and-births-switched-on) | 10 November 2026, 02:34 and 07:01 | A working harbour with fishing, cooking and meals, births switched on, a smaller history, and long walks along the streets |
 | [v13](#v13-the-same-city-drawn-in-far-fewer-pieces) | 7 November 2026, 14:50 | The city is drawn in about a ninth of the pieces each frame, with the same look |
 | [v12](#v12-bodies-sooner-and-riders-in-their-seats) | 7 November 2026, 08:45 | Residents' bodies appear in about a third of the time, and Scenic Line riders sit in the seats |
 | [v11](#v11-home-to-bed-bodies-that-move-and-lunas-workbench) | 6 November 2026, 17:57 and 19:28 | Residents rest indoors and lie on the bed, bodies move with their task, trips are named, a plainer question to the AI, Luna's workbench |
@@ -63,6 +64,45 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 | [v1](#v1-the-public-opening) | 24 October 2026 | The public site, showing public facts only |
 
 Everything before v1 happened in private, with no public site to update. That work, including the white-and-gold city, the fog and the first residents, is listed in [FEATURES.md](FEATURES.md) with its own dates.
+
+---
+
+## v14: A working harbour, fishing and meals, and births switched on
+
+**10 November 2026, 02:34 and 07:01.** Two changes on one night. At 02:34 the engine moved to private commit `a6f57e1` and the site to `c59f184`, and five switches went on: the harbour, food, storage, population and family choices. At 07:01 the site moved to `b91e4da`, which changes how long walks are drawn.
+
+There are no pictures for this release yet.
+
+**What changed**
+
+- **A working harbour.** Residents build boats at the harbour from timber and stone, crew them by their own choice, and carry timber and stone between the harbour and the city. The bay is now kept out of charting. The harbour opened at world minute 86107, and a resident built the first boat.
+- **Fishing, cooking and meals.** Residents now get hungry. They take a boat out to fish, cook the catch and eat at home or out, and whoever caught the fish chooses whether it feeds themselves, their household or the community. Counted from the public facts on 11 November at world minute 88885: 24 fishing trips, 253 fish caught, 214 cooked and 131 eaten.
+- **Births can happen.** Households form, and a baby is tried for, only when one adult asks and the other accepts on their own turn. Nobody arrives except by birth, children age one year every 30 world days, and the ceiling is 240. A pregnancy lasts 22.5 world days, so nobody has been born yet: on 11 November the city still had 122 residents, 120 adults and 2 children.
+- **A smaller history.** New history is written in a more compact form, and nothing old is rewritten. On copies of the real world with the harbour and food on, a world day of new history went from 135.2 MB to 56.0 MB. It hasn't been measured on the live city.
+- **The viewer shows them,** reading only the public facts, and the Live badge now counts the city's public events as they arrive.
+- **Long walks take the streets** (07:01). During a long walk the engine keeps a resident at their starting place until they arrive, and the viewer used to pace them round a small triangle on the spot. They now walk calmly by the streets with one to three stops on the way, and the caption says they stopped partway to where they are going.
+- **More is built but switched off.** The new engine also carries parts of resident life that Codex built and that have no switch in the live city yet, among them goals that last, what residents know, households sharing chores, trade and co-op stores, learning a craft, meeting places residents choose, and one railway joining the city loop and the Scenic Line. [FEATURES.md](FEATURES.md) lists them as built, not switched on.
+
+**Why.** Jake wants residents to "decide to jump onto the boats and go fishing for food, then at times either eat at restaurants ... or take home to their families", and set the rules for births himself: births only, both adults must choose, one year per 30 world days, a ceiling of 240. He gave the word to switch with "Yes, switch now". He spotted the "triangle walking" on the live site, and said "Yes, restart now" for the fix.
+
+**How it was checked.** The release joined the live viewer and engine with Codex's work. Every package passed the type check. The viewer and site tests passed apart from one test that fails under load and passes alone, and 46 engine tests that fail the same way on Codex's own branch still fail. The new engine was rehearsed on copies of the live city on a separate machine: with the switches on, a boat was built at world minute 84053 and a resident had sailed it and caught 4 fish by minute 84107. As for every engine change, the city's recorded history was proved before it opened, using proofs prepared on that machine and copied in.
+
+The first try at the switch, at 01:30, stopped itself before closing the site, because the old engine's health check stalls while it prepares a resident's turn for the AI. The second try started right after one of those ended. The site was closed for 57 minutes, from 01:37 to 02:34: a backup took 5 minutes, checking the saved history with the engine stopped took about 35, opening the engine took about 10, and the viewer's first check about 7. The public file audit passed for all 113 files.
+
+For the 07:01 change, the viewer tests passed (712) and so did the public file audit for all 114 files, and all 112 viewer files then fetched from the public site matched the build. The viewer service restarted from 06:54 and was serving again at 07:00. Before release, the new walks were checked in a browser against the live public feed: stopped residents held still at their stop, a walking stretch walked steadily and the captions were right.
+
+**Also the same night.** Until 02:48 the home page still loaded the old viewer; it was then pointed at the new one. From 05:52 the home page has a changelog with every release and who built it, and from 12:05 it names Codex in every credit where Codex built something, on Jake's instruction: "stop hiding codex name and add it everywhere its credit is due".
+
+**Still not right.**
+- **The live feed still goes stale** about 34 times an hour for 20 to 30 seconds each, the same rate as before this release. The engine holds its clock while it prepares a resident's turn for the AI. A fix is being worked on and is not live.
+- Luna's workbench hasn't been attached since this release, so she isn't offered it. The city carries on without it.
+- Nobody has been born yet, so no birth has been seen on the live site.
+- The Scenic Line train still isn't grouped: that work isn't in this release.
+- Whether residents stopped on a long walk face outwards wasn't confirmed: the browser pane used for the check was too narrow.
+- The viewer's main script grew from 1.70 MB to 1.86 MB. Nothing was drawn to measure its speed before release.
+- The AI count at the top of this page is still from 2 November.
+
+**Who did what.** Codex built the harbour, the hunger, fishing, cooking and meals, births and households, the smaller history and how the viewer shows them, and the parts that are still switched off, from 5 to 7 November. Claude merged Codex's work with the live engine and viewer, fixed the packaging faults that stopped the new engine and viewer building and starting, rehearsed the switch on copies of the city, wrote the release kit and ran the switch. Claude also added the event count, and found and fixed the long walks. Jake asked for the harbour and the fishing, set the rules for births, spotted the long walks, and said when to switch and when to restart.
 
 ---
 

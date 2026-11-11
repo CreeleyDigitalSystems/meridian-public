@@ -1,10 +1,10 @@
 # Meridian features
 
-Everything in Meridian, why it exists, and who did what. Jake Creeley sets the direction and makes the calls. AI writes most of the code. Live means you can see it today; being built and planned mean you cannot yet.
+Everything in Meridian, why it exists, and who did what. Jake Creeley sets the direction and makes the calls. AI writes most of the code. Live means you can see it today. Built but not switched on, being built and planned mean you cannot yet.
 
 How credit is worked out: every commit carries the company name, so that proves nothing. The AI credit comes from commit trailers, branches and working records, and where those do not settle it the entry says so. Words in quotation marks are Jake's own, spelling included.
 
-As of 2 November 2026. How it got here, release by release and with pictures: [VERSIONS.md](VERSIONS.md).
+As of 11 November 2026. How it got here, release by release and with pictures: [VERSIONS.md](VERSIONS.md).
 
 ## The world
 
@@ -40,13 +40,23 @@ As of 2 November 2026. How it got here, release by release and with pictures: [V
 
 ### The Port of Meridian
 
-**Live since 2026-10-30.** A harbour in the sheltered inlet with a white-and-gold quay, five piers, a domed hall, a harbour light and moored boats, plus its own stop in the viewer. It is scenery today: nobody works there and the boats only rock at their moorings.
+**Live since 2026-10-30.** A harbour in the sheltered inlet with a white-and-gold quay, five piers, a domed hall, a harbour light and moored boats, plus its own stop in the viewer. It opened as scenery. Since 10 November residents work there too: see A working harbour.
 
-**Why:** Jake picked out the inlet himself as the right place for it. Making it a working harbour is a separate, later step, and until then the bay is not protected from future charting.
+**Why:** Jake picked out the inlet himself as the right place for it. Making it a working harbour was a separate step, which went live on 10 November and keeps the bay from being charted.
 
 **Jake:** "this area has a great spot to maybe become a port with a ornate boat area", then "build the port".
 
 **AI (Claude):** Claude designed, built and deployed it.
+
+### A working harbour
+
+**Live since 2026-11-10.** Residents build boats at the harbour from timber and stone, crew them by their own choice, take them out to fish, and carry timber and stone between the harbour and the city. The bay is kept out of charting. On 11 November there was one boat, built by a resident, and it had made 3 cargo trips.
+
+**Why:** The port was scenery, and parts of it would have given way if charting resumed. A harbour residents work is also what makes fishing possible.
+
+**Jake:** Asked for the port, "build the port", and wanted residents using the boats (see Fishing and family meals). He said when to switch it on.
+
+**AI (Codex):** Codex built the harbour in the engine and how the viewer shows it. Claude merged it into the live city, fixed a packaging fault, rehearsed the switch on a copy of the city and ran it.
 
 ## Residents
 
@@ -90,6 +100,26 @@ As of 2 November 2026. How it got here, release by release and with pictures: [V
 
 **AI (Claude):** Claude wrote the design, the one-time change to the saved world, and the child-safety rules.
 
+### Fishing and family meals
+
+**Live since 2026-11-10.** Residents get hungry. They take a boat out to fish, cook the catch and eat at home or out, and whoever caught the fish chooses whether it feeds themselves, their household or the community. By 11 November they had made 24 fishing trips, caught 253 fish, cooked 214 and eaten 131, counted from the public facts.
+
+**Why:** It is part of Jake's long-term aim of testing something closer to a full human life in the city.
+
+**Jake:** Residents should "decide to jump onto the boats and go fishing for food, then at times either eat at restaurants ... or take home to their families". He said when to switch it on.
+
+**AI (Codex):** Codex built the hunger, fishing, cooking and meals, and how the viewer shows them. Claude merged them into the live city and switched them on.
+
+### Births and growing up
+
+**Live since 2026-11-10.** Households form, and a baby is tried for, only when one adult asks and the other accepts on their own turn. Nobody arrives except by birth, children age one year every 30 world days and become adults at 18, there are no deaths, and the ceiling is 240. A pregnancy lasts 22.5 world days, so nobody had been born yet on 11 November: the city still had 122 residents, 120 adults and 2 children.
+
+**Why:** The population had been stuck at 122, because nothing in the engine added, aged or removed residents. Under Jake's rule nobody ever appears without a birth.
+
+**Jake:** Decided the rules: births only, both adults must choose, one year per 30 world days, a ceiling of 240. He said when to switch it on.
+
+**AI (Codex):** Codex built it. Claude ran the audit that raised these questions, wrote the work order, merged it into the live city and switched it on.
+
 ### Residents' bodies and wardrobes
 
 **Live since 2026-10-12.** Adults have distinct 3D bodies from an open-licensed avatar set, matched to their saved appearance, and since the railway release a resident may change their own look and nobody else's.
@@ -100,17 +130,27 @@ As of 2 November 2026. How it got here, release by release and with pictures: [V
 
 **AI (Claude and Codex):** Claude built the bodies and the wardrobe. Codex integrated the wardrobe into the release.
 
+### Bodies that show what residents are doing
+
+**Live since 2026-11-06.** Adults play movements chosen by their task: working at a bench, going through papers, writing notes, talking, listening, waiting, stretching, looking around and more, from an open-licensed avatar library. A resident resting at home is inside the house and can lie on the bed.
+
+**Why:** Residents looked robotic and gave no visual sign of the work they were doing.
+
+**Jake:** "they are so robotic and they dont perform visual actions when they work". Later: "i think we should make them able to go inside their houses to go home, resting implies them at the house, horizontal ability in there bed".
+
+**AI (Claude):** Claude built it, including resting indoors.
+
 ## Getting around
 
 ### The railway and the walk to work
 
-**Live since 2026-10-27.** Central Station and Loop 1 connect 8 stops, with one crossing out and one back, and journeys are saved in the world. Residents set out from where they actually are, spend time and energy getting there, work a full shift on arrival, then return.
+**Live since 2026-10-27.** Central Station and Loop 1 connect 8 stops, with one crossing out and one back, and journeys are saved in the world. Residents set out from where they actually are, spend time and energy getting there, work a full shift on arrival, then return. Since 10 November a resident on a long walk is shown taking the streets, with a few stops on the way captioned with where they stopped, instead of pacing on the spot.
 
 **Why:** The outer ground had no real connection to the inner city, and an earlier sky tram was only ever visual. No complete ride and return by a named resident is on record yet, so that remains open.
 
-**Jake:** Spotted the gap: "theres no join between the inner and outer rings". He also pointed out that a cartographer stuck inside has to walk out to chart further.
+**Jake:** Spotted the gap: "theres no join between the inner and outer rings". He also pointed out that a cartographer stuck inside has to walk out to chart further. He also spotted residents pacing on the spot during long walks.
 
-**AI (Claude and Codex):** Claude built the rail circuit and the real walking. Codex integrated them, added a fix so commutes stay affordable, and prepared the release. Claude ran the switchover.
+**AI (Claude and Codex):** Claude built the rail circuit and the real walking. Codex integrated them, added a fix so commutes stay affordable, and prepared the release. Claude ran the switchover. Claude fixed how long walks are shown.
 
 ### Stairs and solid ground
 
@@ -154,7 +194,7 @@ As of 2 November 2026. How it got here, release by release and with pictures: [V
 
 ### The Scenic Line, and riding it
 
-**Live since 2026-10-31.** A sightseeing railway. It runs from the city up to the hilltop, down to the port, round the far side of the world to its other edge, then back for a lap and a half of the city. Press Ride the train and you sit in the front carriage, drag to look around, and a panel counts down to the next station. Today it runs to the wall clock so everyone sees the same train in the same place, and no resident can ride it. Riding it is built and waiting to be switched on: see Residents riding the whole Scenic Line.
+**Live since 2026-10-31.** A sightseeing railway. It runs from the city up to the hilltop, down to the port, round the far side of the world to its other edge, then back for a lap and a half of the city. Press Ride the train and you sit in the front carriage, drag to look around, and a panel counts down to the next station. It opened on 31 October for visitors only, running to the wall clock. Since later that day residents ride it too: see Residents riding the whole Scenic Line.
 
 **Why:** The older railway only circles the city, and a visitor had no way to feel how big the world has become. A moving window does that.
 
@@ -174,7 +214,7 @@ As of 2 November 2026. How it got here, release by release and with pictures: [V
 
 ### Residents riding the whole Scenic Line
 
-**Live since 2026-10-31.** The Scenic Line becomes part of the world itself. A resident can choose to go round once, whether a model or the rules are deciding for them: board at the city stop, stay on through Hilltop, The Port and Far Edge, and get off back at the city. The engine holds the timetable in world minutes, so riders, train and countdown agree, and the public feed says who is aboard, so a visitor on board sees who is really there or is told nobody else is. It is built and tested but not switched on: that takes a restart of the world, which is about 1h50m offline, and Jake's word.
+**Live since 2026-10-31.** The Scenic Line is part of the world itself. A resident can choose to go round once, whether a model or the rules are deciding for them: board at the city stop, stay on through Hilltop, The Port and Far Edge, and get off back at the city. The engine holds the timetable in world minutes, so riders, train and countdown agree, and the public feed says who is aboard, so a visitor on board sees who is really there or is told nobody else is. It went on with the release of 31 October at 20:41, after a restart of the world.
 
 **Why:** A train nobody in the world can ride is scenery. Meridian's rule is that what you see is what residents are really doing.
 
@@ -256,13 +296,13 @@ As of 2 November 2026. How it got here, release by release and with pictures: [V
 
 ### The rule book
 
-**Being built since 2026-10-11.** A written constitution with twelve resident rights and designs for government and justice. Only part of it is in the engine today, government and justice are not built, and the present world counts as a rehearsal.
+**Being built since 2026-10-11.** A written constitution with twelve resident rights and designs for government and justice. Only part of it is in the engine today and government and justice are not built. Codex has built civic cases, in which residents read a proposal independently, disagree, revise it and keep dissent on the record, but they are switched off, and on a saved copy of the city none was reached in two tries. The present world counts as a rehearsal.
 
 **Why:** A world meant to run by its own rules needs them written down before residents' lives depend on them, including what even the owner may not do.
 
 **Jake:** Wants a world that keeps going by its own rules while people watch. He decided the settled entries, including that after the real start he may only fix bugs, pause or amend rules on the record.
 
-**AI (Claude):** Claude compiled the draft from past design sessions and drafted the wording.
+**AI (Claude and Codex):** Claude compiled the draft from past design sessions and drafted the wording. Codex built the civic cases.
 
 ### The feedback box
 
@@ -276,13 +316,13 @@ As of 2 November 2026. How it got here, release by release and with pictures: [V
 
 ### Who builds Meridian
 
-**Live since 2026-10-30.** Jake sets the direction and makes the calls. Claude leads, builds and deploys. Codex built a large part of Meridian earlier, including the public launch and the railway release, and that work stays credited on each feature here. Since 30 October the building has been Claude's alone, and the written work queue is its to-do list. Nothing from that queue has been delivered yet.
+**Live since 2026-10-30.** Jake sets the direction and makes the calls. Claude leads, builds and deploys. Codex built a large part of Meridian, including the public launch, the railway release, and the harbour, fishing, births and compact history that went live on 10 November, and that work is credited on each feature here. From 30 October the building was Claude's alone. From 5 to 7 November Codex built again, from Claude's work orders and a written brief, and Claude merged its work into the live city.
 
 **Why:** Jake wanted one AI accountable for the priorities, the building and the deploys.
 
-**Jake:** "Claude, you're in charge, Codex just helps you. You deploy." Later the same day he made the building Claude's alone.
+**Jake:** "Claude, you're in charge, Codex just helps you. You deploy." Later the same day he made the building Claude's alone. In November he set Codex building again, and on 10 November said: "stop hiding codex name and add it everywhere its credit is due".
 
-**AI (Claude):** Claude wrote the queue and its orders.
+**AI (Claude):** Claude wrote the queue and its orders, and merged and deployed Codex's November work.
 
 ### A version history with pictures
 
@@ -354,47 +394,27 @@ As of 2 November 2026. How it got here, release by release and with pictures: [V
 
 **AI (Claude):** Claude built it, measured it on a copy of the real city and ran the restart. A failed check mails Jake; so far only a test mail has been sent. A full re-check of old history is not on a schedule yet.
 
+### Smaller history
+
+**Live since 2026-11-10.** New history is stored in a more compact form, and nothing old is deleted or rewritten. Measured on copies of the real world with the harbour and food on, a world day of new history went from 135.2 MB to 56.0 MB. That was on copies, not on the live city.
+
+**Why:** The world's history is growing faster than its storage can hold for long.
+
+**Jake:** No request in his own words found for this.
+
+**AI (Codex):** Claude wrote the work order. Codex built it, and Claude switched it on with the 10 November release.
+
 ## On the way
-
-### A real working harbour
-
-**Planned.** The bay would be reserved so charting cannot take it, residents would work the harbour by choice, and boats would carry goods.
-
-**Why:** Today's port is scenery. Without this, parts of it give way if charting resumes.
-
-**Jake:** Asked for the port, "build the port", and wants residents using the boats (see fishing and family meals).
-
-**AI (not built yet):** Not built yet. Claude wrote the work order and it is queued for Claude.
-
-### Fishing and family meals
-
-**Planned.** Residents would get hungry, fish from the boats, cook, and eat out or at home with family. The engine has no hunger or food today.
-
-**Why:** It is part of Jake's long-term aim of testing something closer to a full human life in the city.
-
-**Jake:** Residents should "decide to jump onto the boats and go fishing for food, then at times either eat at restaurants ... or take home to their families".
-
-**AI (not built yet):** Not built yet. Claude wrote the work order and it is queued for Claude.
 
 ### Roads, carts and moving goods
 
-**Planned.** Residents would survey, grade and pave routes over world days, ready for carts one day, and goods would be produced, carried and delivered instead of drawn from a shared counter.
+**Being built.** Residents would survey, grade and pave routes over world days, ready for carts one day, and goods would be produced, carried and delivered instead of drawn from a shared counter. Codex has built the road work: residents propose roads on routes they often walk and do survey, grade and pave shifts, paving with stone. It is not switched on, and carts are not built. Boats carrying timber and stone went live with the harbour on 10 November. Delivering preserved food and repairing worn boats are built and switched off.
 
 **Why:** Roads should be work residents do, not scenery, and each stage should change what is possible. A real economy needs goods to come from somewhere and be carried by someone.
 
-**Jake:** "roads to be starting to get developed to one day build carts"
+**Jake:** "roads to be starting to get developed to one day build carts". He has decided carts and their cargo must be real, with no stand-in.
 
-**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Claude.
-
-### Births and growing up
-
-**Planned.** The population has been stuck at 122. Households would form only when both adults choose, children would be born to them and age one year every 30 world days, and the ceiling would be 240.
-
-**Why:** Nothing in the engine adds, ages or removes residents today, so the population cannot change. Under Jake's rule nobody would ever appear without a birth.
-
-**Jake:** Decided the rules: births only, both adults must choose, one year per 30 world days, a ceiling of 240.
-
-**AI (not built yet):** Not built yet. Claude ran the audit that raised these questions, wrote the work order, and it is queued for Claude.
+**AI (Codex):** Claude wrote the work orders. Codex built the road work and the harbour supply chain. Neither is switched on in the live city.
 
 ### The Commons and resident-designed buildings
 
@@ -408,17 +428,27 @@ As of 2 November 2026. How it got here, release by release and with pictures: [V
 
 ### Goals that steer what residents do
 
-**Planned.** A goal set by one of the model-decision residents, such as a resident called Luna, would survive interruptions and restarts and shape their next choice from the legal options. A renewable daily allowance of AI use would keep this going without a hard stop.
+**Built, not switched on.** A resident can hold a goal with a short plan, starting with feeding their household, that survives travel, rest, interruptions and restarts and suggests their next step from the legal options. The resident can still choose anything else, or drop it. It is built and tested on copies of the world, and it is not switched on: the live city has no switch for it yet.
 
 **Why:** Today each decision largely starts from scratch, so residents do not yet follow a plan across several steps.
 
 **Jake:** "lunas coherence ai properly into the world"
 
-**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Claude.
+**AI (Codex):** Claude wrote the work order. Codex built it.
+
+### More of resident life, built and switched off
+
+**Built, not switched on.** Codex built these and tested them on copies of the world. Their code is in the live engine, but none is switched on, and the live city has no switch for them yet: what each resident knows, kept apart from what they were told, with contradictions kept; households agreeing to share meals, chores and care; building a shared building together, with consent and upkeep; trust earned from real outcomes, trading a meal for a fish, and co-op stores; learning a craft from someone who shows it, then qualifying by doing it; and small experiments to find a better way of preserving fish. Weather and clothing, and a waterworks on the shore, were built the same way. Regular gatherings and the experiments' full checks were not finished.
+
+**Why:** Jake wants residents living something closer to a full human life. Each part opens only through an explicit, recorded switch, so a saved world replays exactly as it did until one is turned on.
+
+**Jake:** Asked for the ideas in Meridian's world-ideas proposal to be built in packages, aiming at 50 parts. Switching any of them on is his call.
+
+**AI (Codex):** Codex built them from a written brief, five parts to a package, with a review note for each. Claude merged them into the release that went live on 10 November, still switched off.
 
 ### The method workbench
 
-**Being built.** A sealed-off workbench where a resident could write and test a method, adopt it for paid work, and teach it to others who agree. It has been proven offline only and is not running in the live city.
+**Being built.** A sealed-off workbench where a resident can write and test a method, adopt it for paid work, and teach it to others who agree. From 6 November Luna was offered a sealed workshop for small programs on her own turns. Since the 10 November release it has not been attached, so she is not offered it now, and the city carries on without it. Adopting and teaching methods are proven offline only.
 
 **Why:** Jake wants residents to be able to make and use tools, not only pick from a fixed list of actions.
 
@@ -438,50 +468,30 @@ As of 2 November 2026. How it got here, release by release and with pictures: [V
 
 ### Residents choosing where to meet
 
-**Planned.** Today a rule picks the meeting place for a pair: the least crowded place, with ties settled alphabetically, counting only people who have already arrived. So most meetings land on the first few frontier places, such as the market stalls by the channel. The plan is for residents to choose for themselves.
+**Built, not switched on.** Today a rule picks the meeting place for a pair: the least crowded place, with ties settled alphabetically, counting only people who have already arrived, so most meetings land on a few places. Residents choosing for themselves is built: a pair weighs both residents' tastes, past visits, company, activity, travel and energy, counts crowding as a cost, and saves up to three public reasons. In a simulated week it spread meetings from 14 places to 199. It is not switched on: the live city has no switch for it yet.
 
 **Why:** People were gathering round the same little building for no reason of their own. A rule should not decide where two friends go.
 
 **Jake:** "why do they always hang around where is in view now, around this little shack building". And: "they should be alouid to go wehere they like".
 
-**AI (not built yet):** Not built yet. Claude traced the cause in the live city's public data and wrote the work order.
+**AI (Codex):** Claude traced the cause in the live city's public data and wrote the work order. Codex built it from Claude's brief, and Claude reviewed it.
 
 ### Riding the real railway with residents
 
-**Planned.** The same on-board view on the real railway, so the people around you are real residents on their way somewhere. Those cars need a proper interior first.
+**Built, not switched on.** The same on-board view on the real railway, so the people around you are real residents on their way somewhere. Codex has built one connected railway: a three-car service runs the city circuit and the whole Scenic Line, ordinary travellers and sightseers share its 24 seats and sit in the carriages, and a rider's view starts facing fellow passengers. It is built on copies of the world and not switched on: the live city has no switch for it yet.
 
-**Why:** On the real railway, residents really are aboard and going somewhere, and from inside you would be travelling with them. Meridian does not show people who are not there, so it waits for those cars.
+**Why:** On the real railway, residents really are aboard and going somewhere, and from inside you would be travelling with them. Meridian does not show people who are not there.
 
 **Jake:** "will u be able to see characters on the train with u when u look around".
 
-**AI (not built yet):** Not built yet. Claude wrote the work order.
-
-### Bodies that show what residents are doing
-
-**Being built.** Animation clips so a resident's body shows the job they are doing instead of a stiff walk. It has been built but never released, so it is not on the public site.
-
-**Why:** Residents looked robotic and gave no visual sign of the work they were doing.
-
-**Jake:** "they are so robotic and they dont perform visual actions when they work"
-
-**AI (Claude):** Claude built it.
-
-### Smaller history
-
-**Planned.** New history would take at least half the space, with nothing old deleted or rewritten.
-
-**Why:** The world's history is growing faster than its storage can hold for long.
-
-**Jake:** No request in his own words found for this.
-
-**AI (not built yet):** Not built yet. Claude wrote the work order and it is queued for Claude.
+**AI (Codex):** Claude wrote the work order. Codex built the connected railway.
 
 ### Following a journey, and a richer look
 
-**Planned.** Visitors could pick a resident and follow their real day from platform to work and home, using facts only with no invented story. Richer materials, light and detail would also come into the live city.
+**Being built.** Visitors could pick a resident and follow their real day from platform to work and home, using facts only with no invented story. Following a resident through their day is built and has been checked against the live feed, but it is not released. Richer materials, light and detail for the live city are not built.
 
 **Why:** The railway is hard to see working today, and the live city's look still falls short of the reference images Jake is aiming for.
 
 **Jake:** Wants to be able to see the rail in action.
 
-**AI (not built yet):** Not built yet. Claude wrote the work orders and they are queued for Claude.
+**AI (Claude):** Claude built the following part. The richer look is not built: Claude wrote its work order.
