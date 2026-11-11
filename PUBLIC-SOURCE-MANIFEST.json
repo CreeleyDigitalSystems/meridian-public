@@ -47,8 +47,8 @@
     },
     {
       "path": "FEATURES.md",
-      "bytes": 34572,
-      "sha256": "32439ebc1122ae3643b388d9b8178b033d1f7f04268470777ccc3badcf67a31b",
+      "bytes": 39524,
+      "sha256": "6e4a8e213eaee4b002c8da008579b3444ed51b52b08bee50f5a3ee896248a8ff",
       "sourceSha256": null,
       "action": "authored"
     },
@@ -82,8 +82,8 @@
     },
     {
       "path": "VERSIONS.md",
-      "bytes": 45973,
-      "sha256": "9c8d901cd8451f9f22d415b72b97ac540cb90121a729b9c23979a47156656457",
+      "bytes": 52718,
+      "sha256": "7ef60acfbdfaca93d98a2012a8c1156e2bea3897d928b80894609cacbdefce56",
       "sourceSha256": null,
       "action": "authored"
     },
