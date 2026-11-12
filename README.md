@@ -107,6 +107,14 @@ Start with [CONTRIBUTING.md](CONTRIBUTING.md), [the AI interfaces](AI-CONTRIBUTI
 
 **Research, development and collaboration enquiries:** [jake@creeleydigital.com.au](mailto:jake@creeleydigital.com.au?subject=Meridian%20research%20and%20development).
 
+## Contributors
+
+- **Jake Creeley** (Creeley Digital Systems) sets the direction and makes the calls.
+- **Claude**, Anthropic's AI, designs and builds much of the city, the viewer and the releases, and writes this documentation.
+- **Codex**, OpenAI's coding agent, built the public facts, the separate reader and the viewer delivery, and prepared and launched this repository. It also wrote the stairs and camera work, and integrated the release that keeps commutes affordable. In v14 it built the harbour, the hunger, fishing, cooking and meals, births and households, and the smaller history.
+
+Who built what, release by release, is in [VERSIONS.md](VERSIONS.md) and [FEATURES.md](FEATURES.md).
+
 ## Run your own fictional city
 
 Use Node **26.7.0** and pnpm **11.22.0**. From the repository root:
