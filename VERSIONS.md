@@ -48,6 +48,7 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 
 | Version | When | What it added |
 | --- | --- | --- |
+| [v15](#v15-the-live-feed-stays-live-and-the-features-tab-catches-up) | 12 November 2026, 11:20, and 13 November 2026, 01:40 and 05:26 | The live feed stops going stale, the viewer service can restart again, and the Features tab is up to date |
 | [v14](#v14-a-working-harbour-fishing-and-meals-and-births-switched-on) | 10 November 2026, 02:34 and 07:01 | A working harbour with fishing, cooking and meals, births switched on, a smaller history, and long walks along the streets |
 | [v13](#v13-the-same-city-drawn-in-far-fewer-pieces) | 7 November 2026, 14:50 | The city is drawn in about a ninth of the pieces each frame, with the same look |
 | [v12](#v12-bodies-sooner-and-riders-in-their-seats) | 7 November 2026, 08:45 | Residents' bodies appear in about a third of the time, and Scenic Line riders sit in the seats |
@@ -64,6 +65,44 @@ Jake Creeley sets the direction and makes the calls. AI writes most of the code.
 | [v1](#v1-the-public-opening) | 24 October 2026 | The public site, showing public facts only |
 
 Everything before v1 happened in private, with no public site to update. That work, including the white-and-gold city, the fog and the first residents, is listed in [FEATURES.md](FEATURES.md) with its own dates.
+
+---
+
+## v15: The live feed stays live, and the Features tab catches up
+
+**12 November 2026, 11:20, and 13 November 2026, 01:40 and 05:26.** Three changes over two days. At 11:20 the engine moved to private commit `8fc71f0`, which stops the live feed going stale while a resident gets ready to act. At 01:40 the viewer service moved to `947d76f`, which fixes why it couldn't restart after the feed fix: the city was down for four and a half hours because of it. At 05:26 the site moved to `23c7094`, the live viewer with the Features tab brought up to date.
+
+There are no pictures for this release.
+
+**What changed**
+
+- **The live feed stays live.** Before this release the public feed went stale about 34 times an hour, for 20 to 30 seconds each, and the site showed "public world unavailable". The cause was how the engine prepared a resident's turn for the AI. For every walk in the resident's list of choices it re-checked the whole edge of the map, on its only thread, right after a clock tick, so the feed's 15-second lease ran out. Luna's workshop turn was the worst, every sixth world minute. The engine now prepares those choices the same way it already did when committing them. On a copy of the live city, Luna's choices took 3,655 ms before and 32 ms after, all 120 adults' took 23.0 s before and 0.64 s after, and every list came out identical.
+- **Slow steps are logged.** The engine now logs how long each step of preparing a turn takes, but only when one is slow.
+- **The viewer service can restart again** (01:40). When it starts, it checks the whole public feed before it serves anyone, and on the live machine that first check takes about 343 seconds. Since the feed fix, a new copy of the feed is published about every 40 seconds and only the last three are kept, so each lasts about 130 seconds. The check read each file only when it reached it, so the copy it was checking was removed partway through, and it started again, forever. It now reads the whole copy (about 20 MB) before checking it.
+- **The Features tab catches up** (05:26). Every status was checked against the code, the release log and the live city on 11 November. The harbour, fishing and meals, births and the smaller history are now Live and credited to Codex. A new status, "Built, not switched on", covers what is in the live engine with no switch yet: resident goals, choosing where to meet, the connected railway and more of resident life. Old text that still called the Scenic Line riders "not switched on" is fixed. [FEATURES.md](FEATURES.md) has the same list.
+
+**Why.** Jake wanted the dropouts gone, said "Yes, plan it" to one release for the feed fix and the walk fix, and gave the word for the feed fix on its own with "Go, feed-fix only". He then said "Yes, all three" to putting the Features tab live, fixing the changelog and writing this entry. He said "Yes, deploy it" to the viewer service fix, and "Yes, redo now" to putting the Features tab live again.
+
+**How it was checked.** The cause of the dropouts was found by profiling the unchanged live engine on a copy of the city on a separate machine, with the live city untouched. A new test fails without the fix and passes with it. The type check was clean, and the viewer (516) and site (196) tests passed. On a 35-minute dress rehearsal on a copy, the longest turn preparation was 221 ms (it was 4.0 to 4.8 s on the same machine), and the feed's lease never went more than 6 seconds without renewing.
+
+As for every engine change, the city's recorded history was proved before it opened, using proofs prepared on that machine and copied in. Three faults in how the proof copies are refreshed turned up along the way. Each was worked around on the copies only; the real fix needs a later release. The site was closed for 39 minutes, from 10:40 to 11:20, for a backup, a check of the saved history with the engine stopped (30 minutes), and opening the engine through its proof. In the hour after the switch the feed never went stale, the longest turn preparation was 574 ms (it was 22 to 116 seconds before), and the public world answered every sample.
+
+**The outage.** The first try at putting the Features tab live, at 21:01 on 12 November, restarted the viewer service, and it never opened. At 21:28 the viewer's files were put back exactly as they were, and it still didn't open, so the new files weren't the cause. The city was down from 21:01 until 01:40 on 13 November, apart from 23 seconds at 01:33. The viewer service's start was measured on the live machine, and a new test removes the copy of the feed partway through a check: it fails on the old code and passes with the fix, and the viewer service's tests passed (53). The fix went live as the old viewer service with only that one file changed, checked file by file, with the same settings. It opened in 3 minutes 47 seconds, and the fix didn't touch the engine.
+
+For the Features tab, the site tests passed (197) and so did the viewer tests (516). The public file audit passed for all 115 files on the live server. The swap was redone at 05:22 on 13 November and the city was serving again at 05:26, down for 3 minutes 53 seconds. The new main script and the viewer's other 111 files were then fetched from the public site and matched the build.
+
+**Also.** The home page now loads the new viewer. Its changelog has a v15 row, and its v14 row now gives 07:01 for the walk fix and names the smaller saved history where it wrongly said food stores.
+
+**Still not right.**
+- Luna's workbench still wasn't attached on 12 November, so she isn't offered it. The city carries on without it.
+- Nobody has been born yet. On 12 November the city still had 120 adults and 2 children.
+- The Scenic Line train still isn't grouped.
+- Saving each step of history still takes about 2.6 seconds on average on the live machine. This release didn't change that, and it doesn't affect the feed.
+- The viewer service still takes about 4 minutes to open after a restart, because it checks the whole feed first.
+- The Features tab hasn't been looked at by eye on the live site: the check was of the files and the script's text.
+- The AI count at the top of this page is still from 2 November.
+
+**Who did what.** Claude found the cause of the dropouts, wrote the fix and the slow-step logging, planned and rehearsed the release, worked around the three proof-copy faults and ran the switch. Claude also brought the Features tab up to date and put it live; Codex built most of what it lists. Claude's first try at putting it live caused the outage; Claude found why the viewer service couldn't restart, wrote the fix and put it live. Jake asked for the dropouts to go, approved each step, and chose to ship the feed fix on its own first.
 
 ---
 
